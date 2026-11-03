@@ -21,3 +21,16 @@ Thumbs.db
 
 # 测试产物（忽略所有 test_ 开头的 .py 文件）
 test_*.py
+
+# 服务运行日志
+app_run.log
+app_run_err.log
+
+# 临时审计脚本
+_audit*.py
+
+# 前端验证过程截图
+images/frontend_*
+
+# 单场景调试实验数据
+experiment_results_test.json

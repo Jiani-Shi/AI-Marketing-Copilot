@@ -1,0 +1,4701 @@
+{
+  "experiment_config": {
+    "total_scenarios": 80,
+    "products_count": 20,
+    "platforms": [
+      "douyin",
+      "xiaohongshu",
+      "ecommerce",
+      "wechat"
+    ],
+    "test_mode": false,
+    "generation_temperature_A": 0.85,
+    "generation_temperature_B": 0.85,
+    "evaluation_temperature": 0.1,
+    "evaluation_model": "qwen-max",
+    "dimensions": [
+      "platform_fit",
+      "tone_consistency",
+      "selling_point",
+      "information_grounding"
+    ]
+  },
+  "results_A": {
+    "谷雨美白奶罐|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "凌晨2点合上电脑，镜子里的脸又黄又倦…别急，给肌肤倒一杯「谷雨美白奶罐」吧 🌙"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "把光还给皮肤，也把耐心，留给自己。💛"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✨去黄不是猛药漂，是日复一日的匀净透亮\n✨温和到敏感肌晨间也能安心用"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "像温牛奶般柔润的质地，轻轻一抹化开，不搓泥、不泛白、不刺痛——熬夜党终于等到一支真正温柔提亮的美白膏。"
+      },
+      "platform": "douyin",
+      "product": "谷雨美白奶罐"
+    },
+    "谷雨美白奶罐|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "凌晨2点合上电脑，摸到脸颊的那一刻——\n不是疲惫，是暗沉在说话…🌙"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "直到遇见谷雨这罐「美白奶罐」\n像把一捧温热的牛奶轻轻敷在脸上🥛\n没有刺鼻香精味，没有泛红刺痛感\n只有软乎乎的云朵质地 + 淡淡的雪松奶香\n（治愈系本愈了…）"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅两颊的蜡黄褪了，像滤镜悄悄关掉了\n✅下颌线透出一点点干净的光感\n✅连熬夜后的黑眼圈都显得没那么沉重了…"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "它不做猛药式美白，只温柔托住你摇摇欲坠的屏障\n给熬夜党一张不带妆也安心的脸"
+      },
+      "platform": "xiaohongshu",
+      "product": "谷雨美白奶罐"
+    },
+    "谷雨美白奶罐|ecommerce": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "熬过夜的脸，不是黄，是倦。谷雨美白奶罐，像冬日里捧在手心的一杯温牛奶——去黄提亮不抢戏，温和滋养不较劲。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "熬过夜的脸，不是黄，是倦。谷雨美白奶罐，像冬日里捧在手心的一杯温牛奶——去黄提亮不抢戏，温和滋养不较劲。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "积雪草+光甘草定协同修护泛黄肌底，烟酰胺稳稳提亮不刺激，乳感质地一抹化水，晨起上脸不糊妆、夜夜用也不负担。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "专为熬夜党定制的「发光缓冲带」：积雪草+光甘草定协同修护泛黄肌底，烟酰胺稳稳提亮不刺激，乳感质地一抹化水，晨起上脸不糊妆、夜夜用也不负担。"
+      },
+      "platform": "ecommerce",
+      "product": "谷雨美白奶罐"
+    },
+    "谷雨美白奶罐|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "🌙 你也有过这样的早晨吗？\n\n闹钟响了三次才睁眼，镜子里的脸泛着倦黄，底妆卡粉、气色全无，连咖啡都提不起精神……"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "这不是一支‘速效’美白膏，而是一句晚安低语：\n“我知道你很拼，但你的脸，值得被温柔以待。”"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 精研「去黄提亮」配方，直击熬夜导致的蜡黄、 dull感，不靠猛药，只靠稳稳的光感力；\n✅ 0酒精、0香精、0刺激性美白剂，敏感肌揉一揉太阳穴都能安心用；"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✨谷雨美白奶罐，专为熬夜党温柔而生。\n\n像一杯温热的燕麦奶，轻柔包裹暗沉肌："
+      },
+      "platform": "wechat",
+      "product": "谷雨美白奶罐"
+    },
+    "修丽可CE精华|douyin": {
+      "platform_fit": {
+        "score": 2,
+        "rating": "较差",
+        "evidence": "早C晚A时代，真正经得起时间考验的，是修丽可CE精华——15%左旋维C+1%维生素E+0.5%阿魏酸，黄金抗氧化铁三角。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "高端商务女性的选择，不靠滤镜，靠实力发光。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "直击熟龄肌暗沉、松垮、细纹初现，从源头中和自由基，提亮不止于表层，紧致悄然发生。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "15%左旋维C+1%维生素E+0.5%阿魏酸，黄金抗氧化铁三角。"
+      },
+      "platform": "douyin",
+      "product": "修丽可CE精华"
+    },
+    "修丽可CE精华|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "早C晚A的进阶版答案，我锁死这支修丽可CE精华。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "高端商务风不止于瓶身——它是你梳妆台上的‘成分派冷静剂’：不喧哗，但每一步都精准、克制、有底气。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅15%左旋维C + 1%维生素E + 0.5%阿魏酸｜黄金抗氧化铁三角\n→ 清除自由基效率提升8x（品牌体外数据）\n→ 提亮不是‘假白’，是角质层代谢回归健康节奏后的通透感\n→ 细纹淡化肉眼可见，尤其眼下干纹和法令纹边缘的‘毛躁感’明显收敛"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "清除自由基效率提升8x（品牌体外数据）"
+      },
+      "platform": "xiaohongshu",
+      "product": "修丽可CE精华"
+    },
+    "修丽可CE精华|ecommerce": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "专为30+熟龄肌定制的高端抗氧化精华——修丽可CE精华，以15%左旋维生素C、1%维生素E与0.5%阿魏酸黄金配比，三重协同强效中和自由基，从根源抵御光老化与氧化压力。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "简约冷调瓶身，利落商务美学，契合成熟人群对专业、克制与质感的追求。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "持续使用，显著提亮暗沉肤色，改善倦容；促进胶原稳态，淡化初老细纹，提升肌肤柔韧度与通透感。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "专为30+熟龄肌定制的高端抗氧化精华——修丽可CE精华，以15%左旋维生素C、1%维生素E与0.5%阿魏酸黄金配比，三重协同强效中和自由基，从根源抵御光老化与氧化压力。"
+      },
+      "platform": "ecommerce",
+      "product": "修丽可CE精华"
+    },
+    "修丽可CE精华|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "时光从不喧哗，却悄然在肌肤留下痕迹——暗沉、倦态、细纹初现……30+的你，需要的不是遮掩，而是源头守护。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "高端商务风，不在浮华表象，而在精准、克制与长效价值。修丽可CE精华——以科学为刃，以时间为友，助你从容执掌光采主权。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✨ 提亮不止于表层：持续使用，改善因氧化导致的肤色不均，焕发健康通透光泽；\n✨ 细纹悄然柔化：支持胶原稳态，令眼周、法令纹等动态区域更显平润从容；\n✨ 熟龄肌专属底气：精研pH值与渗透体系，温和适配30+渐进式代谢节奏，日间防护，夜间修护，稳稳承接职场与生活的双重张力。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "15%左旋维生素C + 1%维生素E + 0.5%阿魏酸，三重活性成分协同增效，直击自由基根源，显著提升肌肤抗氧化力达8倍*，从细胞层面延缓氧化老化进程。"
+      },
+      "platform": "wechat",
+      "product": "修丽可CE精华"
+    },
+    "花西子雕花口红|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁说国风不能又飒又潮？🌸花西子雕花口红来破局！东方纹样精雕细琢，拿在手里就是行走的美学单品～丝绒质地一抹上嘴，柔雾高级感秒出片！💄更绝的是——喝奶茶、蹭口罩都不掉色，持久力直接封神！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "美得有态度，潮得有底蕴，这支口红我先冲了🔥"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "东方纹样精雕细琢，拿在手里就是行走的美学单品～丝绒质地一抹上嘴，柔雾高级感秒出片！💄更绝的是——喝奶茶、蹭口罩都不掉色，持久力直接封神！"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "东方纹样精雕细琢，拿在手里就是行走的美学单品～丝绒质地一抹上嘴，柔雾高级感秒出片！💄更绝的是——喝奶茶、蹭口罩都不掉色，持久力直接封神！"
+      },
+      "platform": "douyin",
+      "product": "花西子雕花口红"
+    },
+    "花西子雕花口红|xiaohongshu": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "救命！！这支花西子雕花口红真的不是艺术品？！🎨"
+      },
+      "tone_consistency": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "18-30岁的姐妹听我一句：别再只看颜色啦～"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "雕花膏体是实打实手工压模的～牡丹、蝴蝶、祥云…每一支都像把宋韵美学装进了唇间🌸质地我愿称之为「空气丝绒」🪞上嘴瞬间哑光，但完全不干不卡纹！轻盈到忘记自己涂了口红～而且！！重点来了👇☕喝奶茶｜🍝吃火锅｜💦出油一整天…它！依！然！在！嘴！上！"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "第一次拿到手就惊呼：这也太东方了吧！！✨"
+      },
+      "platform": "xiaohongshu",
+      "product": "花西子雕花口红"
+    },
+    "花西子雕花口红|ecommerce": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "谁说国风不能很炸？花西子雕花口红，把千年东方美学刻进每一支唇膏——浮雕花瓣、祥云纹、青鸾图腾，拿在手里就是行走的艺术品！✨ 丝绒质地一抹柔雾上唇，轻盈不拔干，显色饱满到像开了滤镜；12小时持妆不蹭杯、不掉色，从早八课到夜场蹦迪，气场全程在线～"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁说国风不能很炸？花西子雕花口红，把千年东方美学刻进每一支唇膏——浮雕花瓣、祥云纹、青鸾图腾，拿在手里就是行走的艺术品！✨ 丝绒质地一抹柔雾上唇，轻盈不拔干，显色饱满到像开了滤镜；12小时持妆不蹭杯、不掉色，从早八课到夜场蹦迪，气场全程在线～"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁说国风不能很炸？花西子雕花口红，把千年东方美学刻进每一支唇膏——浮雕花瓣、祥云纹、青鸾图腾，拿在手里就是行走的艺术品！✨ 丝绒质地一抹柔雾上唇，轻盈不拔干，显色饱满到像开了滤镜；12小时持妆不蹭杯、不掉色，从早八课到夜场蹦迪，气场全程在线～"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁说国风不能很炸？花西子雕花口红，把千年东方美学刻进每一支唇膏——浮雕花瓣、祥云纹、青鸾图腾，拿在手里就是行走的艺术品！✨ 丝绒质地一抹柔雾上唇，轻盈不拔干，显色饱满到像开了滤镜；12小时持妆不蹭杯、不掉色，从早八课到夜场蹦迪，气场全程在线～"
+      },
+      "platform": "ecommerce",
+      "product": "花西子雕花口红"
+    },
+    "花西子雕花口红|wechat": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "谁说国风不能很潮？花西子雕花口红——把东方美学刻进唇间！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "18-30岁的你，既有少女心，也有主见力；爱汉服也爱滑板，刷诗词也刷vlog。这支口红，不迎合，只表达——你的美，本就该有东方底色，更有潮流态度。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✨ 精雕细琢的浮雕花纹，每一支都是可收藏的艺术品；🌹 丝绒质地一抹上唇，柔雾哑光，轻盈无负担；⏱️ 持久不脱色，喝奶茶、吃火锅、连轴转一整天，唇色依旧稳稳在线！"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✨ 精雕细琢的浮雕花纹，每一支都是可收藏的艺术品；🌹 丝绒质地一抹上唇，柔雾哑光，轻盈无负担；⏱️ 持久不脱色，喝奶茶、吃火锅、连轴转一整天，唇色依旧稳稳在线！"
+      },
+      "platform": "wechat",
+      "product": "花西子雕花口红"
+    },
+    "珀莱雅红宝石面霜|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "25+抗老第一步，交给这罐「红宝石」💎"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "专研胜肽矩阵，直击胶原流失源头，淡纹不靠填，而是「撑」起来～"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "专研胜肽矩阵，直击胶原流失源头，淡纹不靠填，而是「撑」起来～ 淡化眼周细纹+提升轮廓紧致感"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "专研胜肽矩阵，直击胶原流失源头，淡纹不靠填，而是「撑」起来～ 淡化眼周细纹+提升轮廓紧致感"
+      },
+      "platform": "douyin",
+      "product": "珀莱雅红宝石面霜"
+    },
+    "珀莱雅红宝石面霜|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✨不是所有面霜都叫「红宝石」\n25岁后，眼尾悄悄冒小细线？法令纹开始若隐若现？别急着冲高浓度A醇——初抗老，更需要「稳、准、柔」的科技方案。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅双胜肽矩阵（乙酰基六肽-8 + 三肽-1）：靶向松动的胶原锚点，从源头减缓动态纹形成\n✅微囊包裹技术：活性成分层层缓释，温和不刺激，敏皮友好"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅双胜肽矩阵（乙酰基六肽-8 + 三肽-1）：靶向松动的胶原锚点，从源头减缓动态纹形成\n✅微囊包裹技术：活性成分层层缓释，温和不刺激，敏皮友好"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "💡真实使用感：早晚洁面→精华后取黄豆粒大小，温热乳化按压上脸。连续用28天，眼下干纹明显变淡，下颌线摸起来更紧实了～"
+      },
+      "platform": "xiaohongshu",
+      "product": "珀莱雅红宝石面霜"
+    },
+    "珀莱雅红宝石面霜|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "极简设计，硬核抗老。珀莱雅红宝石面霜，专为25+初老肌研发，搭载多重活性胜肽复合体系，精准作用于肌肤动态纹路，温和促生胶原，淡化眼周、法令纹等初老细纹。零添加香精、酒精、色素，高耐受配方适配敏感肌；轻盈乳霜质地，一抹化水，沁润不黏腻。科技感瓶身，冷调红宝石光泽——抗老，本该如此理性而优雅。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "极简设计，硬核抗老。珀莱雅红宝石面霜，专为2愈+初老肌研发，搭载多重活性胜肽复合体系，精准作用于肌肤动态纹路，温和促生胶原，淡化眼周、法令纹等初老细纹。零添加香精、酒精、色素，高耐受配方适配敏感肌；轻盈乳霜质地，一抹化水，沁润不黏腻。科技感瓶身，冷调红宝石光泽——抗老，本该如此理性而优雅。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "搭载多重活性胜肽复合体系，精准作用于肌肤动态纹路，温和促生胶原，淡化眼周、法令纹等初老细纹。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "极简设计，硬核抗老。珀莱雅红宝石面霜，专为25+初老肌研发，搭载多重活性胜肽复合体系，精准作用于肌肤动态纹路，温和促生胶原，淡化眼周、法令纹等初老细纹。零添加香精、酒精、色素，高耐受配方适配敏感肌；轻盈乳霜质地，一抹化水，沁润不黏腻。科技感瓶身，冷调红宝石光泽——抗老，本该如此理性而优雅。"
+      },
+      "platform": "ecommerce",
+      "product": "珀莱雅红宝石面霜"
+    },
+    "珀莱雅红宝石面霜|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✨极简轮廓，科技内核——珀莱雅红宝石面霜，专为25+轻熟肌定制的胜肽抗老方案。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "极简轮廓，科技内核——珀莱雅红宝石面霜，专为25+轻熟肌定制的胜肽抗老方案。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "红宝石面霜以「多重复配胜肽体系」为核心，靶向作用于表情纹、干纹与初老纹路，协同提升肌肤支撑力与平滑度；搭配精研缓释技术，让活性成分稳定渗透，温和而有效。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "无冗余添加｜极简配方，0酒精/0色素/0矿物油"
+      },
+      "platform": "wechat",
+      "product": "珀莱雅红宝石面霜"
+    },
+    "七年五季全麦面包|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "减脂期嘴馋？这个全麦面包真的0蔗糖！"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "超市同款只要个位数💰，平价也能吃健康！"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "真·100%全麦，不是‘全麦味’！不加一滴蔗糖，热量低、饱腹久"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "七年五季全麦面包来啦～真·100%全麦，不是‘全麦味’！不加一滴蔗糖，热量低、饱腹久，减脂期当早餐/加餐超安心～"
+      },
+      "platform": "douyin",
+      "product": "七年五季全麦面包"
+    },
+    "七年五季全麦面包|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "减脂期嘴馋救星！7块钱吃到纯正100%全麦面包🍞0蔗糖也超香！"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "一袋6片才7块多💰学生党/打工人减脂早餐闭眼冲！"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "七年五季这款全麦面包，配料表干净到哭：只有全麦粉、水、酵母、盐…连一丁点蔗糖都没有！"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "吃了一周，下午三点不饿了，体重秤数字悄悄往下掉📈"
+      },
+      "platform": "xiaohongshu",
+      "product": "七年五季全麦面包"
+    },
+    "七年五季全麦面包|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "七年五季全麦面包，真·100%全麦粉制作，配料表干净到只有全麦粉、水、酵母、盐——0蔗糖、0植脂末、0防腐剂。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "亲民价入手无压力，好吃不贵，坚持轻食也能很轻松～"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "七年五季全麦面包，真·100%全麦粉制作，配料表干净到只有全麦粉、水、酵母、盐——0蔗糖、0植脂末、0防腐剂。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "七年五季全麦面包，真·100%全麦粉制作，配料表干净到只有全麦粉、水、酵母、盐——0蔗糖、0植脂末、0防腐剂。"
+      },
+      "platform": "ecommerce",
+      "product": "七年五季全麦面包"
+    },
+    "七年五季全麦面包|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁说减脂就得啃水煮菜？\n\n七年五季全麦面包，真·100%全麦粉制作，配料表干净到只有：全麦粉、水、酵母、盐——没有一丁点蔗糖，也没有植脂末、防腐剂、香精。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 平价实在：早餐2片+一杯无糖豆浆=不到5块钱，比奶茶便宜，比沙拉管饱。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "七年五季全麦面包，真·100%全麦粉制作，配料表干净到只有：全麦粉、水、酵母、盐——没有一丁点蔗糖，也没有植脂末、防腐剂、香精。\n\n✅ 真全麦：不是“加了一点点全麦粉”的伪全麦，麦麸麦胚都在，饱腹感强、升糖慢；\n✅ 0蔗糖：用天然麦芽糖醇温和代糖，甜度刚好，不腻不齁，控糖减脂党安心吃；"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "七年五季全麦面包，真·100%全麦粉制作，配料表干净到只有：全麦粉、水、酵母、盐——没有一丁点蔗糖，也没有植脂末、防腐剂、香精。"
+      },
+      "platform": "wechat",
+      "product": "七年五季全麦面包"
+    },
+    "三顿半咖啡|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "3秒溶解！打工人续命新姿势☕️"
+      },
+      "tone_consistency": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "早八人别再手忙脚乱煮咖啡了！三顿半冷萃速溶，冷水热水都3秒即溶✨｜0添加植脂末｜冷热双享｜便携小杯装，塞进通勤包不占地～咖啡党狂喜：香、醇、不酸涩，这才是冷萃该有的高级感！"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "三顿半冷萃速溶，冷水热水都3秒即溶✨｜0添加植脂末｜冷热双享｜便携小杯装，塞进通勤包不占地～"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "三顿半冷萃速溶，冷水热水都3秒即溶✨｜0添加植脂末｜冷热双享｜便携小杯装，塞进通勤包不占地～"
+      },
+      "platform": "douyin",
+      "product": "三顿半咖啡"
+    },
+    "三顿半咖啡|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "打工人续命新姿势！3秒溶解的冷萃咖啡，真的不香吗？☕️"
+      },
+      "tone_consistency": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "早八人VS咖啡机：谁先投降？🙋‍♀️"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "终于等到三顿半冷萃速溶上线——不是普通速溶，是「冷萃基底+黑科技冻干」，3秒！搅一搅就化开，冰水热水都OK～🧊💧"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅ 冷萃工艺=低酸顺滑，空腹喝也不胃疼"
+      },
+      "platform": "xiaohongshu",
+      "product": "三顿半咖啡"
+    },
+    "三顿半咖啡|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "早八赶地铁？午休抢时间？加班缺电量？三顿半咖啡来救场！✨冷萃工艺×速溶黑科技，3秒即溶不结块，冷水热水都顺滑～0反式脂肪酸，轻盈无负担，每一口都是干净醇香的咖啡本味。高颜值小罐装随身带，办公室、通勤路、露营搭子全适配！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "潮人已囤，打工人速冲——你的每日活力开关，就差这一杯！"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "冷萃工艺×速溶黑科技，3秒即溶不结块，冷水热水都顺滑～"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "冷萃工艺×速溶黑科技，3秒即溶不结块，冷水热水都顺滑～0反式脂肪酸，轻盈无负担，每一口都是干净醇香的咖啡本味。"
+      },
+      "platform": "ecommerce",
+      "product": "三顿半咖啡"
+    },
+    "自嗨锅煲仔饭|douyin": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "谁懂啊！！饿到啃笔头的时候，自嗨锅煲仔饭‘滋啦’一下自己加热🔥不用插电！不用灶台！撕开、加水、盖盖——刷个短视频的功夫，香喷喷腊肠+锅巴就端上桌了🍚"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "平价不踩雷，好吃不将就～"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "15分钟热腾腾煲仔饭直接怼脸！不用插电！不用灶台！撕开、加水、盖盖——刷个短视频的功夫，香喷喷腊肠+锅巴就端上桌了"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "加班到崩溃？学生党赶DDL？15分钟热腾腾煲仔饭直接怼脸！"
+      },
+      "platform": "douyin",
+      "product": "自嗨锅煲仔饭"
+    },
+    "自嗨锅煲仔饭|xiaohongshu": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "打工人&学生党速进！15分钟干掉一锅热乎煲仔饭，自嗨锅这次太懂我了🔥"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "💰一杯奶茶钱搞定一顿正经饭，平价到流泪～"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅撕开包装→倒水激活发热包→盖盖等15分钟→开盖暴风吸入！"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "腊肠+鸡腿肉+溏心蛋+锅巴香到邻居来敲门…热气腾腾，油润不腻，真的像现做的！"
+      },
+      "platform": "xiaohongshu",
+      "product": "自嗨锅煲仔饭"
+    },
+    "自嗨锅煲仔饭|ecommerce": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "赶课饿得慌？加班到忘点外卖？别忍了！自嗨锅煲仔饭来救场——不用电、不插线，自带发热包，倒水一焖，15分钟香喷喷广式煲仔饭端上桌！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "亲民价吃饱不心疼，宿舍、工位、出租屋，一盒搞定一顿热乎饭。自嗨锅，懂你的忙，更懂你的胃！"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "不用电、不插线，自带发热包，倒水一焖，15分钟香喷喷广式煲仔饭端上桌！"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "腊肠粒粒弹牙、鸡腿肉嫩多汁、锅巴焦香酥脆，连酱汁都配好了～"
+      },
+      "platform": "ecommerce",
+      "product": "自嗨锅煲仔饭"
+    },
+    "自嗨锅煲仔饭|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "叮！你的深夜食堂已上线 🍚\n\n赶DDL到头晕？改方案改到怀疑人生？宿舍没锅、出租屋没灶台、外卖又凉又慢？\n别硬扛了！自嗨锅煲仔饭——自带加热黑科技，撕开、注水、盖盖、等15分钟，一锅滋滋冒香的广式煲仔饭直接端上桌！"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 亲民价不踩雷｜一杯奶茶钱，吃出满满幸福感"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 自加热设计｜不用电、不插线、宿舍/工位/高铁都能吃\n✅ 15分钟即食｜比泡面还快，却香过楼下煲仔饭店"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "自嗨锅煲仔饭——自带加热黑科技，撕开、注水、盖盖、等15分钟，一锅滋滋冒香的广式煲仔饭直接端上桌！"
+      },
+      "platform": "wechat",
+      "product": "自嗨锅煲仔饭"
+    },
+    "小仙炖鲜炖燕窝|douyin": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "凌晨现炖 · 当日冷链直送｜小仙炖鲜炖燕窝，不添加防腐剂、香精、增稠剂，只为保留燕窝本真的滋养力。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "高端商务女性的选择——晨间一杯温润，是自律，更是对自我的郑重承诺。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "凌晨现炖 · 当日冷链直送｜小仙炖鲜炖燕窝，不添加防腐剂、香精、增稠剂，只为保留燕窝本真的滋养力。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "凌晨现炖 · 当日冷链直送｜小仙炖鲜炖燕窝，不添加防腐剂、香精、增稠剂，只为保留燕窝本真的滋养力。"
+      },
+      "platform": "douyin",
+      "product": "小仙炖鲜炖燕窝"
+    },
+    "小仙炖鲜炖燕窝|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✨清晨拉开窗帘，一杯温润清甜的鲜炖燕窝已静静候在办公桌一角——这不是奢侈，而是当代高知女性对自我的郑重承诺。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "无菌灌装+铝箔封口｜商务礼盒级包装，简约烫金logo，自带高级沉静气场"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "小仙炖鲜炖燕窝，坚持「当日鲜炖、全程冷链、按周配送」，拒绝罐装、不加防腐剂、不添香精糖分，真正0添加。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "严选印尼溯源燕盏｜低温慢炖1140秒｜7℃锁鲜直送"
+      },
+      "platform": "xiaohongshu",
+      "product": "小仙炖鲜炖燕窝"
+    },
+    "小仙炖鲜炖燕窝|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "专为注重养生的现代女性定制——小仙炖鲜炖燕窝，以高端商务风诠释东方滋补新标准。全程低温鲜炖、冷链直送，锁住燕窝天然活性与细腻口感；坚持0防腐剂、0香精、0增稠剂，每一瓶皆可溯源，纯净如初。独立瓶装设计，契合职场节奏，晨间开启即享轻奢养生仪式感。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "专为注重养生的现代女性定制——小仙炖鲜炖燕窝，以高端商务风诠释东方滋补新标准。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "全程低温鲜炖、冷链直送，锁住燕窝天然活性与细腻口感；坚持0防腐剂、0香精、0增稠剂，每一瓶皆可溯源，纯净如初。"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "专为注重养生的现代女性定制——小仙炖鲜炖燕窝，以高端商务风诠释东方滋补新标准。全程低温鲜炖、冷链直送，锁住燕窝天然活性与细腻口感；坚持0防腐剂、0香精、0增稠剂，每一瓶皆可溯源，纯净如初。独立瓶装设计，契合职场节奏，晨间开启即享轻奢养生仪式感。"
+      },
+      "platform": "ecommerce",
+      "product": "小仙炖鲜炖燕窝"
+    },
+    "小仙炖鲜炖燕窝|wechat": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "在快节奏的都市生活中，真正的养生，从不将就。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "甄选东南亚优质溯源燕窝，121℃精准控温炖煮，搭配独立玻璃瓶装，商务办公桌、出差行李箱、晨间梳妆台……皆可优雅开启一份安心滋养。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "小仙炖鲜炖燕窝，坚持「当日鲜炖、全程冷链、48小时直达」，每一瓶都锁住燕窝最本真的营养与温润。0防腐剂、0香精、0增稠剂——纯粹，是我们的底线，更是您健康生活的底气。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "小仙炖鲜炖燕窝，坚持「当日鲜炖、全程冷链、48小时直达」，每一瓶都锁住燕窝最本真的营养与温润。0防腐剂、0香精、0增稠剂——纯粹，是我们的底线，更是您健康生活的底气。"
+      },
+      "platform": "wechat",
+      "product": "小仙炖鲜炖燕窝"
+    },
+    "懒角落免安装收纳柜|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁懂啊！搬家像拆家的日子终于结束了😭"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "原木白+柔雾灰配色，像一杯温热的燕麦拿铁☕️"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "不用打孔、不用拧螺丝、不用求室友帮忙…一拖就走，一放就稳～抽屉式设计+顺滑静音滑轮"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "懒角落免安装收纳柜｜租房党的温柔救星✨"
+      },
+      "platform": "douyin",
+      "product": "懒角落免安装收纳柜"
+    },
+    "懒角落免安装收纳柜|xiaohongshu": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "租房党狂喜！不用打孔不求人，这个会滑走的收纳柜治好了我的搬家焦虑✨"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "原木色+哑光白配色，温温柔柔的奶杏调，放在小出租屋窗边、床尾、书桌旁都像自带柔光滤镜📸 不是冷冰冰的收纳工具，是每天回家想摸一摸的治愈小角落。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅真的！不用1颗螺丝、不用1张说明书、不用求室友帮忙 ✅抽屉顺滑到像在云朵上拉抽屉☁️（带静音滑轨+顺滑滚轮） ✅底部4个万向滑轮，轻轻一推就挪位，打扫/换布局/临时让道…0负担！"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "懒角落·免安装收纳柜"
+      },
+      "platform": "xiaohongshu",
+      "product": "懒角落免安装收纳柜"
+    },
+    "懒角落免安装收纳柜|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "不用打孔、不用拧螺丝、不用求人帮忙——懒角落免安装收纳柜，一拆即用，一推就走。抽屉式分层设计，内衣、袜子、小物各归其位；静音滑轮顺滑滚动，宿舍换寝、合租搬家，轻轻一推，整柜温柔挪位。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "原木白+暖灰配色，圆润边角与柔光质感，像一杯温热的蜂蜜水，悄悄抚平租房生活的匆忙与不安。不留下痕迹，只留下秩序与温柔。你的小空间，值得被这样轻盈地爱着。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "不用打孔、不用拧螺丝、不用求人帮忙——懒角落免安装收纳柜，一拆即用，一推就走。抽屉式分层设计，内衣、袜子、小物各归其位；静音滑轮顺滑滚动，宿舍换寝、合租搬家，轻轻一推，整柜温柔挪位。"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "不用打孔、不用拧螺丝、不用求人帮忙——懒角落免安装收纳柜，一拆即用，一推就走。抽屉式分层设计，内衣、袜子、小物各归其位；静音滑轮顺滑滚动，宿舍换寝、合租搬家，轻轻一推，整柜温柔挪位。"
+      },
+      "platform": "ecommerce",
+      "product": "懒角落免安装收纳柜"
+    },
+    "懒角落免安装收纳柜|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "你是不是也经历过——搬进新出租屋，看着空荡的房间发愁：衣柜太小、杂物没处放、组装柜子到凌晨…最后瘫在纸箱堆里，连拆快递的力气都没了。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "这次，换一种温柔的方式开始生活 ✨"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 不用拧一颗螺丝，拆箱即用\n✅ 3层静音抽屉，顺滑开合，小物件也整整齐齐\n✅ 4个360°万向滑轮，轻轻一推，说走就走（连猫都追得上）"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "暖杏白+浅燕麦色，像一杯温热的燕麦奶，把租房的小角落，悄悄变成自己的心安之所"
+      },
+      "platform": "wechat",
+      "product": "懒角落免安装收纳柜"
+    },
+    "追觅洗地机|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "掉毛、脚印、打翻的猫粮…每天都在挑战清洁底线？追觅洗地机，吸拖洗一体+自清洁，边拖边洗不脏手，滚刷自动冲洗烘干，彻底告别宠物毛缠绕！极简科技设计，一机搞定全屋 messy moment 🐾 #追觅洗地机 #养宠必备"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "极简科技设计，一机搞定全屋 messy moment 🐾"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "追觅洗地机，吸拖洗一体+自清洁，边拖边洗不脏手，滚刷自动冲洗烘干，彻底告别宠物毛缠绕！"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "追觅洗地机，吸拖洗一体+自清洁，边拖边洗不脏手，滚刷自动冲洗烘干，彻底告别宠物毛缠绕！极简科技设计，一机搞定全屋 messy moment 🐾 #追觅洗地机 #养宠必备"
+      },
+      "platform": "douyin",
+      "product": "追觅洗地机"
+    },
+    "追觅洗地机|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "养宠家庭救星！这台会自己洗澡的洗地机，毛絮水渍一吸即净✨"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "极简白灰机身+无按键触控，放在北欧风客厅毫无违和感，像一件静音家电艺术品。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 吸拖洗一体：滚刷边吸边洗，猫毛+猫砂+打翻的罐头汁，一遍推过去就消失！\n✅ 真·自清洁：用完自动冲洗滚刷+风干，再也不用手抠黏腻毛团，科技懒人狂喜～"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅ 吸拖洗一体：滚刷边吸边洗，猫毛+猫砂+打翻的罐头汁，一遍推过去就消失！"
+      },
+      "platform": "xiaohongshu",
+      "product": "追觅洗地机"
+    },
+    "追觅洗地机|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "毛发缠绕？宠物脚印？干呕残留？传统清洁三步走——扫、拖、洗，费时费力还难彻底。追觅洗地机，以极简科技重构养宠清洁逻辑：一机完成吸毛、拖污、洗滚刷全链路作业，边拖边吸边自清洁，0手洗滚刷，污水满即停，智能防缠绕设计专克猫狗浮毛与碎粮。纯白哑光机身+无冗余线条，融入现代家居不抢戏；激光雷达导航+AI脏污识别，让每寸地板都被精准洁净。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "追觅洗地机，以极简科技重构养宠清洁逻辑：一机完成吸毛、拖污、洗滚刷全链路作业，边拖边吸边自清洁，0手洗滚刷，污水满即停，智能防缠绕设计专克猫狗浮毛与碎粮。纯白哑光机身+无冗余线条，融入现代家居不抢戏；激光雷达导航+AI脏污识别，让每寸地板都被精准洁净。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "追觅洗地机，以极简科技重构养宠清洁逻辑：一机完成吸毛、拖污、洗滚刷全链路作业，边拖边吸边自清洁，0手洗滚刷，污水满即停，智能防缠绕设计专克猫狗浮毛与碎粮。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "追觅洗地机，以极简科技重构养宠清洁逻辑：一机完成吸毛、拖污、洗滚刷全链路作业，边拖边吸边自清洁，0手洗滚刷，污水满即停，智能防缠绕设计专克猫狗浮毛与碎粮。纯白哑光机身+无冗余线条，融入现代家居不抢戏；激光雷达导航+AI脏污识别，让每寸地板都被精准洁净。"
+      },
+      "platform": "ecommerce",
+      "product": "追觅洗地机"
+    },
+    "追觅洗地机|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "🐾掉毛、爪印、打翻的猫粮、突如其来的‘小意外’……养宠人的日常，是爱意满满，也是地面危机四伏。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "追觅洗地机——以极简科技，直面养宠清洁难题。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 吸拖洗一体：滚刷边吸边拖边洗，浮毛、碎粮、湿渍一机清空，不缠绕、不残留；\n✅ 全链路自清洁：清洗+热风烘干双模自洁，滚刷、管道、污水箱全程免手洗，杜绝异味滋生；"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "无需妥协的洁净，不必弯腰的体面。追觅洗地机，让爱宠自由奔跑，让地面始终从容如初。"
+      },
+      "platform": "wechat",
+      "product": "追觅洗地机"
+    },
+    "网易严选乳胶枕|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "睡不醒、脖子僵、一早起来像扛了座山…你不是累，是枕头在‘拖后腿’。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "淡淡的乳胶清香，像雨后橡胶林的微风🌿——睡得安心，才是最温柔的治愈。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "网易严选乳胶枕｜泰国进口天然乳胶 × 人体工学护颈曲线"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "软弹承托，贴合肩颈弧度，翻身不落空，整夜稳稳被托住。"
+      },
+      "platform": "douyin",
+      "product": "网易严选乳胶枕"
+    },
+    "网易严选乳胶枕|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "🌿严选的不只是原料，是每个辗转反侧夜晚里，你想被温柔对待的渴望。#网易严选乳胶枕 #睡不好星人自救指南 #治愈系睡眠"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "以前睡前刷手机到凌晨，现在沾枕15分钟就沉进深睡；以前早上醒来肩膀发僵、头晕脑胀，现在伸个懒腰都是轻盈的～"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✨网易严选这款乳胶枕，是泰国原产进口的天然乳胶，倒出乳胶液都能拉丝的那种温柔感～触手微弹、回弹快，躺下瞬间像被云朵轻轻托住，但又稳稳承托住颈椎的每一寸弧度。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "连续失眠37天后，我换掉了用了5年的旧枕头…"
+      },
+      "platform": "xiaohongshu",
+      "product": "网易严选乳胶枕"
+    },
+    "网易严选乳胶枕|ecommerce": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "夜晚很短，睡眠很贵。愿每一个疲惫的你，躺下那一刻，就被稳稳接住。🌙"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "没有生硬支撑，只有恰到好处的温柔包裹。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "网易严选乳胶枕，甄选泰国原产天然乳胶，柔韧回弹如云朵承托，贴合肩颈自然曲度；专研护颈分区设计——前低后高，微倾承托，让颈椎回归放松的生理弧线。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "网易严选乳胶枕，甄选泰国原产天然乳胶，柔韧回弹如云朵承托，贴合肩颈自然曲度；专研护颈分区设计——前低后高，微倾承托，让颈椎回归放松的生理弧线。"
+      },
+      "platform": "ecommerce",
+      "product": "网易严选乳胶枕"
+    },
+    "网易严选乳胶枕|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "你是不是也这样——\n\n睡前翻来覆去，半夜肩颈发紧，醒来总觉得没睡够？"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "好睡眠，不该是奢侈。\n它该像一杯温热的蜂蜜水，像窗外轻轻摇晃的树影——\n简单、安心、刚刚好。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "网易严选乳胶枕，泰国进口天然乳胶，柔软回弹间稳稳承托脖颈曲线；专研护颈凹槽设计，贴合头颈自然弧度，一躺下去，就像被温柔托起。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "网易严选乳胶枕，泰国进口天然乳胶，柔软回弹间稳稳承托脖颈曲线；专研护颈凹槽设计，贴合头颈自然弧度，一躺下去，就像被温柔托起。"
+      },
+      "platform": "wechat",
+      "product": "网易严选乳胶枕"
+    },
+    "小米空气净化器|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "新家入住不慌张，小米净化器悄悄把甲醛「吃」干净"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "🌿小米空气净化器——极简科技，安静守护。CADR高达500m³/h，1小时循环全屋空气，高效分解甲醛，不止吸附更懂净化；夜间模式低至25dB，比翻书声还轻，宝宝安睡、大人安心。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "CADR高达500m³/h，1小时循环全屋空气，高效分解甲醛，不止吸附更懂净化；夜间模式低至25dB，比翻书声还轻，宝宝安睡、大人安心。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "CADR高达500m³/h，1小时循环全屋空气，高效分解甲醛，不止吸附更懂净化；夜间模式低至25dB，比翻书声还轻，宝宝安睡、大人安心。"
+      },
+      "platform": "douyin",
+      "product": "小米空气净化器"
+    },
+    "小米空气净化器|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "新家入住不焦虑｜这台小米净化器让我睡得比装修前还安心"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "纯白极简机身+无冗余按键，摆在北欧风客厅里像一件科技摆件✨"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 三重滤芯直击甲醛：改性活性炭+催化分解层，实测24h甲醛去除率＞95%（附检测仪对比图📊）\n✅ 晚上开睡眠模式，32dB比翻书声还轻，宝宝整夜安睡，我终于敢关掉加湿器+风扇的‘交响乐’🎵"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "✅ 三重滤芯直击甲醛：改性活性炭+催化分解层，实测24h甲醛去除率＞95%（附检测仪对比图📊）"
+      },
+      "platform": "xiaohongshu",
+      "product": "小米空气净化器"
+    },
+    "小米空气净化器|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "新装修的家，藏着期待，也藏着甲醛隐患。小米空气净化器，搭载高效甲醛分解滤芯，1小时去除99.9%甲醛（实验室数据），持续净化不二次释放；运行噪音低至30.2dB(A)，深夜安睡、婴儿熟睡时亦静默如初。极简纯白机身，无冗余按键，一屏掌控空气质量；米家APP智能联动，装修后入住前远程开机预净化。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "科技，本该如此安静而有力——为新家，多一份安心呼吸。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "小米空气净化器，搭载高效甲醛分解滤芯，1小时去除99.9%甲醛（实验室数据），持续净化不二次释放；运行噪音低至30.2dB(A)，深夜安睡、婴儿熟睡时亦静默如初。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "小米空气净化器，搭载高效甲醛分解滤芯，1小时去除99.9%甲醛（实验室数据），持续净化不二次释放；运行噪音低至30.2dB(A)，深夜安睡、婴儿熟睡时亦静默如初。"
+      },
+      "platform": "ecommerce",
+      "product": "小米空气净化器"
+    },
+    "小米空气净化器|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "刚搬进新家，却总被若有似无的刺鼻味困扰？甲醛释放周期长达3–15年，开窗通风只是治标——真正需要的，是一台懂新装修家庭的「隐形卫士」。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✨ 小米空气净化器｜科技极简，静力除醛"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 三重催化滤芯：专属改性活性炭+纳米锰基分解层，甲醛CADR高达400m³/h，实测1小时甲醛去除率＞95%（依据GB/T 18801-2022）\n✅ 极致静音设计：睡眠模式低至23dB(A)，比翻书声更轻；整晚运行，不扰安眠，宝宝熟睡、大人加班，呼吸自有分寸"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "✅ 三重催化滤芯：专属改性活性炭+纳米锰基分解层，甲醛CADR高达400m³/h，实测1小时甲醛去除率＞95%（依据GB/T 18801-2022）"
+      },
+      "platform": "wechat",
+      "product": "小米空气净化器"
+    },
+    "小米手环9|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "🏃‍♂️运动不设限，电量不焦虑｜小米手环9来了"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "极简科技美学：一体化无感佩戴｜AMOLED柔光屏｜轻至12g"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 14天超长续航——晨跑、夜训、周末爬山，两周一充，专注节奏不打断\n✅ 150+专业运动模式——从跳绳到攀岩，从瑜伽到自由泳，每一种热爱都被精准记录"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 14天超长续航——晨跑、夜训、周末爬山，两周一充，专注节奏不打断\n✅ 150+专业运动模式——从跳绳到攀岩，从瑜伽到自由泳，每一种热爱都被精准记录"
+      },
+      "platform": "douyin",
+      "product": "小米手环9"
+    },
+    "小米手环9|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "14天不充电的运动搭子，我终于找到了⚡️"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "极简科技感设计｜哑光金属质感表框 + 微弧贴肤TPU腕带，抬手看数据，也像在看一件小众科技配饰"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 14天超长续航｜晨跑、夜训、周末爬山，充一次电，稳稳陪我两周\n✅ 150+运动模式｜从瑜伽、跳绳到攀岩、划船，连「自由泳识别」都精准得像教练在盯动作"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅ 14天超长续航｜晨跑、夜训、周末爬山，充一次电，稳稳陪我两周\n✅ 150+运动模式｜从瑜伽、跳绳到攀岩、划船，连「自由泳识别」都精准得像教练在盯动作"
+      },
+      "platform": "xiaohongshu",
+      "product": "小米手环9"
+    },
+    "小米手环9|ecommerce": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "轻盈一戴，全程在线。小米手环9以极简科技美学重构运动体验——14天持久续航，告别频繁充电焦虑；150+专业运动模式，精准记录跑步、骑行、瑜伽、攀岩等每一帧发力与呼吸。AMOLED高清大屏，息屏显示更显克制理性；心率、血氧、睡眠深度分析，数据无声，却句句有力。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "轻盈一戴，全程在线。小米手环9以极简科技美学重构运动体验——14天持久续航，告别频繁充电焦虑；150+专业运动模式，精准记录跑步、骑行、瑜伽、攀岩等每一帧发力与呼吸。AMOLED高清大屏，息屏显示更显克制理性；心率、血氧、睡眠深度分析，数据无声，却句句有力。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "14天持久续航，告别频繁充电焦虑；150+专业运动模式，精准记录跑步、骑行、瑜伽、攀岩等每一帧发力与呼吸。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "轻盈一戴，全程在线。小米手环9以极简科技美学重构运动体验——14天持久续航，告别频繁充电焦虑；150+专业运动模式，精准记录跑步、骑行、瑜伽、攀岩等每一帧发力与呼吸。AMOLED高清大屏，息屏显示更显克制理性；心率、血氧、睡眠深度分析，数据无声，却句句有力。"
+      },
+      "platform": "ecommerce",
+      "product": "小米手环9"
+    },
+    "小米手环9|wechat": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "极简线条，纯粹科技。不赘述，只专注——小米手环9，以轻盈之姿，承载运动爱好者的每一次心跳、每一步突破。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "极简线条，纯粹科技。不赘述，只专注——小米手环9，以轻盈之姿，承载运动爱好者的每一次心跳、每一步突破。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 14天超长续航：告别频繁充电焦虑，晨跑、夜骑、周末远足，节奏由你掌控。✅ 150+专业运动模式：从跑步、骑行、游泳，到攀岩、滑板、CrossFit，精准识别，深度记录。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "AMOLED柔光屏｜50米防水｜全天候心率/血氧/压力监测｜个性化表盘随心切换"
+      },
+      "platform": "wechat",
+      "product": "小米手环9"
+    },
+    "Anker氮化镓充电器|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "💻数码党狂喜｜✈️出差族刚需"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "体积却比口红还小——Anker氮化镓充电器，把实验室级效率塞进极简黑盒。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "65W真快充，MacBook/手机/平板一拖三全速喂饱⚡\n体积却比口红还小——Anker氮化镓充电器，把实验室级效率塞进极简黑盒。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "65W真快充，MacBook/手机/平板一拖三全速喂饱⚡\n体积却比口红还小——Anker氮化镓充电器，把实验室级效率塞进极简黑盒。"
+      },
+      "platform": "douyin",
+      "product": "Anker氮化镓充电器"
+    },
+    "Anker氮化镓充电器|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁懂啊！！终于找到本年度最心水的桌面+出行搭子👇"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "没有浮夸灯效，没有冗余按键——只有哑光灰机身、精准CNC倒角、和插上那一刻的「滋」一声轻响。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 65W双口全速输出：MacBook Air半小时回血50%｜iPhone 15 Pro直接满血复活仅需30min\n✅ 比口红还小！体积仅≈一枚U盘（52×28×29mm），轻松滑进西装口袋/登机包夹层/护照套背面"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "✅ 65W双口全速输出：MacBook Air半小时回血50%｜iPhone 15 Pro直接满血复活仅需30min"
+      },
+      "platform": "xiaohongshu",
+      "product": "Anker氮化镓充电器"
+    },
+    "Anker氮化镓充电器|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "科技，本该轻装上阵。Anker氮化镓充电器以65W高效快充实力，30分钟充入50%+电量（兼容iPhone/安卓/笔记本），告别续航焦虑；体积仅约一枚口红大小，重量不足120g——塞进行李夹层、背包侧袋、甚至西装内袋，毫不占位。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "极简哑光机身+精密蚀刻Anker标识，低调承载硬核性能。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "Anker氮化镓充电器以65W高效快充实力，30分钟充入50%+电量（兼容iPhone/安卓/笔记本），告别续航焦虑；体积仅约一枚口红大小，重量不足120g——塞进行李夹层、背包侧袋、甚至西装内袋，毫不占位。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "Anker氮化镓充电器以65W高效快充实力，30分钟充入50%+电量（兼容iPhone/安卓/笔记本），告别续航焦虑；体积仅约一枚口红大小，重量不足120g——塞进行李夹层、背包侧袋、甚至西装内袋，毫不占位。"
+      },
+      "platform": "ecommerce",
+      "product": "Anker氮化镓充电器"
+    },
+    "Anker氮化镓充电器|wechat": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "出差包再满，也得给它留个角落。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "纯白哑光机身 + 微弧边框，无LOGO极简造型，科技感不喧哗，只沉淀。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "Anker全新氮化镓充电器——65W大功率，体积却比传统充电器小50%。掌心大小，轻松塞进西装口袋、登机箱夹层，甚至AirPods充电盒旁都能稳稳立住。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "⚡ 65W全速输出：30分钟充入iPhone 15约60%，45分钟回血MacBook Air一半电量；"
+      },
+      "platform": "wechat",
+      "product": "Anker氮化镓充电器"
+    },
+    "漫步者降噪耳机|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "地铁轰鸣？公交报站？同事外放？🚫\n戴上它——世界瞬间按下静音键。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "极简金属机身 × 人体工学设计｜科技感不张扬，安静自有力量"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 主动降噪：智能识别环境噪音，通勤场景秒级消噪\n✅ 30小时超长续航：早八晚六+周末补觉，一周一充不焦虑"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅ 主动降噪：智能识别环境噪音，通勤场景秒级消噪\n✅ 30小时超长续航：早八晚六+周末补觉，一周一充不焦虑"
+      },
+      "platform": "douyin",
+      "product": "漫步者降噪耳机"
+    },
+    "漫步者降噪耳机|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "通勤族的静音开关｜这副耳机让我每天多赚2小时‘清醒时间’"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "科技极简，拿在手里像一块温润哑光黑陶瓷——没有浮夸灯效，没有复杂按键，只有干净线条和恰到好处的重量感。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 主动降噪不是噱头：双馈麦克风实时捕捉环境噪音，通勤路上瞬间沉入自己的节奏；\n✅ 超长续航真·不焦虑：单次30h+（开降噪），通勤往返+午休听播客，一周充一次电就够了；"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "✅ 超长续航真·不焦虑：单次30h+（开降噪），通勤往返+午休听播客，一周充一次电就够了；"
+      },
+      "platform": "xiaohongshu",
+      "product": "漫步者降噪耳机"
+    },
+    "漫步者降噪耳机|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "早高峰地铁的嘈杂、公交引擎的轰鸣、写字楼空调的低频嗡鸣——通勤路上，声音从不缺席。漫步者降噪耳机，以专业主动降噪（ANC）技术，智能识别并抵消环境噪音，一键沉入专注或放松的静音结界。搭载高能效声学系统，单次充电续航长达40小时，周末连充一次，轻松覆盖整周通勤。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "一体式流线机身、哑光磨砂质感、无冗余按键设计——科技，本该如此克制而有力。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "漫步者降噪耳机，以专业主动降噪（ANC）技术，智能识别并抵消环境噪音，一键沉入专注或放松的静音结界。搭载高能效声学系统，单次充电续航长达40小时，周末连充一次，轻松覆盖整周通勤。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "漫步者降噪耳机，以专业主动降噪（ANC）技术，智能识别并抵消环境噪音，一键沉入专注或放松的静音结界。搭载高能效声学系统，单次充电续航长达40小时，周末连充一次，轻松覆盖整周通勤。"
+      },
+      "platform": "ecommerce",
+      "product": "漫步者降噪耳机"
+    },
+    "漫步者降噪耳机|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "早高峰的地铁轰鸣、公交报站的循环播报、键盘敲击与会议杂音……通勤，不该是噪音马拉松。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "极简流线机身 × 磨砂哑光质感 × 无冗余交互设计——科技不必张扬，安静自有力量。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "漫步者降噪耳机，以专业主动降噪（ANC）技术，实时捕捉并抵消低频环境噪声——引擎声、空调嗡鸣、人声嘈杂，一触即消。耳畔，只留你想要的声音。更搭载高密度电池管理方案，单次充电续航长达30小时（开启降噪），配合快充10分钟=5小时聆听。一周通勤，一次充电足矣。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "更搭载高密度电池管理方案，单次充电续航长达30小时（开启降噪），配合快充10分钟=5小时聆听。一周通勤，一次充电足矣。"
+      },
+      "platform": "wechat",
+      "product": "漫步者降噪耳机"
+    },
+    "大疆Osmo口袋相机|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁说Vlog必须扛单反？📱大疆Osmo Pocket——比手机还小，比云台还稳！🔥三轴机械防抖+4K超清画质，边跑边拍都不糊！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "Vloger的潮流搭子，装进口袋，说走就拍！#OsmoPocket #Vlog神器"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "三轴机械防抖+4K超清画质，边跑边拍都不糊！"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "三轴机械防抖+4K超清画质，边跑边拍都不糊！"
+      },
+      "platform": "douyin",
+      "product": "大疆Osmo口袋相机"
+    },
+    "大疆Osmo口袋相机|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "手抖星人狂喜！这台口袋小钢炮让我Vlog质感直接拉满✨"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁懂啊！！以前拍Vlog不是画面晃成海浪就是追焦跟丢自己…直到遇见我的新宠——大疆Osmo Pocket！💥"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅三轴机械云台稳到离谱！边走边跳边转圈，画面依旧丝滑如德芙🍫\n✅4K 60fps直出！逆光不糊、暗光有细节，连发丝飘动都清晰到想截图当壁纸📸"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅巴掌大机身，塞进牛仔裤口袋毫无压力👖"
+      },
+      "platform": "xiaohongshu",
+      "product": "大疆Osmo口袋相机"
+    },
+    "大疆Osmo口袋相机|ecommerce": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "还在为抖动毁掉整条Vlog抓狂？别卷了，把稳准狠交给我——大疆Osmo Pocket！三轴机械云台防抖，边跑边拍也丝滑如德芙；4K超清画质+广角镜头，随手一帧都是封面级质感。巴掌大小，塞进口袋就出发，地铁、爬山、街拍、咖啡店…你的生活，从不等打光和布景。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "口袋里的电影级Vlog神器！大疆Osmo Pocket，稳到飞起，美到出圈"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "三轴机械云台防抖，边跑边拍也丝滑如德芙；4K超清画质+广角镜头，随手一帧都是封面级质感。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "三轴机械云台防抖，边跑边拍也丝滑如德芙；4K超清画质+广角镜头，随手一帧都是封面级质感。"
+      },
+      "platform": "ecommerce",
+      "product": "大疆Osmo口袋相机"
+    },
+    "大疆Osmo口袋相机|wechat": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "还在为走路抖、跑步糊、转头晕的Vlog画面抓狂？"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "潮流不是跟风，是用更酷的工具，讲更真的自己。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 三轴机械云台防抖｜手抖星人秒变稳如老狗，边跑边拍也丝滑到像开了0.5倍速\n✅ 4K高清视频｜细节拉满、色彩鲜活，每一帧都自带电影滤镜感"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "大疆Osmo Pocket口袋相机——专为Vlog创作者而生的掌上影像引擎来了！"
+      },
+      "platform": "wechat",
+      "product": "大疆Osmo口袋相机"
+    },
+    "蕉内西装裤|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "梨形姐妹看过来！这条高腰西装裤直接封神🔥"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "活力出街or通勤OOTD，随便搭都超有型！"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "高腰设计+垂坠感面料=视觉收胯+自然显瘦，走路带风，坐下不勒，一整个松弛又高级～"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁说梨形不能穿出大长腿？蕉内西装裤来破局！✨"
+      },
+      "platform": "douyin",
+      "product": "蕉内西装裤"
+    },
+    "蕉内西装裤|xiaohongshu": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "救命！谁懂啊！！梨形身材穿西装裤的痛我终于不用再忍了😭"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅ 不是硬挺型假正经，是松弛有度的活力西装裤！配T恤/短衬衫/老爹鞋都超chic～"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 高腰设计直接卡在腰最细处，小肚腩&胯宽瞬间隐形！\n✅ 垂坠感面料太高级了！走路带风不贴腿，侧面看是纸片人，背面看是蜜桃臀🍑"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "以前怕西装裤显壮、显矮、显老气…现在每天都在‘今天穿它出门’和‘明天还穿它出门’之间反复横跳💃"
+      },
+      "platform": "xiaohongshu",
+      "product": "蕉内西装裤"
+    },
+    "蕉内西装裤|ecommerce": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "穿上它，不是妥协身材，而是用高级感重新定义你的曲线！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "活力潮流风设计，微阔版型+简约线条，通勤有型、出街带感。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "高腰剪裁瞬间提拉腰臀比，视觉收腰不勒肉；独家垂坠面料自带流动感，从胯到脚踝一顺到底，遮肉显直不贴腿！"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "梨形姐妹看过来！蕉内西装裤专为臀宽腿丰、腰线迷人的你而生——高腰剪裁瞬间提拉腰臀比，视觉收腰不勒肉；独家垂坠面料自带流动感，从胯到脚踝一顺到底，遮肉显直不贴腿！"
+      },
+      "platform": "ecommerce",
+      "product": "蕉内西装裤"
+    },
+    "蕉内西装裤|wechat": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "标题：梨形女孩的西装裤自由，高腰+垂坠=显瘦暴击！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "活力不设限，潮流有底气。蕉内西装裤，穿出你的自信垂感力！💫"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 高腰设计——拉高腰线，收腹提臀，视觉秒缩3cm腰围\n✅ 垂坠感面料——不贴腿、不鼓包、不卡裆，走路带风，坐下也服帖"
+      },
+      "information_grounding": {
+        "score": 2,
+        "rating": "较差",
+        "evidence": "✅ 高腰设计——拉高腰线，收腹提臀，视觉秒缩3cm腰围"
+      },
+      "platform": "wechat",
+      "product": "蕉内西装裤"
+    },
+    "优衣库摇粒绒外套|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁说保暖=臃肿？优衣库摇粒绒外套，轻得像没穿，暖得像裹被子！✨"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "💰平价质感王，一杯奶茶钱换整季温柔暖意～"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅ 学生党：上课赶地铁不压肩，搭卫衣/衬衫都超有范儿\n✅ 通勤族：叠穿大衣不显厚，地铁口一脱一穿超利落"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁说保暖=臃肿？优衣库摇粒绒外套，轻得像没穿，暖得像裹被子！✨"
+      },
+      "platform": "douyin",
+      "product": "优衣库摇粒绒外套"
+    },
+    "优衣库摇粒绒外套|xiaohongshu": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "学生党&打工人速进！优衣库摇粒绒外套，百元穿出高级暖感✨"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "一杯奶茶钱拿下，机洗晾干也不起球，学生党&初入职场的宝子闭眼冲！"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅保暖不臃肿：内里密实绒感+锁温设计，15℃穿它+一件薄毛衣刚刚好，不显壮不压身高，小个子友好！"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "内里密实绒感+锁温设计，15℃穿它+一件薄毛衣刚刚好"
+      },
+      "platform": "xiaohongshu",
+      "product": "优衣库摇粒绒外套"
+    },
+    "优衣库摇粒绒外套|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "一件穿出温度与态度！优衣库经典摇粒绒外套，蓬松柔软、锁温力强，却轻如无物——背着书包赶课不压肩，挤地铁通勤不闷汗。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "亲民价格，高性价比之选：不是所有保暖外套，都叫优衣库摇粒绒。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "一件穿出温度与态度！优衣库经典摇粒绒外套，蓬松柔软、锁温力强，却轻如无物——背着书包赶课不压肩，挤地铁通勤不闷汗。简约廓形+中性配色（黑/灰/藏青/燕麦），搭卫衣、衬衫、大衣都好看，宿舍衣柜、办公室衣架都能轻松驾驭。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "一件穿出温度与态度！优衣库经典摇粒绒外套，蓬松柔软、锁温力强，却轻如无物——背着书包赶课不压肩，挤地铁通勤不闷汗。"
+      },
+      "platform": "ecommerce",
+      "product": "优衣库摇粒绒外套"
+    },
+    "优衣库摇粒绒外套|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "寒潮一来，穿厚了臃肿，穿少了哆嗦？学生党和上班族的秋冬穿搭困局，被这件优衣库摇粒绒外套轻松破题！"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "平价也体面——优衣库一贯的高品控+亲民价，一杯奶茶钱就能拿下整个秋冬的安心感。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 保暖不厚重——加厚摇粒绒内里锁住体温，却轻如无物，背包、挤地铁、赶早八都不压肩；\n✅ 百搭不出错——经典版型+低饱和配色（燕麦灰、深藏青、柔雾粉…），套上卫衣/衬衫/高领衫都好看，下装配牛仔裤、西装裤、百褶裙统统和谐；"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "柔软、扎实、耐穿、好洗——学生党机洗晾干第二天照穿，通勤族出差塞进行李箱也不占地方。"
+      },
+      "platform": "wechat",
+      "product": "优衣库摇粒绒外套"
+    },
+    "内外无尺码内衣|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "穿上的那一刻，就忘了自己穿着内衣"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "没有钢圈的束缚，没有尺码的焦虑，只有云朵般的柔软和会呼吸的温柔～"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "没有钢圈的束缚，没有尺码的焦虑，只有云朵般的柔软和会呼吸的温柔～"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "透气棉感面料 × 无压剪裁 × 一围适配多种身形"
+      },
+      "platform": "douyin",
+      "product": "内外无尺码内衣"
+    },
+    "内外无尺码内衣|ecommerce": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "没有束缚的钢圈，没有反复试错的尺码焦虑——只有一片云朵般的轻柔贴合。内外无尺码内衣，以「无压」为起点，用亲肤棉感面料与立体剪裁，让每一次呼吸都自在，每一寸肌肤都舒展。透气网眼结构悄悄带走闷热，整日穿戴也如裸感般轻盈。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "穿上就忘记自己穿着内衣｜内外无尺码内衣，给身体一个温柔的拥抱"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "没有束缚的钢圈，没有反复试错的尺码焦虑——只有一片云朵般的轻柔贴合。内外无尺码内衣，以「无压」为起点，用亲肤棉感面料与立体剪裁，让每一次呼吸都自在，每一寸肌肤都舒展。透气网眼结构悄悄带走闷热，整日穿戴也如裸感般轻盈。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "没有束缚的钢圈，没有反复试错的尺码焦虑——只有一片云朵般的轻柔贴合。内外无尺码内衣，以「无压」为起点，用亲肤棉感面料与立体剪裁，让每一次呼吸都自在，每一寸肌肤都舒展。透气网眼结构悄悄带走闷热，整日穿戴也如裸感般轻盈。"
+      },
+      "platform": "ecommerce",
+      "product": "内外无尺码内衣"
+    },
+    "内外无尺码内衣|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "你有没有过这样的时刻——\n脱下内衣的瞬间，长舒一口气，仿佛卸下了整日的重量。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "不是所有温柔都轰轰烈烈，\n有些温柔，就藏在肩带滑落时的不挽留，\n在久坐一整天后的毫无知觉，\n在镜前伸个懒腰时，那一声无声的“啊，真好”。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "· 0钢圈支撑，靠立体剪裁与高弹亲肤面料自然承托\n· 超细莫代尔+透气网眼结构，肌肤每寸都在轻盈呼吸"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "「内外无尺码内衣」，用柔软代替束缚，用呼吸感代替存在感。\n· 0钢圈支撑，靠立体剪裁与高弹亲肤面料自然承托\n· 超细莫代尔+透气网眼结构，肌肤每寸都在轻盈呼吸"
+      },
+      "platform": "wechat",
+      "product": "内外无尺码内衣"
+    },
+    "回力帆布鞋|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "国潮出街，踩出你的态度！🔥"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "谁说平价=平庸？回力帆布鞋，国潮设计+真·耐磨防滑大底，走路带风、雨天不慌！"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "国潮设计+真·耐磨防滑大底"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "18-28岁的你，穿它通勤、逛街、蹦迪、拍照…全场景拿捏💯 经典不过时，潮流不费力——这双，是青春该有的样子！"
+      },
+      "platform": "douyin",
+      "product": "回力帆布鞋"
+    },
+    "回力帆布鞋|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁懂啊！！这双回力帆布鞋真的把我拿捏住了💥"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "国潮设计太会了！复古廓形+撞色缝线+小红标logo，配牛仔裤/百褶裙/工装短裤都超有范儿✨"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅国潮设计太会了！复古廓形+撞色缝线+小红标logo，配牛仔裤/百褶裙/工装短裤都超有范儿✨\n✅下雨天敢踩湿地砖！橡胶大底+深纹路设计，楼梯、瓷砖、雨后小巷…稳得一批👌\n✅穿了3个月天天走1w步，鞋底没裂、鞋面没起球，帆布还是挺括有型👏"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "✅穿了3个月天天走1w步，鞋底没裂、鞋面没起球，帆布还是挺括有型👏"
+      },
+      "platform": "xiaohongshu",
+      "product": "回力帆布鞋"
+    },
+    "回力帆布鞋|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "经典轮廓×现代配色，把中国记忆穿在脚上；加厚耐磨橡胶大底+立体防滑纹路，地铁站、滑板场、音乐节，稳稳拿捏每一步。轻盈透气帆布+柔软内里，久走不累，自在不设限。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "复古不守旧，潮流有底气！回力帆布鞋——专为18-28岁Z世代打造的国潮单品。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "经典轮廓×现代配色，把中国记忆穿在脚上；加厚耐磨橡胶大底+立体防滑纹路，地铁站、滑板场、音乐节，稳稳拿捏每一步。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "经典轮廓×现代配色，把中国记忆穿在脚上；加厚耐磨橡胶大底+立体防滑纹路，地铁站、滑板场、音乐节，稳稳拿捏每一步。轻盈透气帆布+柔软内里，久走不累，自在不设限。"
+      },
+      "platform": "ecommerce",
+      "product": "回力帆布鞋"
+    },
+    "回力帆布鞋|wechat": {
+      "platform_fit": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "踩上国潮节奏！回力帆布鞋，年轻就要稳稳出圈"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✨ 国潮设计 × 硬核脚感 ✨"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✔️ 大底升级耐磨橡胶+波浪防滑纹路，雨天楼梯、通勤地铁、滑板坡道，稳得像开了挂；"
+      },
+      "information_grounding": {
+        "score": 2,
+        "rating": "较差",
+        "evidence": "暴走2万步也不闷不累，从早八课堂到夜场蹦迪，一双管够。"
+      },
+      "platform": "wechat",
+      "product": "回力帆布鞋"
+    }
+  },
+  "results_B": {
+    "谷雨美白奶罐|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "姐妹们，熬完夜照镜子心是不是又凉了？别怕，这瓶‘美白奶罐’来了～"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "像云朵一样轻柔的质地，一抹化水，不搓泥、不刺痛，只有暖暖的安心感。去黄提亮，不是猛药式的改变，而是每天醒来，发现肤色悄悄透出光来。你是熬夜党，但你的皮肤，值得被温柔以待。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "去黄提亮，不是猛药式的改变，而是每天醒来，发现肤色悄悄透出光来。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "像云朵一样轻柔的质地，一抹化水，不搓泥、不刺痛，只有暖暖的安心感。"
+      },
+      "platform": "douyin",
+      "product": "谷雨美白奶罐"
+    },
+    "谷雨美白奶罐|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "熬夜脸的温柔救赎｜谷雨美白奶罐去黄提亮实录✨"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "它不喊口号，只是每天静静陪我卸下疲惫。原来肤色变透亮，也可以这么柔软、这么不费力。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "不是猛药式的白，是悄悄把暗沉揉开、把黄气托走的那种提亮"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "连续熬了三周夜，照镜子时连自己都愣住——脸黄得像隔夜茶…直到遇见它，像被轻轻捧住脸颊的温柔。"
+      },
+      "platform": "xiaohongshu",
+      "product": "谷雨美白奶罐"
+    },
+    "谷雨美白奶罐|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅ 无忧保障：支持7天无理由退换，全程客服一对一陪伴使用指导"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "每一份都通过皮肤刺激性测试，温和到像被轻轻拥抱。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "谷雨美白奶罐，专为熬夜党设计的温和提亮方案。经第三方检测，连续使用28天，肤色亮度平均提升1.8个色阶*，不泛红、不刺痛、不脱皮——真正把「去黄」这件事，做得柔软又坚定。"
+      },
+      "information_grounding": {
+        "score": 2,
+        "rating": "较差",
+        "evidence": "经第三方检测，连续使用28天，肤色亮度平均提升1.8个色阶*"
+      },
+      "platform": "ecommerce",
+      "product": "谷雨美白奶罐"
+    },
+    "谷雨美白奶罐|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 小满\n01｜凌晨两点的台灯下，我盯着镜子里那张脸，忽然觉得它很委屈。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "它不承诺‘七天白一度’，只说‘去黄提亮，温和不刺激’——像一位老朋友，轻轻按住你着急的手：‘别急，我们慢慢来。’"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "它不承诺‘七天白一度’，只说‘去黄提亮，温和不刺激’——像一位老朋友，轻轻按住你着急的手：‘别急，我们慢慢来。’"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "它不承诺‘七天白一度’，只说‘去黄提亮，温和不刺激’——像一位老朋友，轻轻按住你着急的手：‘别急，我们慢慢来。’"
+      },
+      "platform": "wechat",
+      "product": "谷雨美白奶罐"
+    },
+    "修丽可CE精华|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "30+的姐妹听好：抗氧化不是选择题，是必答题！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "真正的高端，从不需要解释。点个关注，解锁你的精英肌密。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "维生素C+维生素E+阿魏酸三重协同，直击自由基，提亮肤色、淡化细纹、稳住胶原。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "修丽可CE精华——高端护肤界的抗氧化标杆，15年临床验证，专为熟龄肌定制。"
+      },
+      "platform": "douyin",
+      "product": "修丽可CE精华"
+    },
+    "修丽可CE精华|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "作为常年飞行于京沪广深之间的商务人士，我的皮肤状态就是日程表的晴雨表。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "它不适合追求即时刺激的人，但一定属于懂得投资长期肤质健康的人。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✨ 提亮肤色：不是靠遮盖，而是从源头减少氧化应激带来的暗沉。晨间使用后，底妆更服帖，气色自带冷调光泽。\n✨ 淡化细纹：质地丰润却不厚重，配合轻柔按摩，能切实感受到肌肤的支撑力在提升——尤其眼周与法令纹区域。\n✨ 抗氧化逻辑：15%左旋维生素C + 1%维生素E + 0.5%阿魏酸，三重协同稳定配方，是实验室级的成分诚意。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "✨ 抗氧化逻辑：15%左旋维生素C + 1%维生素E + 0.5%阿魏酸，三重协同稳定配方，是实验室级的成分诚意。"
+      },
+      "platform": "xiaohongshu",
+      "product": "修丽可CE精华"
+    },
+    "修丽可CE精华|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "【临床验证 · 专业信赖】修丽可CE精华，源自美国皮肤科医生研发，经多项临床研究证实：连续使用12周，肌肤抗氧化能力提升45%，肤色亮度提升2.3个色阶，细纹深度减少18%。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "“作为常年出差的高管，这瓶精华是我行李箱里的必备品。稳定、高效、无需适应期。”——陈先生，42岁，企业总监"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "【三大核心功效 · 精准应对熟龄肌需求】\n• 抗氧化屏障强化：15%左旋维生素C + 1%维生素E + 0.5%阿魏酸，三重协同，中和自由基，抵御环境老化压力\n• 肤色提亮焕新：阻断氧化性暗沉通路，改善黄气与倦容，呈现健康通透的瓷光肌质\n• 细纹平复管理：促进胶原稳态，提升肌肤支撑力，令眼周、法令纹区域更显柔韧紧致"
+      },
+      "information_grounding": {
+        "score": 2,
+        "rating": "较差",
+        "evidence": "每批次产品均通过美国FDA备案及中国化妆品备案（国妆备进字2021XXXXXX），支持扫码验真；提供30天无理由退换服务，售后专线全程响应。"
+      },
+      "platform": "ecommerce",
+      "product": "修丽可CE精华"
+    },
+    "修丽可CE精华|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 林砚\n01｜会议前的三分钟\n凌晨六点，北京国贸。我站在落地窗前，用指尖轻按眼周，镜中映出一张被熬夜、差旅和屏幕蓝光反复打磨过的脸——肤色黯沉，细纹在眼角若隐若现。这不是疲惫，是时间在熟龄肌上落下的签名。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "深棕色玻璃滴管瓶身，隔绝光敏降解；滴管精准控量，避免成分暴露失活；质地清透微润，晨间搭配防晒无搓泥负担。它不取悦感官，只交付结果——肤色通透度提升、视觉紧致感增强、整体肤质呈现更稳定的健康光感。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "维生素C（L-抗坏血酸）15% + 维生素E + 阿魏酸——这组经临床验证的黄金三角，并非简单叠加，而是以分子级协同提升皮肤自身抗氧化阈值。它不承诺逆转，但构筑屏障：中和自由基、抑制脂质过氧化、稳定胶原结构。对30+肌肤而言，提亮肤色，本质是减少氧化损伤后的代谢滞留；淡化细纹，源于日复一日对结构蛋白的理性支持。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "维生素C（L-抗坏血酸）15% + 维生素E + 阿魏酸——这组经临床验证的黄金三角，并非简单叠加，而是以分子级协同提升皮肤自身抗氧化阈值。它不承诺逆转，但构筑屏障：中和自由基、抑制脂质过氧化、稳定胶原结构。"
+      },
+      "platform": "wechat",
+      "product": "修丽可CE精华"
+    },
+    "花西子雕花口红|douyin": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "姐妹们！这哪里是口红？这是东方美学暴击💥！丝绒质地一抹上嘴，高级感直接溢出屏幕～不沾杯、不掉色，喝奶茶都不怕！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "18-30岁的你，就该用这么有态度的国货！快试试你的本命雕花色👇"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "这哪里是口红？这是东方美学暴击💥！丝绒质地一抹上嘴，高级感直接溢出屏幕～不沾杯、不掉色，喝奶茶都不怕！"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "这哪里是口红？这是东方美学暴击💥！丝绒质地一抹上嘴，高级感直接溢出屏幕～不沾杯、不掉色，喝奶茶都不怕！"
+      },
+      "platform": "douyin",
+      "product": "花西子雕花口红"
+    },
+    "花西子雕花口红|xiaohongshu": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "救命！这支口红一上嘴我就原地转身360°自拍10张！！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✨重点来了：从早8点开会到晚10点撸串，喝水吃饭都不掉色！"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✨丝绒质地太绝了！不是干到起皮的哑光，是那种自带柔焦滤镜的雾面感，涂上秒变电影女主～\n✨重点来了：从早8点开会到晚10点撸串，喝水吃饭都不掉色！嘴唇上还留着那抹高级红，同事追着问链接👀\n✨雕花工艺真的细看会尖叫！牡丹/云纹/山水…不同色号对应不同东方图腾，拿在手里就是一件微缩艺术品🎨"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✨重点来了：从早8点开会到晚10点撸串，喝水吃饭都不掉色！嘴唇上还留着那抹高级红，同事追着问链接👀"
+      },
+      "platform": "xiaohongshu",
+      "product": "花西子雕花口红"
+    },
+    "花西子雕花口红|ecommerce": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "【东方美学 × 潮流态度】\n花西子雕花口红，不是一支口红，是你唇上的国风宣言！\n\n✅ 东方美学雕花设计：每支口红盖面都镌刻传统纹样，手作级浮雕工艺，拿在手里就是一件微型艺术品\n✅ 丝绒质地触感：柔雾不干唇，上嘴即融，轻盈如羽，告别厚重假面感\n✅ 持久不脱色配方：12小时持妆力实测，喝水不沾杯，吃饭不掉色，活力全天在线"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "【东方美学 × 潮流态度】\n花西子雕花口红，不是一支口红，是你唇上的国风宣言！"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 东方美学雕花设计：每支口红盖面都镌刻传统纹样，手作级浮雕工艺，拿在手里就是一件微型艺术品\n✅ 丝绒质地触感：柔雾不干唇，上嘴即融，轻盈如羽，告别厚重假面感\n✅ 持久不脱色配方：12小时持妆力实测，喝水不沾杯，吃饭不掉色，活力全天在线"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "“第一次被口红颜值击中！雕花太绝了，拍照不用加滤镜”——@潮汐少女\n“丝绒质地真的绝，不拔干也不显唇纹，我黄皮涂完超显白”——@小满"
+      },
+      "platform": "ecommerce",
+      "product": "花西子雕花口红"
+    },
+    "花西子雕花口红|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 小满\n01｜第一次在东京表参道试色，店员盯着我的唇说：'这是中国来的雕花？'\n不是口红，是东方美学的微型浮雕——花西子雕花口红。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "潮流不是复制西方，是把东方符号玩成自己的语言\n雕花不是装饰，是工艺自信；丝绒不是跟风，是东方肤感哲学；持久不脱色，不是靠胶感强撑，是膏体与唇肌的自然咬合。这支口红，不是让你变别人，是帮你把‘我是谁’说得更响一点。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "不是贴纸，不是印花，是真正在膏体表面蚀刻出牡丹、云纹、青鸾的丝绒质地。上唇那一刻，丝绒触感像被江南春雾轻轻裹住，不干、不卡纹、不拔干，只有温润的显色力。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "吃饭、喝咖啡、戴口罩——一整天下来，唇心依旧饱满如初。"
+      },
+      "platform": "wechat",
+      "product": "花西子雕花口红"
+    },
+    "珀莱雅红宝石面霜|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "姐妹们！你脸上的细纹，真的只是时间问题吗？"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "珀莱雅红宝石面霜，把实验室级抗老，装进一支极简白管里。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "双胜肽协同作用，直击胶原流失源头；微囊缓释科技，让活性稳稳抵达肌底。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "25+的初抗老，就该这么冷静、精准、有底气。"
+      },
+      "platform": "douyin",
+      "product": "珀莱雅红宝石面霜"
+    },
+    "珀莱雅红宝石面霜|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "28天｜胜肽抗老初体验｜红宝石面霜的科技感日常"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "它不承诺“一夜回春”，但每天早晚两次，用0.5g精准用量，让抗老成为一种安静而确定的进程。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✅ 胜肽复配体系：乙酰基六肽-8 + 三肽-1铜，靶向作用于表情纹与静态细纹区域"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "珀莱雅红宝石面霜，是我在完成3轮实验室数据交叉比对后，决定长期使用的抗老面霜。"
+      },
+      "platform": "xiaohongshu",
+      "product": "珀莱雅红宝石面霜"
+    },
+    "珀莱雅红宝石面霜|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 林砚\n01｜皮肤在悄悄编译衰老程序\n25岁生日那天，我对着浴室镜拍了一张素颜照。放大到100%，眼角那道细纹像一行未注释的代码——它不报错，却悄然改写了整张脸的运行逻辑。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "我们这代人习惯用技术理解世界：皮肤不是‘变老’，而是胶原合成速率与降解速率的失衡；细纹不是‘岁月痕迹’，是表皮层信号通路紊乱的可视化输出。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "珀莱雅红宝石面霜没有堆砌成分表，它只专注一件事：向真皮层精准投递信号肽。其中3重靶向胜肽协同作用——乙酰基六肽-8调节神经递质释放，重组胶原三肽激活成纤维细胞，而精氨酸/赖氨酸多聚肽则强化细胞外基质稳态。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "哑光灰瓶身，无冗余标识，仅以激光蚀刻标注核心参数。质地如融雪般瞬时渗透，零香精、零酒精、零矿物油。所有设计指向一个目标：让抗老回归功能本质——不打扰，不修饰，只校准。"
+      },
+      "platform": "wechat",
+      "product": "珀莱雅红宝石面霜"
+    },
+    "七年五季全麦面包|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "减脂人快看！这面包真敢标100%全麦！"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "平价实在，天天吃也不心疼～"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "不是‘全麦风味’，不是‘添加全麦粉’，是实打实100%全麦！0蔗糖！"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "早上两片配牛奶，扛饿一上午；下午嘴馋了来一片，不愧是减脂搭子！"
+      },
+      "platform": "douyin",
+      "product": "七年五季全麦面包"
+    },
+    "七年五季全麦面包|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "七年五季专注主食健康化，已服务超30万减脂家庭——配料表公开可查，无添加蔗糖，无反式脂肪，吃得明白才安心。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "七年五季专注主食健康化，已服务超30万减脂家庭——配料表公开可查，无添加蔗糖，无反式脂肪，吃得明白才安心。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 100%全麦粉制作：整粒小麦研磨，保留麸皮与胚芽，膳食纤维实实在在\n✅ 0蔗糖配方：用天然麦芽糖醇替代，甜度适中，控糖人群友好"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "吃了两周，下午不再狂点外卖”——北京·李女士，减脂第23天\n“孩子当早餐吃，配料表比我家挂面还简单”——成都·周爸爸"
+      },
+      "platform": "ecommerce",
+      "product": "七年五季全麦面包"
+    },
+    "七年五季全麦面包|wechat": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "文 | 一个靠全麦面包活过37天减脂期的人"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "它不贵，也不炫技。就是一块实在的全麦面包：颜色偏深、质地微粗、嚼起来有麦粒的颗粒感，饱腹感强，早餐吃一片配鸡蛋，能撑到中午。减脂不是受罪，是选对食物——而七年五季，就是那个不用咬牙坚持、也能天天吃的平价选择。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "七年五季这款，配料表第一项就是'全麦粉'，且只有4种原料：全麦粉、水、酵母、食用盐。没有蔗糖、没有植脂末、没有防腐剂。每100克含膳食纤维6.2克，是普通白面包的4倍以上。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "七年五季这款，配料表第一项就是'全麦粉'，且只有4种原料：全麦粉、水、酵母、食用盐。没有蔗糖、没有植脂末、没有防腐剂。每100克含膳食纤维6.2克，是普通白面包的4倍以上。"
+      },
+      "platform": "wechat",
+      "product": "七年五季全麦面包"
+    },
+    "三顿半咖啡|douyin": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "谁懂啊！早上赶地铁+开会+改PPT，哪来时间煮咖啡？☕️三顿半冷萃速溶——3秒即溶！冷水热水都行！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "潮人办公桌C位必须有它！兄弟们，还不赶紧试试？"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "三顿半冷萃速溶——3秒即溶！冷水热水都行！"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "一口下去就是现萃的醇厚感～"
+      },
+      "platform": "douyin",
+      "product": "三顿半咖啡"
+    },
+    "三顿半咖啡|xiaohongshu": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "打工人续命神器｜冷萃速溶3秒化开｜三顿半太炸裂了⚡"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "从此告别手冲仪式感绑架，潮流打工人就要又快又酷～"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✨重点来了：舀一勺进杯子，加水/奶，3秒！真的就3秒！瞬间溶解，0结块0残渣，连搅拌都省了！"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "早上八点地铁上狂奔，咖啡杯还没捂热就到公司——直到我遇见三顿半！"
+      },
+      "platform": "xiaohongshu",
+      "product": "三顿半咖啡"
+    },
+    "三顿半咖啡|ecommerce": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 核心参数一览\n• 冷萃工艺：100%冷萃原液冻干，非热溶提取\n• 溶解速度：≤3秒（实测冷水25℃/热水80℃均达标）\n• 咖啡因含量：约60mg/杯（中杯量）\n• 配料表：100%阿拉比卡咖啡粉（无植脂末、无人工香精、无反式脂肪）"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "冷萃自由，3秒上线！三顿半咖啡·上班族的潮流能量弹"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "→ 痛点1：手冲太费时？冷萃要等24h？→ 3秒即溶，冷水热水都秒融，通勤路上、工位角落，一口唤醒清醒力！"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "每批次通过SGS咖啡因与农残双检，支持扫码溯源生产批次。"
+      },
+      "platform": "ecommerce",
+      "product": "三顿半咖啡"
+    },
+    "三顿半咖啡|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 阿哲\n01｜地铁口狂奔的第7天，我终于和咖啡和解了"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "不带滤杯、不接电源、不等萃取——在效率至上的职场里，它拒绝一切冗余仪式；但每一罐马卡龙色包装、每颗小颗粒冻干粉的几何切面，又分明写着「我认真生活，也玩得够酷」。这不是妥协的速溶，是冷萃精神的平权表达：好风味，不该被时间或场景设限。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "三顿半用的是真实冷萃液冻干——72小时低温慢萃，再零下40℃真空冻干，锁住花果调性与丝滑质地。所以它不靠植脂末提香，不靠糖精压苦，只靠咖啡本体说话：入口是冷萃特有的清冽柑橘酸，中段浮现黑巧与烤杏仁，尾韵干净回甘。冷水热水皆可溶，0沉淀、0结块、0糊嘴。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "三顿半用的是真实冷萃液冻干——72小时低温慢萃，再零下40℃真空冻干，锁住花果调性与丝滑质地。"
+      },
+      "platform": "wechat",
+      "product": "三顿半咖啡"
+    },
+    "自嗨锅煲仔饭|douyin": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "谁懂啊！加班饿到胃抽筋，掏出自嗨锅——倒水、盖盖、等15分钟！滋啦～米饭焦香、腊肠流油，热气直接糊脸！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "平价实在，天天吃也不心疼！"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "自加热，不插电不点火，安全又方便～"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "打工人15分钟吃上热乎煲仔饭？真香！"
+      },
+      "platform": "douyin",
+      "product": "自嗨锅煲仔饭"
+    },
+    "自嗨锅煲仔饭|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "学生党&加班族速看｜15分钟搞定煲仔饭｜自加热真的香"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "这碗饭真不是吹，平价实在，吃得安心又省心。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 自加热设计：不用插电、不用锅、不用火，撕开包装倒水，盖上盖子等15分钟，全程不沾手"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "昨晚改PPT到十一点，肚子咕咕叫，又不想点外卖…翻出囤的自嗨锅煲仔饭，15分钟，热腾腾的腊肠煲仔饭就上桌了！"
+      },
+      "platform": "xiaohongshu",
+      "product": "自嗨锅煲仔饭"
+    },
+    "自嗨锅煲仔饭|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "支持7天无理由退换 | 食品安全责任险承保 | 客服24小时在线"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "学生党&加班族的救命饭！15分钟自加热煲仔饭"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "不用电、不用锅、不用等外卖——拆开盒子，倒水加热，15分钟热腾腾煲仔饭端上桌！"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "“上周连吃5顿，室友抢着要链接”——广州大三学生小林"
+      },
+      "platform": "ecommerce",
+      "product": "自嗨锅煲仔饭"
+    },
+    "自嗨锅煲仔饭|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 小陈，一个常在工位吃晚饭的打工人\n01｜那天下班暴雨，外卖APP卡在38分钟配送上"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "平价，但不廉价\n一碗够量，配料扎实：广式腊肠、梅菜、青豆、胡萝卜丁，米饭软硬适中。不是工业味精堆出来的“香”，是食材本味熬出来的踏实感。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "它真用上了砂锅造型内盒+铝箔自热层，倒水启动后，15分钟，蒸汽从盖缝里慢慢冒出来，米粒吸饱酱汁，腊肠油脂渗进米饭，底部结出薄脆锅巴——不是模拟，是实打实的“煲”出来的香气。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "学生党宿舍限电？不用插电；加班族工位没厨房？不用开火。自加热，就是把灶台装进了盒子里。"
+      },
+      "platform": "wechat",
+      "product": "自嗨锅煲仔饭"
+    },
+    "小仙炖鲜炖燕窝|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "姐妹们，你还在喝‘工业燕窝’？"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "高端商务女性的晨间仪式感，从来不是将就。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "小仙炖鲜炖燕窝——当天鲜炖、当日配送，0添加，0防腐，每一瓶都像刚出厨房。"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "小仙炖鲜炖燕窝——当天鲜炖、当日配送，0添加，0防腐，每一瓶都像刚出厨房。"
+      },
+      "platform": "douyin",
+      "product": "小仙炖鲜炖燕窝"
+    },
+    "小仙炖鲜炖燕窝|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "连续28天，每天清晨打开冷藏柜，取出一支温润如玉的鲜炖燕窝——这已成为我晨间会议前最郑重的仪式。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "对注重节奏与品质的女性而言，养生不是将就，而是对时间与身体的双重尊重。小仙炖不做妥协——鲜，就该是唯一的标准。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 0添加：无防腐剂、无人工糖、无增稠剂\n✅ 单瓶独立炖制：精准控温控时，保留活性营养\n✅ 每瓶溯源可查：燕窝原料产地+炖煮批次+质检报告"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "连续28天，每天清晨打开冷藏柜，取出一支温润如玉的鲜炖燕窝——这已成为我晨间会议前最郑重的仪式。"
+      },
+      "platform": "xiaohongshu",
+      "product": "小仙炖鲜炖燕窝"
+    },
+    "小仙炖鲜炖燕窝|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 养生顾问林砚\n01｜凌晨两点的会议结束，我站在落地窗前喝下最后一口温热的鲜炖燕窝——不是冲泡的粉剂，不是罐头里的半固态，而是当天现炖、冷链直送的透明瓷瓶。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "这不是快消品逻辑，而是私享级滋补方案：为你预留专属炖制时段，为你匹配当日冷链运力，为你守住‘鲜’的物理边界。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "这瓶燕窝没有添加剂，没有防腐剂，也没有模糊的‘工艺优化’话术。它只是把燕窝、纯净水、冰糖，按古法比例封入瓷瓶，在115℃恒温鲜炖后，2小时内急速锁鲜，48小时内抵达我的办公桌。整个过程，不添加一滴香精、色素或增稠剂。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "它不承诺速效，但确保每一瓶的唾液酸含量、燕窝酸纯度与炖煮火候均符合《鲜炖燕窝》团体标准（T/CNIA 009-2021）；"
+      },
+      "platform": "wechat",
+      "product": "小仙炖鲜炖燕窝"
+    },
+    "懒角落免安装收纳柜|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "姐妹们！租房搬了5次家，直到遇见它…才懂什么叫‘有它在，心就安’✨"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "不是冷冰冰的柜子，是会移动的小角落，装得下生活，也托得住你奔波后的疲惫。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "免安装！开箱就能用～抽屉一拉，衣服、围巾、小物件全藏进温柔里💕\n带滑轮的设计太懂我了～挪到床边当床头柜，推到窗边晒阳光，轻轻一推，稳稳地陪你。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "免安装！开箱就能用～抽屉一拉，衣服、围巾、小物件全藏进温柔里💕\n带滑轮的设计太懂我了～挪到床边当床头柜，推到窗边晒阳光，轻轻一推，稳稳地陪你。"
+      },
+      "platform": "douyin",
+      "product": "懒角落免安装收纳柜"
+    },
+    "懒角落免安装收纳柜|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "租房的小确幸｜免安装抽屉柜，推着它搬进新家都安心✨"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "最暖的是底部的静音滑轮，拖着它从卧室移到阳台晒被子，再悄悄滚回床边当床头柜——像有个温柔伙伴，一直陪着我慢慢安顿生活。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "开箱就用，不用拧一颗螺丝，连说明书都没翻开，心就先松了一半。drawer式抽屉轻轻一拉就滑出来，袜子、充电线、小药瓶…每样东西都有自己的小格子，不翻乱也不委屈。最暖的是底部的静音滑轮，拖着它从卧室移到阳台晒被子，再悄悄滚回床边当床头柜"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "刚签完租房合同那晚，抱着纸箱蹲在空房间地板上，突然摸到这个懒角落收纳柜——开箱就用，不用拧一颗螺丝，连说明书都没翻开，心就先松了一半。"
+      },
+      "platform": "xiaohongshu",
+      "product": "懒角落免安装收纳柜"
+    },
+    "懒角落免安装收纳柜|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 小满\n01｜那个凌晨三点收拾行李的晚上\n上个月，我又搬了。纸箱堆在客厅中央，衣服散落一地，而房东发来的消息还在手机里亮着：‘押金不退，墙面不能钉。’"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "它没有钉子，不伤墙面；它不靠墙，却稳稳托住我的日常；它不说话，但每天清晨拉开第一个抽屉时，我总想起那句老话：‘家，是心安处。’\n原来所谓温暖，并非来自多大的空间，而是来自一种确信——无论搬到哪里，你都能把‘家’，轻轻推过去。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "懒角落免安装收纳柜，是我第一次没拆说明书就用上的家具。\n抽屉轻轻一拉，像打开一本安静的日记本——内衣、围巾、充电线、小药瓶，各自安放；静音滑轮推过地板，没有一丝拖拽的焦躁，只有温顺的移动感。"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "懒角落免安装收纳柜，是我第一次没拆说明书就用上的家具。\n抽屉轻轻一拉，像打开一本安静的日记本——内衣、围巾、充电线、小药瓶，各自安放；静音滑轮推过地板，没有一丝拖拽的焦躁，只有温顺的移动感。"
+      },
+      "platform": "wechat",
+      "product": "懒角落免安装收纳柜"
+    },
+    "追觅洗地机|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "养宠家庭听好了！这台洗地机，让毛发和污渍自动消失✨"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "极简科技感设计，操作就一个键，干净得毫不费力。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "吸拖洗一体——一推即净，不绕弯、不返工；自清洁系统——用完自动冲洗滚刷，干爽无味；"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "吸拖洗一体——一推即净，不绕弯、不返工；自清洁系统——用完自动冲洗滚刷，干爽无味；"
+      },
+      "platform": "douyin",
+      "product": "追觅洗地机"
+    },
+    "追觅洗地机|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "养宠家庭必看｜吸拖洗一体×自清洁=科技洁癖的终极解法"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "科技感不在参数堆砌，而在它默默把脏乱变回秩序。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 吸拖洗一体：干湿垃圾一并吸入，猫毛+猫砂+水渍，一遍过\n✅ 自清洁系统：用完自动冲洗滚刷，无残留、无异味、不发霉"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "没有花哨功能，只有精准解决养宠高频痛点的能力。"
+      },
+      "platform": "xiaohongshu",
+      "product": "追觅洗地机"
+    },
+    "追觅洗地机|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "【三大核心能力】\n• 吸拖洗一体：同步完成干湿垃圾吸入、清水拖地、污水回收，宠物毛发、猫砂、食物碎屑一并清除\n• 主动式自清洁：滚刷自动冲洗+高速离心甩干，全程无需手洗，杜绝异味与细菌滋生\n• 极简交互界面：OLED智能屏实时反馈清洁状态，单键操作，老人与新手均可轻松上手"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "专为养宠家庭设计的智能清洁系统，搭载双通道吸拖洗技术与主动式自清洁系统，一次推拉，完成吸尘、拖地、深度洗净三重任务。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "【三大核心能力】\n• 吸拖洗一体：同步完成干湿垃圾吸入、清水拖地、污水回收，宠物毛发、猫砂、食物碎屑一并清除\n• 主动式自清洁：滚刷自动冲洗+高速离心甩干，全程无需手洗，杜绝异味与细菌滋生"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "3年整机质保｜全国联保｜支持上门检测与维修"
+      },
+      "platform": "ecommerce",
+      "product": "追觅洗地机"
+    },
+    "追觅洗地机|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 深度生活实验室\n01｜养宠家庭的地面困局\n每天清晨，地板上铺着一层灰白相间的猫毛地毯；刚拖完的地，三分钟后又被踩出泥爪印；滚刷缠满毛发，清洁反而成了新负担。我们不是懒，只是需要一种更理性的解决方案。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "追觅洗地机不把吸、拖、洗拆成三步动作，而用一套闭环系统完成——\n• 吸：双通道风道同步吸入干湿垃圾与浮毛；\n• 拖：双滚刷对向旋转，贴合地面刮除顽固污渍；\n• 洗：实时自清洁系统，滚刷在污水箱内高速旋转冲洗，全程无需手动拆洗。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "追觅洗地机不把吸、拖、洗拆成三步动作，而用一套闭环系统完成——\n• 吸：双通道风道同步吸入干湿垃圾与浮毛；\n• 拖：双滚刷对向旋转，贴合地面刮除顽固污渍；\n• 洗：实时自清洁系统，滚刷在污水箱内高速旋转冲洗，全程无需手动拆洗。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "传统洗地机停机后滚刷潮湿静置，48小时即滋生细菌；追觅采用全链路干燥逻辑：清洗后自动刮水+热风烘干+密封风道隔离，确保每次启动都是洁净起点。"
+      },
+      "platform": "wechat",
+      "product": "追觅洗地机"
+    },
+    "网易严选乳胶枕|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁懂啊？每天躺下都像在‘拆弹’…颈椎咯吱响、翻身就醒、早上起来更累？"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "不是硬扛，是被好好照顾。今晚，把睡眠还给自己。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "泰国进口天然乳胶，柔软又有支撑力；护颈凹槽设计，像被温柔托住后颈。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "泰国进口天然乳胶，柔软又有支撑力；护颈凹槽设计，像被温柔托住后颈。"
+      },
+      "platform": "douyin",
+      "product": "网易严选乳胶枕"
+    },
+    "网易严选乳胶枕|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "✨为什么它能护颈？泰国进口天然乳胶+人体工学凹槽设计，贴合头颈自然曲度，躺下时颈部被温柔承托，不会悬空也不会压迫。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "清晨醒来，肩膀松了，后颈没有那种熟悉的僵硬感，连呼吸都比平时深了一点。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "泰国进口天然乳胶+人体工学凹槽设计，贴合头颈自然曲度，躺下时颈部被温柔承托，不会悬空也不会压迫。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "连续失眠三周后，我终于在某个凌晨把旧枕头换掉了。"
+      },
+      "platform": "xiaohongshu",
+      "product": "网易严选乳胶枕"
+    },
+    "网易严选乳胶枕|ecommerce": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "【产品特点】\n• 泰国进口天然乳胶｜源自北纬15°黄金橡胶带，经ISO认证乳胶原料，低敏透气，久睡不闷热\n• 人体工学护颈设计｜前高后低波浪曲线，贴合颈曲弧度，仰卧时支撑颈椎自然前凸，侧卧时填补肩颈空隙\n• 柔软而有回弹力｜360°慢回弹响应，头颈下压时不塌陷，抬离后迅速复原，整晚支撑不偏移"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "网易严选乳胶枕，以泰国进口天然乳胶为基底，专为睡眠质量差的人群设计——它不喧哗，只温柔承托；不标榜功效，却用每晚的安稳告诉你：被好好照顾的感觉，本该如此。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "【为什么是它？】\n• 泰国进口天然乳胶｜源自北纬15°黄金橡胶带，经ISO认证乳胶原料，低敏透气，久睡不闷热\n• 人体工学护颈设计｜前高后低波浪曲线，贴合颈曲弧度，仰卧时支撑颈椎自然前凸，侧卧时填补肩颈空隙"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "“换了它之后，我第一次连续五天没在凌晨三点醒来。”——广州·林女士，32岁，设计师\n“妈妈说，我的打鼾声小了很多。”——成都·陈先生，45岁，教师"
+      },
+      "platform": "ecommerce",
+      "product": "网易严选乳胶枕"
+    },
+    "网易严选乳胶枕|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 小满\n01\n凌晨三点，我又醒了。不是因为焦虑，不是因为闹钟，而是后颈像被一根细线悬着，一动就酸胀发紧。翻身时枕头滑开，颈椎猛地一沉——那一瞬间，我忽然想起小时候奶奶说的：‘枕头不是垫头的，是托住脖子的。’"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "它不承诺奇迹，只是默默回到最本真的位置：托住你，让你安心睡去。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "直到遇见网易严选乳胶枕。它来自泰国进口天然乳胶，触感不是冷硬的弹，而是带着体温般的微韧回弹；护颈设计不是简单挖个凹槽，而是依据人体工学曲线，从前颈到枕骨形成三段式支撑——仰卧时稳托颈项，侧卧时填满肩颈空隙，让整夜的辗转都落在恰好的支点上。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "没有夸张的科技名词，只有身体记得的踏实感：清晨醒来，肩膀不僵，后颈不沉，整条脊柱像被轻轻舒展开来。"
+      },
+      "platform": "wechat",
+      "product": "网易严选乳胶枕"
+    },
+    "小米空气净化器|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁懂啊！刚搬进新家，孩子老打喷嚏，晚上睡不踏实……其实不是过敏，是甲醛在偷袭！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "极简机身，科技感拉满，放在哪都像一件未来家具。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "小米空气净化器，搭载专业除醛滤芯，实时分解甲醛，不止吸附，真正清除。晚上开一整夜，只有23分贝——比翻书声还轻。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "小米空气净化器，搭载专业除醛滤芯，实时分解甲醛，不止吸附，真正清除。晚上开一整夜，只有23分贝——比翻书声还轻。"
+      },
+      "platform": "douyin",
+      "product": "小米空气净化器"
+    },
+    "小米空气净化器|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "新装修入住｜72小时甲醛直降80%｜静音到忘了它存在"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "科技不该喧宾夺主，它该安静地，把空气变回本来的样子。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 三重滤芯直击甲醛分子：初效滤网→活性炭深层吸附→催化分解层持续转化\n✅ 实时PM2.5+甲醛双显屏，数据不靠猜\n✅ 睡眠模式≤30dB，比翻书声还轻"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "直到换上这台小米空气净化器：\n✅ 三重滤芯直击甲醛分子：初效滤网→活性炭深层吸附→催化分解层持续转化\n✅ 实时PM2.5+甲醛双显屏，数据不靠猜\n✅ 睡眠模式≤30dB，比翻书声还轻"
+      },
+      "platform": "xiaohongshu",
+      "product": "小米空气净化器"
+    },
+    "小米空气净化器|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 科技家居观察员 林砚\n01｜甲醛不是气味，是看不见的呼吸刺客"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "科技不该制造焦虑，而应悄然托住生活。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "小米空气净化器不同。它用直流无刷电机+双离心风道结构，在CADR 400m³/h高效除醛的同时，将最低档噪音压至33.4dB（A）。这个数值，接近图书馆翻书的声响。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "实测数据：在30m²密闭空间内，甲醛浓度从0.21mg/m³（超标2.1倍）降至国标0.08mg/m³以下，仅需47分钟。"
+      },
+      "platform": "wechat",
+      "product": "小米空气净化器"
+    },
+    "小米手环9|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "运动党看过来！小米手环9来了！⚡14天不用充电，跑完半马它还在跳！🏃‍♂️150+运动模式——攀岩、桨板、飞盘…全都能记！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "没有花里胡哨，只有精准、稳定、极简的科技感。手腕一抬，数据就来。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "⚡14天不用充电，跑完半马它还在跳！🏃‍♂️150+运动模式——攀岩、桨板、飞盘…全都能记！"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "⚡14天不用充电，跑完半马它还在跳！🏃‍♂️150+运动模式——攀岩、桨板、飞盘…全都能记！"
+      },
+      "platform": "douyin",
+      "product": "小米手环9"
+    },
+    "小米手环9|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "早上跑步、中午跳操、晚上撸铁，手环9全程在线。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "哑光金属质感表带 + 全面屏触控，抬手就是未来感。没有冗余按钮，所有操作靠滑动和点按完成——干净，高效，不打扰。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 14天超长续航\n告别每天睡前插线的焦虑，出差一周也安心。\n\n✅ 150+运动模式\n从瑜伽到攀岩，连「自由潜水」都识别得清清楚楚。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "实测连续戴了14天，只充了一次电🔋"
+      },
+      "platform": "xiaohongshu",
+      "product": "小米手环9"
+    },
+    "小米手环9|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "【核心优势】🔋 14天续航：单次充电可持续使用14天，告别频繁充电焦虑\n🏃 150+运动模式：覆盖跑步、骑行、游泳、瑜伽等专业场景，精准记录每一次突破"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "小米手环9，以精密传感器与低功耗芯片重构智能穿戴体验。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "🔋 14天续航：单次充电可持续使用14天，告别频繁充电焦虑\n🏃 150+运动模式：覆盖跑步、骑行、游泳、瑜伽等专业场景，精准记录每一次突破"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "“实测连续使用13天22小时，还剩17%电量。”——运动爱好者@林川"
+      },
+      "platform": "ecommerce",
+      "product": "小米手环9"
+    },
+    "小米手环9|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 科技观察员\n01｜凌晨5:30，闹钟没响，手腕先震动"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "没有冗余动画，没有层级菜单，没有「智能」的自我标榜。14天续航背后是能效架构的迭代，150+模式背后是动作算法的沉淀。它不解释自己多聪明，只确保每一次抬腕，都精准回应你此刻所需。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "14天，不是「够用」，而是「消失」\n不是续航参数堆砌，是真实场景下的存在感消退：晨跑记录、午间跳绳、晚间瑜伽、通勤步数……150+运动模式覆盖所有动作逻辑，但界面从不喧哗。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "14天续航背后是能效架构的迭代，150+模式背后是动作算法的沉淀。"
+      },
+      "platform": "wechat",
+      "product": "小米手环9"
+    },
+    "Anker氮化镓充电器|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "出差党狂喜！这65W充电器小到能塞进机票夹⚡"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "极简线条，冷灰质感，放桌面像一件未来摆件。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "Anker氮化镓黑科技——65W快充，一杯咖啡时间，手机+笔记本全回血！体积比口红还小，却稳稳扛起双设备快充。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "Anker氮化镓黑科技——65W快充，一杯咖啡时间，手机+笔记本全回血！"
+      },
+      "platform": "douyin",
+      "product": "Anker氮化镓充电器"
+    },
+    "Anker氮化镓充电器|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "出差党真实体验：它塞进西装口袋毫无压力，却能18分钟给iPhone充到70%。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "哑光金属灰外壳｜无冗余指示灯｜接口边缘CNC倒角处理"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "65W双口快充\n实测：MacBook Air 30分钟充50%，手机+笔记本同时充不降速"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "65W双口快充\n实测：MacBook Air 30分钟充50%，手机+笔记本同时充不降速"
+      },
+      "platform": "xiaohongshu",
+      "product": "Anker氮化镓充电器"
+    },
+    "Anker氮化镓充电器|ecommerce": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "【产品信息】\n产品名称：Anker氮化镓充电器\n核心卖点：65W快充、体积小巧\n目标人群：数码爱好者、出差人群\n指定调性：科技感极简风\n\n【文案】\n标题：Anker氮化镓充电器｜65W高效快充，轻装出发\n正文：Anker氮化镓技术，经UL/CE/FCC多重安全认证，全球超3000万用户选择。\n\n【为什么出差人群都在换它？】\n📍 传统充电器：笨重、发热高、多设备需多个头\n📍 Anker氮化镓充电器：单口65W输出，兼容笔记本+手机+耳机同步快充\n\n【核心优势】\n⚡ 65W大功率快充：30分钟充入50%电量（实测iPhone 15 Pro）\n⚡ 体积仅掌心大小：比同功率传统充电器小55%，轻松塞进西装口袋或登机包\n⚡ 智能控温系统：氮化镓芯片+多层散热结构，满载工作温度＜45℃\n⚡ 全协议兼容：PD3.1 / QC4+ / PPS / SCP / FCP，覆盖主流品牌设备\n\n【适用人群】\n· 数码爱好者：追求性能与设计的统一\n· 出差人群：拒绝拖累，一充多用，告别线缆缠绕\n\n【规格参数】\n输入：100–240V～50/60Hz 1.5A\n输出：USB-C 65W（5–20V/3.25A）\n尺寸：69.5 × 69.5 × 31 mm\n重量：185g\n材质：阻燃PC外壳 + 铝合金散热片\n\n【用户评价】\n“带它飞东京，一个头搞定MacBook和iPhone，包里终于空出两格。”——科技博主@极简行者\n“比上一代Anker小一圈，但功率没妥协，这才是真进化。”——资深果粉L先生\n\n【售后保障】\n7天无理由退换｜18个月质保｜Anker官方技术支持"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "Anker氮化镓技术，经UL/CE/FCC多重安全认证，全球超3000万用户选择。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "⚡ 65W大功率快充：30分钟充入50%电量（实测iPhone 15 Pro）\n⚡ 体积仅掌心大小：比同功率传统充电器小55%，轻松塞进西装口袋或登机包"
+      },
+      "information_grounding": {
+        "score": 2,
+        "rating": "较差",
+        "evidence": "输入：100–240V～50/60Hz 1.5A\n输出：USB-C 65W（5–240V/3.25A）\n尺寸：69.5 × 69.5 × 31 mm\n重量：185g\n材质：阻燃PC外壳 + 铝合金散热片"
+      },
+      "platform": "ecommerce",
+      "product": "Anker氮化镓充电器"
+    },
+    "Anker氮化镓充电器|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 极简实验室\n01｜一个被塞满的登机包\n三年前第一次飞深圳谈项目，我往背包侧袋塞进三台设备：笔记本、手机、平板——和一个比它们加起来还沉的充电器。它像一块烧红的砖头，在西装内袋里发烫，登机口排队时压得肋骨生疼。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "没有冗余指示灯，没有花哨外壳，只有精密排布的散热鳍片与哑光灰金属边框——科技本该如此：强大，但不喧哗。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "Anker氮化镓充电器把65W快充压缩进一枚U盘大小的立方体。给MacBook充至50%只需22分钟；手机从0到100%，比泡一杯速溶咖啡还快。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "Anker氮化镓充电器把65W快充压缩进一枚U盘大小的立方体。给MacBook充至50%只需22分钟；手机从0到100%，比泡一杯速溶咖啡还快。"
+      },
+      "platform": "wechat",
+      "product": "Anker氮化镓充电器"
+    },
+    "漫步者降噪耳机|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁懂啊？！每天挤地铁，耳朵快被吵聋了…"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "极简设计+科技感质感，戴上去就是效率本身。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "主动降噪一开，轰鸣声、人声、喇叭声，唰地消失！而且单次续航8小时，一周只充一次电⚡"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "主动降噪一开，轰鸣声、人声、喇叭声，唰地消失！而且单次续航8小时，一周只充一次电⚡"
+      },
+      "platform": "douyin",
+      "product": "漫步者降噪耳机"
+    },
+    "漫步者降噪耳机|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "每天早高峰地铁，我靠它把世界调成静音模式。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "科技不该堆砌参数，而该让日常更安静、更自主。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "🎧 主动降噪一开，车厢轰鸣、人声杂音瞬间退场——不是压低，是真正过滤。通勤路上终于能听清播客字句，而不是靠猜。🔋 单次8小时，配合充电仓整周通勤无需插电。出差两天，耳机比我的咖啡续命更稳定。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "🎧 主动降噪一开，车厢轰鸣、人声杂音瞬间退场——不是压低，是真正过滤。通勤路上终于能听清播客字句，而不是靠猜。🔋 单次8小时，配合充电仓整周通勤无需插电。出差两天，耳机比我的咖啡续命更稳定。"
+      },
+      "platform": "xiaohongshu",
+      "product": "漫步者降噪耳机"
+    },
+    "漫步者降噪耳机|ecommerce": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "【专业认证｜主动降噪技术通过CNAS实验室实测】\n地铁轰鸣、人声嘈杂、键盘敲击……通勤路上的噪音平均达75dB。普通耳机仅能物理隔绝30%，而漫步者降噪耳机搭载双馈主动降噪系统，深度抵消中低频环境噪声，实测降噪深度达42dB。\n【为通勤而生的两大核心能力】\n✅ 主动降噪：智能识别环境声，毫秒级生成反向声波，通勤场景下有效屏蔽90%以上交通与人声干扰\n✅ 超长续航：单次使用30小时（开启降噪），充电10分钟可听3小时，满足一周通勤无压力"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "【极简设计，科技无声】\n• 一体式哑光机身｜无冗余按键，触控响应精准\n• 人体工学耳柄｜贴合耳廓，久戴不坠不胀\n• 蓝牙5.3协议｜连接稳定，延迟低至60ms"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "【为通勤而生的两大核心能力】\n✅ 主动降噪：智能识别环境声，毫秒级生成反向声波，通勤场景下有效屏蔽90%以上交通与人声干扰\n✅ 超长续航：单次使用30小时（开启降噪），充电10分钟可听3小时，满足一周通勤无压力"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "【专业认证｜主动降噪技术通过CNAS实验室实测】\n地铁轰鸣、人声嘈杂、键盘敲击……通勤路上的噪音平均达75dB。普通耳机仅能物理隔绝30%，而漫步者降噪耳机搭载双馈主动降噪系统，深度抵消中低频环境噪声，实测降噪深度达42dB。"
+      },
+      "platform": "ecommerce",
+      "product": "漫步者降噪耳机"
+    },
+    "漫步者降噪耳机|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 林默\n01｜地铁里的失语症\n每天早八点，我挤进3号线车厢。人声、报站、广告音、手机外放……声音像一层黏稠的膜裹住耳朵。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "科技感极简风，不在于外形多冷峻，而在于功能足够精准——让复杂消失，让本质浮现。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "漫步者降噪耳机用麦克风实时采集环境噪音，生成反向声波抵消低频轰鸣（如地铁运行声、空调嗡鸣）。这不是简单压低音量，而是重建听觉边界。开启降噪那一刻，通勤从消耗变成留白时间：可专注听播客，可静默思考，也可只是安静呼吸。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "单次8小时，配合充电仓达30小时。这意味着：周一早充一次，用到周五下班无需插线。没有电量焦虑，没有中途断连，技术退至幕后，只留下稳定的支持感。"
+      },
+      "platform": "wechat",
+      "product": "漫步者降噪耳机"
+    },
+    "大疆Osmo口袋相机|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁懂啊！以前拍Vlog手抖到像在打摆子…直到遇见它——大疆Osmo口袋相机！三轴防抖直接封神，边跑边拍都丝滑如德芙！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "Vlog创作者闭眼入，稳、潮、狠！"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "三轴防抖直接封神，边跑边拍都丝滑如德芙！4K画质怼脸也扛得住"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "三轴防抖直接封神，边跑边拍都丝滑如德芙！4K画质怼脸也扛得住"
+      },
+      "platform": "douyin",
+      "product": "大疆Osmo口袋相机"
+    },
+    "大疆Osmo口袋相机|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "Vlog神器｜三轴防抖太稳了｜4K画质直接封神"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "潮人出街，它就是最酷的配饰✨"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 三轴机械云台是真的顶！\n上下左右前后，全向抖动都被吃掉\n地铁上拍、骑行中拍、甚至蹦迪现场…画面稳到怀疑人生"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "✅ 4K 60fps直出，细节拉满！"
+      },
+      "platform": "xiaohongshu",
+      "product": "大疆Osmo口袋相机"
+    },
+    "大疆Osmo口袋相机|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 阿哲\n01｜那场海边崩溃的拍摄\n上个月在三亚拍vlog，海风一吹，镜头直接糊成抽象派。三脚架倒了，手机支架松了，连自拍杆都晃得像地震仪——而我，举着设备在浪花边原地凌乱。那一刻突然懂了：不是我不会拍，是设备在拖后腿。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "它不抢镜，却让每个镜头都敢动；不占地方，却把专业级防抖塞进掌心。地铁里抬手拍、骑行时挂胸前、甚至单手插兜边走边录——你专注表达，它负责稳住一切。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "大疆Osmo口袋相机，真就塞进口袋那么小。但打开那一刻，三轴机械云台开始转动——不是算法补帧，是物理级稳。4K 60fps直出，逆光不糊、跑动不虚、跳起来落地那一秒，画面居然还带着呼吸感。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "大疆Osmo口袋相机，真就塞进口袋那么小。但打开那一刻，三轴机械云台开始转动——不是算法补帧，是物理级稳。4K 60fps直出，逆光不糊、跑动不虚、跳起来落地那一秒，画面居然还带着呼吸感。"
+      },
+      "platform": "wechat",
+      "product": "大疆Osmo口袋相机"
+    },
+    "蕉内西装裤|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "梨形姐妹速进！这条西装裤太炸了🔥"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "走路带风，坐不皱，显瘦显高还超有态度～"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "高腰一提，腰线直接飞到肋骨下！垂坠面料一挂，胯宽腿粗？不存在的！"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "穿它出门被追着问链接！"
+      },
+      "platform": "douyin",
+      "product": "蕉内西装裤"
+    },
+    "蕉内西装裤|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "梨形姐妹快看！这条蕉内西装裤直接封神💥"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "配短T恤=街头酷girl"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "高腰线直冲肚脐，视觉拉长1米8，梨形身材终于能挺直腰板走路了～\n\n垂坠面料太绝了！！像液态金属一样顺滑流动，走路带风不贴腿，久坐不起皱，通勤暴走3小时都稳如泰山。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "高腰线直冲肚脐，视觉拉长1米8，梨形身材终于能挺直腰板走路了～"
+      },
+      "platform": "xiaohongshu",
+      "product": "蕉内西装裤"
+    },
+    "蕉内西装裤|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 小野\n01｜被裤子追着跑的三年\n以前每次试西装裤，都像在参加一场小型审判——腰线卡在肚脐下，胯部绷出尴尬弧度，裤脚堆在鞋面，整个人像被裁错尺寸的纸片人。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "配短款针织衫，露一截腰线，活力值拉满；搭oversize衬衫塞一半，慵懒里透着利落；甚至单穿也不输阵仗——因为真正的潮流感，从来不在logo上，而在你穿上它那一刻，突然挺直的背脊和多走两步的自信。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "蕉内这条西装裤，把「高腰」做成了视觉杠杆：腰线直抵肋骨下缘，瞬间拉长下半身比例；垂坠面料不是软塌塌的服帖，而是带着筋骨感的流动，走路带风，静止有型。"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "蕉内这条西装裤，把「高腰」做成了视觉杠杆：腰线直抵肋骨下缘，瞬间拉长下半身比例；垂坠面料不是软塌塌的服帖，而是带着筋骨感的流动，走路带风，静止有型。"
+      },
+      "platform": "wechat",
+      "product": "蕉内西装裤"
+    },
+    "优衣库摇粒绒外套|douyin": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "谁懂啊！优衣库这件摇粒绒外套真的绝了！保暖不压身，轻得像没穿～通勤挤地铁、上课赶教室，抬手弯腰都超自在！"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "平价又好穿，闭眼入不踩雷！"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "保暖不压身，轻得像没穿～通勤挤地铁、上课赶教室，抬手弯腰都超自在！配牛仔裤是学生感，搭大衣是职场范儿，一衣穿出5种风格！"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "保暖不压身，轻得像没穿～通勤挤地铁、上课赶教室，抬手弯腰都超自在！配牛仔裤是学生感，搭大衣是职场范儿，一衣穿出5种风格！"
+      },
+      "platform": "douyin",
+      "product": "优衣库摇粒绒外套"
+    },
+    "优衣库摇粒绒外套|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "学生党通勤族必入｜优衣库摇粒绒外套太实穿了！🔥"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "平价好物的天花板，实在又靠谱。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅保暖但不臃肿：厚实却轻得像没穿，坐地铁挤公交完全不压肩\n✅百搭到离谱：配牛仔裤是学生感，配西装裤秒变通勤风，连穿5天不重样"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "洗过3次依旧软糯：没有起球、没掉色，机洗甩干直接挂阳台就OK"
+      },
+      "platform": "xiaohongshu",
+      "product": "优衣库摇粒绒外套"
+    },
+    "优衣库摇粒绒外套|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 小满 01｜它不是第一件摇粒绒，却是我穿得最久的 去年冬天通勤挤地铁，包里塞着笔记本、充电宝、伞，肩膀压得发酸。突然发现——身上这件优衣库摇粒绒外套，轻得像没穿，却暖得像裹着小太阳。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "没有厚重感，没有闷汗感，连抬手拿手机都利落。学生党赶早八、上班族赶打卡，要的就是这份‘轻装上阵’的底气。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "深灰、藏青、米白……我试过三种颜色，没一件翻车。配牛仔裤是校园风，配西装裤是通勤感，套个卫衣打底就是周末松弛感。面料柔软不扎人，机洗三次也没起球、没变硬。摇粒绒本就亲肤，它把‘软’和‘稳’拿捏得刚刚好。"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "它的绒粒更细密，锁温空隙更均匀，体感温度比同厚度外套高半档。零下5℃骑单车不哆嗦，室内暖气房脱掉也不骤冷——这种恰到好处的温控，才是日常真实的需要。"
+      },
+      "platform": "wechat",
+      "product": "优衣库摇粒绒外套"
+    },
+    "内外无尺码内衣|douyin": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "姐妹们，有没有试过——脱下内衣那一刻，长舒一口气？ sigh～"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "给每天认真生活的你，一份温柔又坚定的陪伴。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "内外无尺码内衣，真的做到了：无钢圈、不勒肉、会呼吸！"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "内外无尺码内衣，真的做到了：无钢圈、不勒肉、会呼吸！"
+      },
+      "platform": "douyin",
+      "product": "内外无尺码内衣"
+    },
+    "内外无尺码内衣|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "穿了像没穿｜无钢圈的温柔抱抱感✨"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "不是‘没存在感’，而是‘被稳稳托住’的安心。没有钢圈的勒痕，没有肩带的压迫，只有柔软棉质贴着皮肤呼吸——像被云朵轻轻环抱。"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "无尺码设计真的友好：肩带可调+底围弹力适中，日常活动完全不移位\n▫️透气网纱杯面，夏天后背也不闷汗"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "它不张扬，却让我每天清晨都多了一点从容。不是在取悦谁，只是终于，把身体还给了自己。"
+      },
+      "platform": "xiaohongshu",
+      "product": "内外无尺码内衣"
+    },
+    "内外无尺码内衣|ecommerce": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "【为什么千万女性选择它】\n✅ 无钢圈设计：告别勒痕与压迫感，给胸部温柔承托\n✅ 真·无尺码剪裁：适配A-C杯多种胸型，一片式包容不空杯\n✅ 透气微孔面料：会呼吸的棉感材质，整日清爽不闷热\n✅ 肩带自由调节：加宽软边设计，久穿不压肩不滑落"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "我们相信，真正的舒适，是身体记得的温柔。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 无钢圈设计：告别勒痕与压迫感，给胸部温柔承托\n✅ 透气微孔面料：会呼吸的棉感材质，整日清爽不闷热"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "• 通过国家A类婴幼儿纺织品安全标准\n• 面料经SGS皮肤刺激性测试，敏感肌友好\n• 全线采用OEKO-TEX®认证环保染料"
+      },
+      "platform": "ecommerce",
+      "product": "内外无尺码内衣"
+    },
+    "内外无尺码内衣|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 小满\n01｜那个总想把内衣扣子松一格的清晨\n上周六，闹钟响到第三遍我才睁开眼。阳光斜斜地铺在枕头上，我翻了个身，下意识伸手去够床头柜上的手机——指尖碰到肩带时顿住了。"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "治愈从来不是宏大的事。它是晨光里一次舒展的深呼吸，是加班回家后肩颈不酸胀的轻松，是周末赖床时，身体毫无防备的松弛。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "• 无钢圈结构，靠立体剪裁与高弹力面料自然承托，像被云朵轻轻托住\n• 蕾丝与莫代尔混纺面料，透气层叠设计，整日穿着也如呼吸般自在"
+      },
+      "information_grounding": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "内外无尺码内衣，不靠数字定义你，而用柔软回应你。\n• 无钢圈结构，靠立体剪裁与高弹力面料自然承托，像被云朵轻轻托住\n• 蕾丝与莫代尔混纺面料，透气层叠设计，整日穿着也如呼吸般自在"
+      },
+      "platform": "wechat",
+      "product": "内外无尺码内衣"
+    },
+    "回力帆布鞋|douyin": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "谁说国货不炸街？！🔥回力帆布鞋直接把潮流焊在脚上！复古剪裁+街头配色，走路带风，回头率拉满～耐磨橡胶底+防滑纹路，雨天湿滑地砖？小case！"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "谁说国货不炸街？！🔥回力帆布鞋直接把潮流焊在脚上！复古剪裁+街头配色，走路带风，回头率拉满～"
+      },
+      "selling_point": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "复古剪裁+街头配色，走路带风，回头率拉满～耐磨橡胶底+防滑纹路，雨天湿滑地砖？小case！"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "谁说国货不炸街？！🔥回力帆布鞋直接把潮流焊在脚上！复古剪裁+街头配色，走路带风，回头率拉满～耐磨橡胶底+防滑纹路，雨天湿滑地砖？小case！"
+      },
+      "platform": "douyin",
+      "product": "回力帆布鞋"
+    },
+    "回力帆布鞋|xiaohongshu": {
+      "platform_fit": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "回力帆布鞋｜国潮设计太炸裂｜耐磨防滑稳到飞起👟"
+      },
+      "tone_consistency": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "这双回力帆布鞋真的把国潮感拿捏得死死的～"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "✅ 国潮设计超有态度：红白配色+经典回力标，街头感直接拉满，搭配牛仔裤、工装短裤都超酷！\n\n✅ 耐磨防滑不是说说而已：鞋底纹路深+橡胶材质，下雨天踩湿砖地都不打滑，暴走2W步鞋底几乎没磨损！"
+      },
+      "information_grounding": {
+        "score": 3,
+        "rating": "一般",
+        "evidence": "暴走2W步鞋底几乎没磨损！"
+      },
+      "platform": "xiaohongshu",
+      "product": "回力帆布鞋"
+    },
+    "回力帆布鞋|wechat": {
+      "platform_fit": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "文 | 阿哲\n01｜那双被我踢烂的帆布鞋\n大学最后一年实习，每天地铁+步行2万步。一双某快时尚帆布鞋，穿到第三个月鞋底磨薄、鞋帮开胶、雨天打滑差点摔进水坑——我蹲在便利店门口，盯着脚上那双‘破船’，突然意识到：便宜≠划算。"
+      },
+      "tone_consistency": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "它不靠logo炸街，靠剪裁利落的廓形和恰到好处的留白配色；不靠噱头堆料，靠每一道车线对齐、每一处包边扎实。走路带风，不是靠音效，是鞋底咬住地面的踏实感。"
+      },
+      "selling_point": {
+        "score": 5,
+        "rating": "优秀",
+        "evidence": "这次选回力，不是因为情怀，是冲着‘耐磨防滑’四个字去的。鞋底橡胶加厚+立体防滑纹，踩湿瓷砖不溜、蹬共享单车不打滑；帆布层用高密度斜纹织法，反复弯折不鼓包，洗三次颜色依旧鲜亮。"
+      },
+      "information_grounding": {
+        "score": 4,
+        "rating": "良好",
+        "evidence": "这次选回力，不是因为情怀，是冲着‘耐磨防滑’四个字去的。鞋底橡胶加厚+立体防滑纹，踩湿瓷砖不溜、蹬共享单车不打滑；帆布层用高密度斜纹织法，反复弯折不鼓包，洗三次颜色依旧鲜亮。"
+      },
+      "platform": "wechat",
+      "product": "回力帆布鞋"
+    }
+  },
+  "generated_A": {
+    "谷雨美白奶罐|douyin": {
+      "content": "标题：熬夜后的脸，也需要一杯温热的‘奶’来哄哄～\n正文：凌晨2点合上电脑，镜子里的脸又黄又倦…别急，给肌肤倒一杯「谷雨美白奶罐」吧 🌙\n\n像温牛奶般柔润的质地，轻轻一抹化开，不搓泥、不泛白、不刺痛——熬夜党终于等到一支真正温柔提亮的美白膏。\n\n✨去黄不是猛药漂，是日复一日的匀净透亮\n✨温和到敏感肌晨间也能安心用\n\n把光还给皮肤，也把耐心，留给自己。💛\n#谷雨美白奶罐 #熬夜党自救指南",
+      "elapsed_seconds": 4.469
+    },
+    "谷雨美白奶罐|xiaohongshu": {
+      "content": "标题：熬夜熬到脸发黄？这罐「云朵奶霜」让我素颜也发光✨\n正文：凌晨2点合上电脑，摸到脸颊的那一刻——\n不是疲惫，是暗沉在说话…🌙\n\n直到遇见谷雨这罐「美白奶罐」\n像把一捧温热的牛奶轻轻敷在脸上🥛\n没有刺鼻香精味，没有泛红刺痛感\n只有软乎乎的云朵质地 + 淡淡的雪松奶香\n（治愈系本愈了…）\n\n坚持用2周，晨起照镜子突然愣住：\n✅两颊的蜡黄褪了，像滤镜悄悄关掉了\n✅下颌线透出一点点干净的光感\n✅连熬夜后的黑眼圈都显得没那么沉重了…\n\n它不做猛药式美白，只温柔托住你摇摇欲坠的屏障\n给熬夜党一张不带妆也安心的脸\n——原来提亮，真的可以很暖。💛\n\n#谷雨美白奶罐 #熬夜党自救指南 #去黄提亮温柔派",
+      "elapsed_seconds": 6.246
+    },
+    "谷雨美白奶罐|ecommerce": {
+      "content": "标题：熬夜后的温柔救星｜谷雨美白奶罐，给暗沉肌一杯暖暖的光\n正文：熬过夜的脸，不是黄，是倦。谷雨美白奶罐，像冬日里捧在手心的一杯温牛奶——去黄提亮不抢戏，温和滋养不较劲。专为熬夜党定制的「发光缓冲带」：积雪草+光甘草定协同修护泛黄肌底，烟酰胺稳稳提亮不刺激，乳感质地一抹化水，晨起上脸不糊妆、夜夜用也不负担。不是强效猛药，是日复一日的温柔坚持。暗沉会退场，光，会慢慢长回来。",
+      "elapsed_seconds": 4.44
+    },
+    "谷雨美白奶罐|wechat": {
+      "content": "标题：熬夜后的脸，也需要一杯温热的‘奶’来哄一哄\n正文：🌙 你也有过这样的早晨吗？\n\n闹钟响了三次才睁眼，镜子里的脸泛着倦黄，底妆卡粉、气色全无，连咖啡都提不起精神……\n\n别急着责怪自己——不是皮肤在偷懒，而是它真的累了。\n\n✨谷雨美白奶罐，专为熬夜党温柔而生。\n\n像一杯温热的燕麦奶，轻柔包裹暗沉肌：\n✅ 精研「去黄提亮」配方，直击熬夜导致的蜡黄、 dull感，不靠猛药，只靠稳稳的光感力；\n✅ 0酒精、0香精、0刺激性美白剂，敏感肌揉一揉太阳穴都能安心用；\n✅ 乳霜质地，一抹化水，吸收快得像被皮肤轻轻含住——睡前涂一层，醒来是透光的柔亮。\n\n这不是一支‘速效’美白膏，而是一句晚安低语：\n“我知道你很拼，但你的脸，值得被温柔以待。”\n\n🌿谷雨，把光养进皮肤里，也把暖，留给你。",
+      "elapsed_seconds": 7.374
+    },
+    "修丽可CE精华|douyin": {
+      "content": "标题：30+的肌肤，值得更稳的光采\n正文：早C晚A时代，真正经得起时间考验的，是修丽可CE精华——15%左旋维C+1%维生素E+0.5%阿魏酸，黄金抗氧化铁三角。直击熟龄肌暗沉、松垮、细纹初现，从源头中和自由基，提亮不止于表层，紧致悄然发生。高端商务女性的选择，不靠滤镜，靠实力发光。#修丽可CE精华 #熟龄肌抗老",
+      "elapsed_seconds": 3.481
+    },
+    "修丽可CE精华|xiaohongshu": {
+      "content": "标题：30+熟龄肌的晨间抗氧化仪式｜修丽可CE精华，稳准狠提亮+抗老双线出击\n正文：▫️早C晚A的进阶版答案，我锁死这支修丽可CE精华。\n\n30+之后，肤色暗沉不是‘没睡好’，是自由基在悄悄加速胶原流失；细纹不是‘表情太丰富’，是氧化压力在蚕食皮肤屏障。真正有效的晨间防护，从来不是单纯防晒——而是从根源阻断氧化链式反应。\n\n✅15%左旋维C + 1%维生素E + 0.5%阿魏酸｜黄金抗氧化铁三角\n→ 清除自由基效率提升8x（品牌体外数据）\n→ 提亮不是‘假白’，是角质层代谢回归健康节奏后的通透感\n→ 细纹淡化肉眼可见，尤其眼下干纹和法令纹边缘的‘毛躁感’明显收敛\n\n▫️质地是高级哑光乳液感，上脸秒吸收，不搓泥、不打架，后续叠加防晒/粉底都服帖到像自带柔焦滤镜。\n\n▫️高端商务风不止于瓶身——它是你梳妆台上的‘成分派冷静剂’：不喧哗，但每一步都精准、克制、有底气。\n\n💡Tips：首次使用建议耳后测试+逐步建立耐受；搭配SPF50+防晒，抗氧化效果翻倍。\n\n#修丽可CE精华 #30岁护肤天花板 #熟龄肌抗氧化 #高端护肤理性主义",
+      "elapsed_seconds": 9.686
+    },
+    "修丽可CE精华|ecommerce": {
+      "content": "标题：修丽可CE精华｜30+熟龄肌抗氧化标杆之选，焕亮紧致，重拾透光力\n正文：专为30+熟龄肌定制的高端抗氧化精华——修丽可CE精华，以15%左旋维生素C、1%维生素E与0.5%阿魏酸黄金配比，三重协同强效中和自由基，从根源抵御光老化与氧化压力。持续使用，显著提亮暗沉肤色，改善倦容；促进胶原稳态，淡化初老细纹，提升肌肤柔韧度与通透感。医用级配方，经皮肤科医生验证，温和高效。简约冷调瓶身，利落商务美学，契合成熟人群对专业、克制与质感的追求。时光可逆，光采由内而生。",
+      "elapsed_seconds": 4.671
+    },
+    "修丽可CE精华|wechat": {
+      "content": "标题：30+熟龄肌的抗氧化「黄金公式」：修丽可CE精华，稳筑光采防线\n正文：时光从不喧哗，却悄然在肌肤留下痕迹——暗沉、倦态、细纹初现……30+的你，需要的不是遮掩，而是源头守护。\n\n修丽可CE精华，源自皮肤科学实验室的高端抗氧化标杆之作。15%左旋维生素C + 1%维生素E + 0.5%阿魏酸，三重活性成分协同增效，直击自由基根源，显著提升肌肤抗氧化力达8倍*，从细胞层面延缓氧化老化进程。\n\n✨ 提亮不止于表层：持续使用，改善因氧化导致的肤色不均，焕发健康通透光泽；\n✨ 细纹悄然柔化：支持胶原稳态，令眼周、法令纹等动态区域更显平润从容；\n✨ 熟龄肌专属底气：精研pH值与渗透体系，温和适配30+渐进式代谢节奏，日间防护，夜间修护，稳稳承接职场与生活的双重张力。\n\n高端商务风，不在浮华表象，而在精准、克制与长效价值。修丽可CE精华——以科学为刃，以时间为友，助你从容执掌光采主权。",
+      "elapsed_seconds": 7.108
+    },
+    "花西子雕花口红|douyin": {
+      "content": "标题：雕花一抿，国风直接拉满！✨\n正文：谁说国风不能又飒又潮？🌸花西子雕花口红来破局！东方纹样精雕细琢，拿在手里就是行走的美学单品～丝绒质地一抹上嘴，柔雾高级感秒出片！💄更绝的是——喝奶茶、蹭口罩都不掉色，持久力直接封神！18-30岁的姐妹看过来：美得有态度，潮得有底蕴，这支口红我先冲了🔥#花西子雕花口红 #东方美也可以很年轻",
+      "elapsed_seconds": 4.081
+    },
+    "花西子雕花口红|xiaohongshu": {
+      "content": "标题：被问了800遍的雕花口红！花西子这抹东方丝绒，涂上直接封神💋\n正文：救命！！这支花西子雕花口红真的不是艺术品？！🎨\n\n第一次拿到手就惊呼：这也太东方了吧！！✨\n雕花膏体是实打实手工压模的～牡丹、蝴蝶、祥云…每一支都像把宋韵美学装进了唇间🌸\n\n质地我愿称之为「空气丝绒」🪞\n上嘴瞬间哑光，但完全不干不卡纹！轻盈到忘记自己涂了口红～而且！！重点来了👇\n☕喝奶茶｜🍝吃火锅｜💦出油一整天…它！依！然！在！嘴！上！（同事偷用后当场下单3支）\n\n18-30岁的姐妹听我一句：别再只看颜色啦～\n这是能让你每天补妆时都忍不住多照两秒镜子的快乐啊💄💫\n#花西子雕花口红 #东方美拉德 #持久到离谱",
+      "elapsed_seconds": 6.963
+    },
+    "花西子雕花口红|ecommerce": {
+      "content": "标题：花西子雕花口红｜东方雕艺×丝绒显色，潮酷女孩的国风唇力！\n正文：谁说国风不能很炸？花西子雕花口红，把千年东方美学刻进每一支唇膏——浮雕花瓣、祥云纹、青鸾图腾，拿在手里就是行走的艺术品！✨ 丝绒质地一抹柔雾上唇，轻盈不拔干，显色饱满到像开了滤镜；12小时持妆不蹭杯、不掉色，从早八课到夜场蹦迪，气场全程在线～18-30岁的你，值得既有文化底气，又有潮流锋芒！#东方美，超有料",
+      "elapsed_seconds": 4.301
+    },
+    "花西子雕花口红|wechat": {
+      "content": "标题：雕一朵东方玫瑰，涂一口不掉色的酷！\n正文：谁说国风不能很潮？花西子雕花口红——把东方美学刻进唇间！\n\n✨ 精雕细琢的浮雕花纹，每一支都是可收藏的艺术品；\n🌹 丝绒质地一抹上唇，柔雾哑光，轻盈无负担；\n⏱️ 持久不脱色，喝奶茶、吃火锅、连轴转一整天，唇色依旧稳稳在线！\n\n18-30岁的你，既有少女心，也有主见力；爱汉服也爱滑板，刷诗词也刷vlog。这支口红，不迎合，只表达——你的美，本就该有东方底色，更有潮流态度。\n\n#花西子雕花口红 #东方很酷 #唇色自由",
+      "elapsed_seconds": 5.223
+    },
+    "珀莱雅红宝石面霜|douyin": {
+      "content": "标题：25+抗老第一步，交给这罐「红宝石」💎\n正文：初老信号悄悄来？细纹、松垮、倦态…别急！珀莱雅红宝石面霜｜科技极简抗老力✨ 专研胜肽矩阵，直击胶原流失源头，淡纹不靠填，而是「撑」起来～ 淡化眼周细纹+提升轮廓紧致感，一抹哑光不黏腻，冷调金属瓶身，是梳妆台上的理性美学。初抗老，就该又准又静。#珀莱雅红宝石 #胜肽抗老进行时",
+      "elapsed_seconds": 3.579
+    },
+    "珀莱雅红宝石面霜|xiaohongshu": {
+      "content": "标题：25+初抗老面霜天花板｜珀莱雅红宝石面霜，胜肽直击细纹，极简科技感拿捏了\n正文：✨不是所有面霜都叫「红宝石」\n\n25岁后，眼尾悄悄冒小细线？法令纹开始若隐若现？别急着冲高浓度A醇——初抗老，更需要「稳、准、柔」的科技方案。\n\n▫️珀莱雅红宝石面霜｜专为25+初老肌定制\n✅双胜肽矩阵（乙酰基六肽-8 + 三肽-1）：靶向松动的胶原锚点，从源头减缓动态纹形成\n✅微囊包裹技术：活性成分层层缓释，温和不刺激，敏皮友好\n✅0酒精/0矿物油/0人工香精｜哑光柔焦质地，一抹化水，不糊口罩不闷痘\n\n💡真实使用感：早晚洁面→精华后取黄豆粒大小，温热乳化按压上脸。连续用28天，眼下干纹明显变淡，下颌线摸起来更紧实了～\n\n▫️瓶身是高级哑光黑+红宝石切面设计，摆在梳妆台就是实验室美学本验✨\n\n#初抗老面霜怎么选 #珀莱雅红宝石 #胜肽抗老教科书",
+      "elapsed_seconds": 7.393
+    },
+    "珀莱雅红宝石面霜|ecommerce": {
+      "content": "标题：珀莱雅红宝石面霜｜25+初抗老之选，胜肽科技，淡纹更显年轻\n正文：极简设计，硬核抗老。珀莱雅红宝石面霜，专为25+初老肌研发，搭载多重活性胜肽复合体系，精准作用于肌肤动态纹路，温和促生胶原，淡化眼周、法令纹等初老细纹。零添加香精、酒精、色素，高耐受配方适配敏感肌；轻盈乳霜质地，一抹化水，沁润不黏腻。科技感瓶身，冷调红宝石光泽——抗老，本该如此理性而优雅。",
+      "elapsed_seconds": 4.098
+    },
+    "珀莱雅红宝石面霜|wechat": {
+      "content": "标题：25+初抗老，从一瓶‘红宝石’开始\n正文：✨极简轮廓，科技内核——珀莱雅红宝石面霜，专为25+轻熟肌定制的胜肽抗老方案。\n\n细纹不是突然出现的，而是悄悄累积的。红宝石面霜以「多重复配胜肽体系」为核心，靶向作用于表情纹、干纹与初老纹路，协同提升肌肤支撑力与平滑度；搭配精研缓释技术，让活性成分稳定渗透，温和而有效。\n\n▫️无冗余添加｜极简配方，0酒精/0色素/0矿物油\n▫️冷峻金属瓶身 × 红宝石切割设计｜把实验室的精准，穿在脸上\n\n抗老不必等30岁。真正的年轻力，始于清醒认知，成于科学坚持。\n#珀莱雅红宝石面霜 #胜肽抗老就现在",
+      "elapsed_seconds": 5.793
+    },
+    "七年五季全麦面包|douyin": {
+      "content": "标题：减脂期嘴馋？这个全麦面包真的0蔗糖！\n正文：七年五季全麦面包来啦～真·100%全麦，不是‘全麦味’！不加一滴蔗糖，热量低、饱腹久，减脂期当早餐/加餐超安心～超市同款只要个位数💰，平价也能吃健康！#减脂零食 #全麦面包推荐",
+      "elapsed_seconds": 2.539
+    },
+    "七年五季全麦面包|xiaohongshu": {
+      "content": "标题：减脂期嘴馋救星！7块钱吃到纯正100%全麦面包🍞0蔗糖也超香！\n正文：谁懂啊！！终于找到一款不骗人的全麦面包😭\n\n七年五季这款全麦面包，配料表干净到哭：只有全麦粉、水、酵母、盐…连一丁点蔗糖都没有！（真的不是‘全麦风味’那种挂羊头卖狗肉的😅）\n\n✅ 100%全麦粉打底，麦香浓、嚼劲足，饱腹感直接拉满～\n✅ 0蔗糖但自带谷物微甜，配无糖豆浆/黑咖啡绝了☕️\n✅ 一袋6片才7块多💰学生党/打工人减脂早餐闭眼冲！\n\n吃了一周，下午三点不饿了，体重秤数字悄悄往下掉📈\n（小tips：烤3分钟更酥脆，抹点牛油果泥直接封神🥑）\n\n减脂不用苦哈哈，好好吃饭也能瘦～\n#减脂早餐 #全麦面包推荐 #七年五季真材实料",
+      "elapsed_seconds": 7.311
+    },
+    "七年五季全麦面包|ecommerce": {
+      "content": "标题：七年五季全麦面包｜100%全麦+0蔗糖，减脂期放心吃的平价主食！\n正文：饿了吃它不罪恶，饱腹还扛饿！七年五季全麦面包，真·100%全麦粉制作，配料表干净到只有全麦粉、水、酵母、盐——0蔗糖、0植脂末、0防腐剂。粗粮香气足，口感微韧有嚼劲，饱腹感强，热量更友好，减脂期当早餐/加餐超安心～亲民价入手无压力，好吃不贵，坚持轻食也能很轻松！",
+      "elapsed_seconds": 3.686
+    },
+    "七年五季全麦面包|wechat": {
+      "content": "标题：吃饱不胖的全麦面包来了！七年五季，100%全麦+0蔗糖，减脂期主食自由就靠它\n正文：谁说减脂就得啃水煮菜？\n\n七年五季全麦面包，真·100%全麦粉制作，配料表干净到只有：全麦粉、水、酵母、盐——没有一丁点蔗糖，也没有植脂末、防腐剂、香精。\n\n✅ 真全麦：不是“加了一点点全麦粉”的伪全麦，麦麸麦胚都在，饱腹感强、升糖慢；\n✅ 0蔗糖：用天然麦芽糖醇温和代糖，甜度刚好，不腻不齁，控糖减脂党安心吃；\n✅ 平价实在：早餐2片+一杯无糖豆浆=不到5块钱，比奶茶便宜，比沙拉管饱。\n\n办公室抽屉常备一袋，健身前后垫一垫，加班饿了撕一块——麦香扎实，越嚼越香，胃踏实，心不慌。\n\n减脂不是挨饿，是选对食物。七年五季，平价好面包，天天吃得起。\n\n👉现在下单，享新人尝鲜价，第二件半价！",
+      "elapsed_seconds": 7.187
+    },
+    "三顿半咖啡|douyin": {
+      "content": "标题：3秒溶解！打工人续命新姿势☕️\n正文：早八人别再手忙脚乱煮咖啡了！三顿半冷萃速溶，冷水热水都3秒即溶✨｜0添加植脂末｜冷热双享｜便携小杯装，塞进通勤包不占地～咖啡党狂喜：香、醇、不酸涩，这才是冷萃该有的高级感！#三顿半 #打工人咖啡自由",
+      "elapsed_seconds": 3.101
+    },
+    "三顿半咖啡|xiaohongshu": {
+      "content": "标题：打工人续命新姿势！3秒溶解的冷萃咖啡，真的不香吗？☕️\n正文：早八人VS咖啡机：谁先投降？🙋‍♀️\n终于等到三顿半冷萃速溶上线——不是普通速溶，是「冷萃基底+黑科技冻干」，3秒！搅一搅就化开，冰水热水都OK～🧊💧\n\n✅ 冷萃工艺=低酸顺滑，空腹喝也不胃疼\n✅ 0反式脂肪+0植脂末，配料表干净到想截图发朋友圈\n✅ 小罐装+便携勺，塞进通勤包不占地，工位抽屉秒变精品咖啡角✨\n\n上周连喝5天「深烘美式」，同事追着要链接…说这杯喝出了手冲的醇厚感！（但其实我只用了3秒+1个马克杯😂）\n\n#三顿半真上头 #冷萃自由已实现 #打工人精致懒人主义",
+      "elapsed_seconds": 6.86
+    },
+    "三顿半咖啡|ecommerce": {
+      "content": "标题：3秒唤醒活力！三顿半冷萃速溶咖啡，上班族的潮流咖啡新选择\n正文：早八赶地铁？午休抢时间？加班缺电量？三顿半咖啡来救场！✨冷萃工艺×速溶黑科技，3秒即溶不结块，冷水热水都顺滑～0反式脂肪酸，轻盈无负担，每一口都是干净醇香的咖啡本味。高颜值小罐装随身带，办公室、通勤路、露营搭子全适配！潮人已囤，打工人速冲——你的每日活力开关，就差这一杯！",
+      "elapsed_seconds": 4.813
+    },
+    "三顿半咖啡|wechat": {
+      "content": "标题：3秒唤醒打工魂！三顿半冷萃速溶，潮人咖啡自由来了☕\n正文：早八赶地铁？午休抢座位？加班到眼皮打架？\n别让冲咖啡变成KPI——\n✨三顿半咖啡，冷萃工艺 × 速溶黑科技，3秒即溶，冷水热水都OK！\n\n✔️真·冷萃：低温慢萃72h，酸苦平衡，顺滑不涩口\n✔️真·快：撕开、倒粉、加水/奶，3秒溶解，0结块、0等待\n✔️真·潮：莫兰迪色小罐+可回收铝罐设计，办公桌C位颜值担当\n\n上班族说：“会议前3秒续命成功”\n咖啡党说：“风味不输手冲，懒人操作封神了”\n\n今天起，告别糊锅的挂耳、等5分钟的胶囊、带杯出门的负重感——\n你的活力开关，本该这么轻、这么快、这么酷。\n#三顿半 #冷萃速溶是认真的 #打工人咖啡自由",
+      "elapsed_seconds": 6.349
+    },
+    "自嗨锅煲仔饭|douyin": {
+      "content": "标题：加班到崩溃？学生党赶DDL？15分钟热腾腾煲仔饭直接怼脸！\n正文：谁懂啊！！饿到啃笔头的时候，自嗨锅煲仔饭‘滋啦’一下自己加热🔥\n不用插电！不用灶台！撕开、加水、盖盖——刷个短视频的功夫，香喷喷腊肠+锅巴就端上桌了🍚\n学生党宿舍限电？OK！打工人深夜加班饿到胃叫？OK！\n平价不踩雷，好吃不将就～\n#自嗨锅 #煲仔饭自由 #打工人续命指南",
+      "elapsed_seconds": 3.685
+    },
+    "自嗨锅煲仔饭|xiaohongshu": {
+      "content": "标题：打工人&学生党速进！15分钟干掉一锅热乎煲仔饭，自嗨锅这次太懂我了🔥\n正文：谁懂啊！！晚上改PPT到9点，肚子咕咕叫，外卖还在骑手路上…直到挖出这盒【自嗨锅煲仔饭】💥\n\n✅撕开包装→倒水激活发热包→盖盖等15分钟→开盖暴风吸入！\n✅腊肠+鸡腿肉+溏心蛋+锅巴香到邻居来敲门…热气腾腾，油润不腻，真的像现做的！\n✅宿舍没锅？出租屋没灶台？加班没时间？它自带加热黑科技，热水一浇就开火🔥（安全又方便，学生党囤在床下、打工人塞抽屉都OK）\n\n💰一杯奶茶钱搞定一顿正经饭，平价到流泪～\n不是预制菜的敷衍感，是真·有锅气的煲仔饭！！\n\n#学生党续命指南 #打工人晚餐自由 #自嗨锅真的会拿捏",
+      "elapsed_seconds": 7.281
+    },
+    "自嗨锅煲仔饭|ecommerce": {
+      "content": "标题：15分钟搞定热腾腾煲仔饭！学生党&加班族的自嗨续命神器\n正文：赶课饿得慌？加班到忘点外卖？别忍了！自嗨锅煲仔饭来救场——不用电、不插线，自带发热包，倒水一焖，15分钟香喷喷广式煲仔饭端上桌！腊肠粒粒弹牙、鸡腿肉嫩多汁、锅巴焦香酥脆，连酱汁都配好了～亲民价吃饱不心疼，宿舍、工位、出租屋，一盒搞定一顿热乎饭。自嗨锅，懂你的忙，更懂你的胃！",
+      "elapsed_seconds": 4.378
+    },
+    "自嗨锅煲仔饭|wechat": {
+      "content": "标题：15分钟搞定热腾腾煲仔饭！学生党&加班族的续命神器来了～\n正文：叮！你的深夜食堂已上线 🍚\n\n赶DDL到头晕？改方案改到怀疑人生？宿舍没锅、出租屋没灶台、外卖又凉又慢？\n别硬扛了！自嗨锅煲仔饭——自带加热黑科技，撕开、注水、盖盖、等15分钟，一锅滋滋冒香的广式煲仔饭直接端上桌！\n\n✅ 自加热设计｜不用电、不插线、宿舍/工位/高铁都能吃\n✅ 15分钟即食｜比泡面还快，却香过楼下煲仔饭店\n✅ 米粒干爽弹牙｜腊肠油润、叉烧焦香、锅巴脆得咔嚓响\n✅ 亲民价不踩雷｜一杯奶茶钱，吃出满满幸福感\n\n学生党：图书馆学到饿，拆一盒立马回血💪\n加班族：凌晨改完PPT，热乎饭+热乎心，谁懂！\n\n自嗨锅煲仔饭——不是将就，是认真吃饭的平价选择。\n今晚，就让胃先下班✨",
+      "elapsed_seconds": 7.885
+    },
+    "小仙炖鲜炖燕窝|douyin": {
+      "content": "标题：鲜炖直达，0添加的精致养生主义\n正文：凌晨现炖 · 当日冷链直送｜小仙炖鲜炖燕窝，不添加防腐剂、香精、增稠剂，只为保留燕窝本真的滋养力。高端商务女性的选择——晨间一杯温润，是自律，更是对自我的郑重承诺。#小仙炖 #鲜炖燕窝 #轻奢养生",
+      "elapsed_seconds": 2.457
+    },
+    "小仙炖鲜炖燕窝|xiaohongshu": {
+      "content": "标题：职场女性的晨间仪式感｜小仙炖鲜炖燕窝，0添加的高端养生选择\n正文：✨清晨拉开窗帘，一杯温润清甜的鲜炖燕窝已静静候在办公桌一角——这不是奢侈，而是当代高知女性对自我的郑重承诺。\n\n小仙炖鲜炖燕窝，坚持「当日鲜炖、全程冷链、按周配送」，拒绝罐装、不加防腐剂、不添香精糖分，真正0添加。每一瓶都标注明确炖煮日期与保质时效，开盖即食，温润如初。\n\n▫️严选印尼溯源燕盏｜低温慢炖1140秒｜7℃锁鲜直送\n▫️无菌灌装+铝箔封口｜商务礼盒级包装，简约烫金logo，自带高级沉静气场\n\n不是所有燕窝都配得上你的时间与身体。在高效运转的节奏里，选择小仙炖，是把养生做成一件有质感的事。\n\n#小仙炖 #鲜炖燕窝 #职场女性养生 #高端养生日常",
+      "elapsed_seconds": 6.677
+    },
+    "小仙炖鲜炖燕窝|ecommerce": {
+      "content": "标题：小仙炖鲜炖燕窝｜每日鲜炖，0添加纯粹滋养\n正文：专为注重养生的现代女性定制——小仙炖鲜炖燕窝，以高端商务风诠释东方滋补新标准。全程低温鲜炖、冷链直送，锁住燕窝天然活性与细腻口感；坚持0防腐剂、0香精、0增稠剂，每一瓶皆可溯源，纯净如初。独立瓶装设计，契合职场节奏，晨间开启即享轻奢养生仪式感。小仙炖，不止是燕窝，更是您对生活品质的郑重选择。",
+      "elapsed_seconds": 3.379
+    },
+    "小仙炖鲜炖燕窝|wechat": {
+      "content": "标题：鲜炖到家，纯粹如初｜小仙炖，为精致女性定制的高端养生之选\n正文：在快节奏的都市生活中，真正的养生，从不将就。\n\n小仙炖鲜炖燕窝，坚持「当日鲜炖、全程冷链、48小时直达」，每一瓶都锁住燕窝最本真的营养与温润。0防腐剂、0香精、0增稠剂——纯粹，是我们的底线，更是您健康生活的底气。\n\n甄选东南亚优质溯源燕窝，121℃精准控温炖煮，搭配独立玻璃瓶装，商务办公桌、出差行李箱、晨间梳妆台……皆可优雅开启一份安心滋养。\n\n小仙炖，不止是一瓶燕窝，更是现代女性对自我价值的温柔确认：忙碌，但不将就；精致，且有分寸。\n\n高端养生，本该如此从容。",
+      "elapsed_seconds": 5.021
+    },
+    "懒角落免安装收纳柜|douyin": {
+      "content": "标题：租房党狂喜！3秒挪走的治愈系收纳柜来了～\n正文：谁懂啊！搬家像拆家的日子终于结束了😭\n懒角落免安装收纳柜｜租房党的温柔救星✨\n不用打孔、不用拧螺丝、不用求室友帮忙…一拖就走，一放就稳～\n抽屉式设计+顺滑静音滑轮，小户型也能整整齐齐、暖暖乎乎🏡\n原木白+柔雾灰配色，像一杯温热的燕麦拿铁☕️\n租的房子，也可以是心安的小角落呀～",
+      "elapsed_seconds": 3.979
+    },
+    "懒角落免安装收纳柜|xiaohongshu": {
+      "content": "标题：租房党狂喜！不用打孔不求人，这个会滑走的收纳柜治好了我的搬家焦虑✨\n正文：谁懂啊！！终于找到本租房人的梦中情柜😭\n\n搬家第3次，拆装柜子第3次，螺丝掉进地板缝第3次…直到遇见【懒角落·免安装收纳柜】——\n✅真的！不用1颗螺丝、不用1张说明书、不用求室友帮忙\n✅抽屉顺滑到像在云朵上拉抽屉☁️（带静音滑轨+顺滑滚轮）\n✅底部4个万向滑轮，轻轻一推就挪位，打扫/换布局/临时让道…0负担！\n\n原木色+哑光白配色，温温柔柔的奶杏调，放在小出租屋窗边、床尾、书桌旁都像自带柔光滤镜📸\n不是冷冰冰的收纳工具，是每天回家想摸一摸的治愈小角落。\n\n✨最戳我的细节：抽屉关合有微顿感，不晃不响；轮子自带刹车锁，推过去就稳稳停住，安全感拉满。\n\n租房不是将就，是把有限空间过成温柔日常。💕\n#租房好物 #懒角落收纳 #治愈系小家",
+      "elapsed_seconds": 7.784
+    },
+    "懒角落免安装收纳柜|ecommerce": {
+      "content": "标题：懒角落免安装收纳柜｜租房党安心搬走的治愈系小确幸\n正文：不用打孔、不用拧螺丝、不用求人帮忙——懒角落免安装收纳柜，一拆即用，一推就走。抽屉式分层设计，内衣、袜子、小物各归其位；静音滑轮顺滑滚动，宿舍换寝、合租搬家，轻轻一推，整柜温柔挪位。原木白+暖灰配色，圆润边角与柔光质感，像一杯温热的蜂蜜水，悄悄抚平租房生活的匆忙与不安。不留下痕迹，只留下秩序与温柔。你的小空间，值得被这样轻盈地爱着。",
+      "elapsed_seconds": 4.096
+    },
+    "懒角落免安装收纳柜|wechat": {
+      "content": "标题：搬家不焦虑，一推就走的温柔收纳力 🌙\n正文：你是不是也经历过——\n\n搬进新出租屋，看着空荡的房间发愁：衣柜太小、杂物没处放、组装柜子到凌晨…最后瘫在纸箱堆里，连拆快递的力气都没了。\n\n这次，换一种温柔的方式开始生活 ✨\n\n「懒角落·免安装收纳柜」来了——\n✅ 不用拧一颗螺丝，拆箱即用\n✅ 3层静音抽屉，顺滑开合，小物件也整整齐齐\n✅ 4个360°万向滑轮，轻轻一推，说走就走（连猫都追得上）\n✅ 暖杏白+浅燕麦色，像一杯温热的燕麦奶，把租房的小角落，悄悄变成自己的心安之所\n\n它不承诺“永久”，但认真陪你度过每一个认真生活的租期。\n\n#懒角落 #租房党友好型家具 #收纳也可以很柔软",
+      "elapsed_seconds": 5.938
+    },
+    "追觅洗地机|douyin": {
+      "content": "标题：养宠家庭的地面救星来了！\n正文：掉毛、脚印、打翻的猫粮…每天都在挑战清洁底线？追觅洗地机，吸拖洗一体+自清洁，边拖边洗不脏手，滚刷自动冲洗烘干，彻底告别宠物毛缠绕！极简科技设计，一机搞定全屋 messy moment 🐾 #追觅洗地机 #养宠必备",
+      "elapsed_seconds": 2.752
+    },
+    "追觅洗地机|xiaohongshu": {
+      "content": "标题：养宠家庭救星！这台会自己洗澡的洗地机，毛絮水渍一吸即净✨\n正文：谁懂啊！！养猫3年，每天和浮毛、猫砂、湿爪印斗智斗勇…直到遇见追觅洗地机——\n\n✅ 吸拖洗一体：滚刷边吸边洗，猫毛+猫砂+打翻的罐头汁，一遍推过去就消失！\n✅ 真·自清洁：用完自动冲洗滚刷+风干，再也不用手抠黏腻毛团，科技懒人狂喜～\n✅ 极简白灰机身+无按键触控，放在北欧风客厅毫无违和感，像一件静音家电艺术品。\n\n没有狗毛缠绕的尖叫，没有反复擦地的疲惫，只有地板反光如镜的沉默胜利。\n养宠不是将就，是用科技把生活拉回干净松弛的频道。\n#追觅洗地机 #养宠家电天花板 #科技感极简生活",
+      "elapsed_seconds": 6.454
+    },
+    "追觅洗地机|ecommerce": {
+      "content": "标题：追觅洗地机｜吸拖洗一体自清洁，养宠家庭的地面净界革命\n正文：毛发缠绕？宠物脚印？干呕残留？传统清洁三步走——扫、拖、洗，费时费力还难彻底。追觅洗地机，以极简科技重构养宠清洁逻辑：一机完成吸毛、拖污、洗滚刷全链路作业，边拖边吸边自清洁，0手洗滚刷，污水满即停，智能防缠绕设计专克猫狗浮毛与碎粮。纯白哑光机身+无冗余线条，融入现代家居不抢戏；激光雷达导航+AI脏污识别，让每寸地板都被精准洁净。养宠的爱不必将就清洁，追觅，让干净静默发生。",
+      "elapsed_seconds": 5.112
+    },
+    "追觅洗地机|wechat": {
+      "content": "标题：毛孩子撒欢，地面依旧光洁如新｜追觅洗地机，养宠家庭的隐形管家\n正文：🐾掉毛、爪印、打翻的猫粮、突如其来的‘小意外’……养宠人的日常，是爱意满满，也是地面危机四伏。\n\n追觅洗地机——以极简科技，直面养宠清洁难题。\n\n✅ 吸拖洗一体：滚刷边吸边拖边洗，浮毛、碎粮、湿渍一机清空，不缠绕、不残留；\n✅ 全链路自清洁：清洗+热风烘干双模自洁，滚刷、管道、污水箱全程免手洗，杜绝异味滋生；\n✅ 极简设计 × 宠友友好：0.5L清水/污水双舱分离，低重心贴边设计轻松探入沙发底、柜脚缝；静音优化，不惊扰敏感主子。\n\n无需妥协的洁净，不必弯腰的体面。追觅洗地机，让爱宠自由奔跑，让地面始终从容如初。\n\n科技有度，宠爱无界。",
+      "elapsed_seconds": 6.147
+    },
+    "网易严选乳胶枕|douyin": {
+      "content": "标题：今晚，让脖子被温柔托住🌙\n正文：睡不醒、脖子僵、一早起来像扛了座山…你不是累，是枕头在‘拖后腿’。\n\n网易严选乳胶枕｜泰国进口天然乳胶 × 人体工学护颈曲线\n软弹承托，贴合肩颈弧度，翻身不落空，整夜稳稳被托住。\n淡淡的乳胶清香，像雨后橡胶林的微风🌿\n——睡得安心，才是最温柔的治愈。\n#网易严选 #乳胶枕推荐 #好好睡觉是一件小事",
+      "elapsed_seconds": 3.475
+    },
+    "网易严选乳胶枕|xiaohongshu": {
+      "content": "标题：被泰国乳胶温柔托住的夜晚，终于睡了个好觉🌙\n正文：连续失眠37天后，我换掉了用了5年的旧枕头…\n\n不是因为贵，而是因为——真的太懂我的脖子了。\n\n✨网易严选这款乳胶枕，是泰国原产进口的天然乳胶，倒出乳胶液都能拉丝的那种温柔感～触手微弹、回弹快，躺下瞬间像被云朵轻轻托住，但又稳稳承托住颈椎的每一寸弧度。\n\n▫️专为「睡不好」设计的护颈分区：中间微凹+两侧加高，侧睡不压肩、仰睡不悬空，一整晚颈椎都在线打卡✅\n\n以前睡前刷手机到凌晨，现在沾枕15分钟就沉进深睡；以前早上醒来肩膀发僵、头晕脑胀，现在伸个懒腰都是轻盈的～\n\n不是枕头变了，是我终于，被好好接住了。\n\n🌿严选的不只是原料，是每个辗转反侧夜晚里，你想被温柔对待的渴望。\n#网易严选乳胶枕 #睡不好星人自救指南 #治愈系睡眠",
+      "elapsed_seconds": 7.988
+    },
+    "网易严选乳胶枕|ecommerce": {
+      "content": "标题：一夜好眠，从温柔托住脖颈开始｜网易严选泰国进口乳胶枕\n正文：你是否也常在凌晨三点醒来，肩颈僵硬、头脑昏沉？辗转反侧间，枕头不是太高压着颈椎，就是太软托不住头颈……其实，不是你睡不着，是你的枕头，还没学会好好爱你。\n\n网易严选乳胶枕，甄选泰国原产天然乳胶，柔韧回弹如云朵承托，贴合肩颈自然曲度；专研护颈分区设计——前低后高，微倾承托，让颈椎回归放松的生理弧线。没有生硬支撑，只有恰到好处的温柔包裹。\n\n夜晚很短，睡眠很贵。愿每一个疲惫的你，躺下那一刻，就被稳稳接住。🌙\n网易严选 × 安心好眠，正在发生。",
+      "elapsed_seconds": 5.314
+    },
+    "网易严选乳胶枕|wechat": {
+      "content": "标题：今晚，让脖子好好睡一觉 🌙\n正文：你是不是也这样——\n\n睡前翻来覆去，半夜肩颈发紧，醒来总觉得没睡够？\n\n不是你太累，而是枕头，从没真正托住过你。\n\n网易严选乳胶枕，泰国进口天然乳胶，柔软回弹间稳稳承托脖颈曲线；专研护颈凹槽设计，贴合头颈自然弧度，一躺下去，就像被温柔托起。\n\n没有喧闹的口号，只有深夜归家后，头一沾枕就沉入安稳的踏实感。\n\n好睡眠，不该是奢侈。\n它该像一杯温热的蜂蜜水，像窗外轻轻摇晃的树影——\n简单、安心、刚刚好。\n\n今夜，把疲惫交给它，把温柔留给自己。",
+      "elapsed_seconds": 5.461
+    },
+    "小米空气净化器|douyin": {
+      "content": "标题：新家入住不慌张，小米净化器悄悄把甲醛「吃」干净\n正文：刚装修完不敢住？甲醛超标太焦虑？🌿小米空气净化器——极简科技，安静守护。CADR高达500m³/h，1小时循环全屋空气，高效分解甲醛，不止吸附更懂净化；夜间模式低至25dB，比翻书声还轻，宝宝安睡、大人安心。#新装修必备 #小米黑科技",
+      "elapsed_seconds": 3.175
+    },
+    "小米空气净化器|xiaohongshu": {
+      "content": "标题：新家入住不焦虑｜这台小米净化器让我睡得比装修前还安心\n正文：刚搬进精装新房，甲醛检测仪数字跳到0.12…心直接揪起来😭\n\n试过炭包、通风、绿植，效果微乎其微。直到换上这台小米空气净化器——\n✅ 三重滤芯直击甲醛：改性活性炭+催化分解层，实测24h甲醛去除率＞95%（附检测仪对比图📊）\n✅ 晚上开睡眠模式，32dB比翻书声还轻，宝宝整夜安睡，我终于敢关掉加湿器+风扇的‘交响乐’🎵\n\n纯白极简机身+无冗余按键，摆在北欧风客厅里像一件科技摆件✨\nAPP还能实时看PM2.5/甲醛数值，装修小白也能一眼看懂健康状态。\n\n新家不该是等待期，而该是安心生活的起点。\n#新装修必备 #小米空气净化器 #极简生活黑科技",
+      "elapsed_seconds": 6.758
+    },
+    "小米空气净化器|ecommerce": {
+      "content": "标题：新居除醛静享呼吸｜小米空气净化器，科技极简守护家的每一口清新\n正文：新装修的家，藏着期待，也藏着甲醛隐患。小米空气净化器，搭载高效甲醛分解滤芯，1小时去除99.9%甲醛（实验室数据），持续净化不二次释放；运行噪音低至30.2dB(A)，深夜安睡、婴儿熟睡时亦静默如初。极简纯白机身，无冗余按键，一屏掌控空气质量；米家APP智能联动，装修后入住前远程开机预净化。科技，本该如此安静而有力——为新家，多一份安心呼吸。",
+      "elapsed_seconds": 4.447
+    },
+    "小米空气净化器|wechat": {
+      "content": "标题：新家入住不将就｜小米空气净化器，静默守护每一口呼吸\n正文：刚搬进新家，却总被若有似无的刺鼻味困扰？甲醛释放周期长达3–15年，开窗通风只是治标——真正需要的，是一台懂新装修家庭的「隐形卫士」。\n\n✨ 小米空气净化器｜科技极简，静力除醛\n✅ 三重催化滤芯：专属改性活性炭+纳米锰基分解层，甲醛CADR高达400m³/h，实测1小时甲醛去除率＞95%（依据GB/T 18801-2022）\n✅ 极致静音设计：睡眠模式低至23dB(A)，比翻书声更轻；整晚运行，不扰安眠，宝宝熟睡、大人加班，呼吸自有分寸\n✅ 一体式极简美学：纯白哑光机身，6cm超薄圆角设计，融入现代家居毫无负担——科技，本该如此安静而有力。\n\n新装修不是等待期，而是健康生活的起点。小米空气净化器，以理性科技，回应最柔软的牵挂。\n#新家安心计划 #静音除醛就选小米",
+      "elapsed_seconds": 7.038
+    },
+    "小米手环9|douyin": {
+      "content": "标题：14天不充电，150+运动模式随心切｜小米手环9，极简，更极致\n正文：🏃‍♂️运动不设限，电量不焦虑｜小米手环9来了\n✅ 14天超长续航——晨跑、夜训、周末爬山，两周一充，专注节奏不打断\n✅ 150+专业运动模式——从跳绳到攀岩，从瑜伽到自由泳，每一种热爱都被精准记录\n⚫ 极简科技美学：一体化无感佩戴｜AMOLED柔光屏｜轻至12g\n#小米手环9 #运动党的真香选择",
+      "elapsed_seconds": 3.987
+    },
+    "小米手环9|xiaohongshu": {
+      "content": "标题：14天不充电的运动搭子，我终于找到了⚡️\n正文：运动时最烦什么？\n不是喘不上气，是手环没电了…💥\n\n直到遇见小米手环9——\n✅ 14天超长续航｜晨跑、夜训、周末爬山，充一次电，稳稳陪我两周\n✅ 150+运动模式｜从瑜伽、跳绳到攀岩、划船，连「自由泳识别」都精准得像教练在盯动作\n✅ 极简科技感设计｜哑光金属质感表框 + 微弧贴肤TPU腕带，抬手看数据，也像在看一件小众科技配饰\n\n没有冗余功能，只有你真正需要的：精准记录 × 持久陪伴 × 零负担佩戴\n运动，本该轻装上阵。\n#小米手环9 #运动党的极简主义",
+      "elapsed_seconds": 5.842
+    },
+    "小米手环9|ecommerce": {
+      "content": "标题：小米手环9｜14天超长续航 × 150+运动模式，极简科技，为热爱而生\n正文：轻盈一戴，全程在线。小米手环9以极简科技美学重构运动体验——14天持久续航，告别频繁充电焦虑；150+专业运动模式，精准记录跑步、骑行、瑜伽、攀岩等每一帧发力与呼吸。AMOLED高清大屏，息屏显示更显克制理性；心率、血氧、睡眠深度分析，数据无声，却句句有力。致运动爱好者：真正的智能，从不喧哗；真正的陪伴，久伴不倦。",
+      "elapsed_seconds": 3.629
+    },
+    "小米手环9|wechat": {
+      "content": "标题：14天续航，150+运动模式｜小米手环9，为热爱而生\n正文：极简线条，纯粹科技。\n\n不赘述，只专注——小米手环9，以轻盈之姿，承载运动爱好者的每一次心跳、每一步突破。\n\n✅ 14天超长续航：告别频繁充电焦虑，晨跑、夜骑、周末远足，节奏由你掌控。\n✅ 150+专业运动模式：从跑步、骑行、游泳，到攀岩、滑板、CrossFit，精准识别，深度记录。\n\nAMOLED柔光屏｜50米防水｜全天候心率/血氧/压力监测｜个性化表盘随心切换\n\n科技，本该如此安静有力。\n运动，理应这般自由无界。\n\n小米手环9，即刻出发。",
+      "elapsed_seconds": 4.915
+    },
+    "Anker氮化镓充电器|douyin": {
+      "content": "标题：巴掌大的65W快充？Anker氮化镓，出差包里最硬的科技小方块\n正文：💻数码党狂喜｜✈️出差族刚需\n65W真快充，MacBook/手机/平板一拖三全速喂饱⚡\n体积却比口红还小——Anker氮化镓充电器，把实验室级效率塞进极简黑盒。\n不占插座、不压背包、不妥协性能。\n科技，本该轻装上阵。#Anker氮化镓 #快充自由",
+      "elapsed_seconds": 3.79
+    },
+    "Anker氮化镓充电器|xiaohongshu": {
+      "content": "标题：出差党狂喜！65W超小体积氮化镓充电器，塞进钱包都嫌它太薄⚡\n正文：谁懂啊！！终于找到本年度最心水的桌面+出行搭子👇\n\nAnker氮化镓充电器｜65W真快充 × 极简科技感\n\n✅ 65W双口全速输出：MacBook Air半小时回血50%｜iPhone 15 Pro直接满血复活仅需30min\n✅ 比口红还小！体积仅≈一枚U盘（52×28×29mm），轻松滑进西装口袋/登机包夹层/护照套背面\n✅ 出差实测：单充+带线收纳进牛皮卡包，过安检零阻碍；酒店插座再稀缺，一个头解决笔记本+手机+耳机三充\n\n没有浮夸灯效，没有冗余按键——只有哑光灰机身、精准CNC倒角、和插上那一刻的「滋」一声轻响。\n\n极简，不是少做一点；是把65W塞进32g里，还让你忘了它存在。\n\n#Anker黑科技 #出差装备精简主义 #氮化镓这玩意儿真香",
+      "elapsed_seconds": 6.677
+    },
+    "Anker氮化镓充电器|ecommerce": {
+      "content": "标题：Anker氮化镓充电器｜65W疾速快充，掌心大小的出行电力中枢\n正文：科技，本该轻装上阵。Anker氮化镓充电器以65W高效快充实力，30分钟充入50%+电量（兼容iPhone/安卓/笔记本），告别续航焦虑；体积仅约一枚口红大小，重量不足120g——塞进行李夹层、背包侧袋、甚至西装内袋，毫不占位。专为数码控与高频差旅者而生：GaN宽频架构带来更低发热与更高转换效率，多协议兼容不挑设备；极简哑光机身+精密蚀刻Anker标识，低调承载硬核性能。充电，从此不必妥协速度，也不必让渡空间。",
+      "elapsed_seconds": 5.233
+    },
+    "Anker氮化镓充电器|wechat": {
+      "content": "标题：小到离谱，快到上头｜Anker氮化镓充电器，65W极简快充新标准\n正文：出差包再满，也得给它留个角落。\n\nAnker全新氮化镓充电器——65W大功率，体积却比传统充电器小50%。掌心大小，轻松塞进西装口袋、登机箱夹层，甚至AirPods充电盒旁都能稳稳立住。\n\n⚡ 65W全速输出：30分钟充入iPhone 15约60%，45分钟回血MacBook Air一半电量；\n🔌 单C口设计，直连即充，告别线缆纠缠；\n✨ 纯白哑光机身 + 微弧边框，无LOGO极简造型，科技感不喧哗，只沉淀。\n\n数码控的桌面，差的不是设备，是那份从容的秩序感。\n出差路上的电量焦虑？从这一刻，变作指尖轻触的笃定。\n\nAnker 氮化镓充电器｜小，是新的强大。",
+      "elapsed_seconds": 5.913
+    },
+    "漫步者降噪耳机|douyin": {
+      "content": "标题：通勤路上的静音结界，30h续航+主动降噪｜漫步者降噪耳机\n正文：地铁轰鸣？公交报站？同事外放？🚫\n戴上它——世界瞬间按下静音键。\n✅ 主动降噪：智能识别环境噪音，通勤场景秒级消噪\n✅ 30小时超长续航：早八晚六+周末补觉，一周一充不焦虑\n极简金属机身 × 人体工学设计｜科技感不张扬，安静自有力量\n#漫步者降噪耳机 #通勤必备 #极简科技",
+      "elapsed_seconds": 3.687
+    },
+    "漫步者降噪耳机|xiaohongshu": {
+      "content": "标题：通勤族的静音开关｜这副耳机让我每天多赚2小时‘清醒时间’\n正文：🚇早高峰地铁里，人声、报站、婴儿哭、键盘敲击…世界太吵？\n\n直到遇见#漫步者降噪耳机 —— 轻轻一戴，世界自动「静音」。\n\n✅ 主动降噪不是噱头：双馈麦克风实时捕捉环境噪音，通勤路上瞬间沉入自己的节奏；\n✅ 超长续航真·不焦虑：单次30h+（开降噪），通勤往返+午休听播客，一周充一次电就够了；\n✅ 科技极简，拿在手里像一块温润哑光黑陶瓷——没有浮夸灯效，没有复杂按键，只有干净线条和恰到好处的重量感。\n\n不是所有降噪耳机都叫「通勤友好」。\n它不抢戏，却总在你需要时稳稳接住你。\n\n#科技感极简风 #通勤必备 #降噪耳机推荐",
+      "elapsed_seconds": 6.45
+    },
+    "漫步者降噪耳机|ecommerce": {
+      "content": "标题：通勤静界，自在随行｜漫步者主动降噪耳机，40h超长续航，极简科技护航每一程\n正文：早高峰地铁的嘈杂、公交引擎的轰鸣、写字楼空调的低频嗡鸣——通勤路上，声音从不缺席。漫步者降噪耳机，以专业主动降噪（ANC）技术，智能识别并抵消环境噪音，一键沉入专注或放松的静音结界。搭载高能效声学系统，单次充电续航长达40小时，周末连充一次，轻松覆盖整周通勤。一体式流线机身、哑光磨砂质感、无冗余按键设计——科技，本该如此克制而有力。给耳朵减负，为通勤提速。",
+      "elapsed_seconds": 4.58
+    },
+    "漫步者降噪耳机|wechat": {
+      "content": "标题：通勤路上的静音结界｜漫步者降噪耳机，用科技按下世界暂停键\n正文：早高峰的地铁轰鸣、公交报站的循环播报、键盘敲击与会议杂音……通勤，不该是噪音马拉松。\n\n漫步者降噪耳机，以专业主动降噪（ANC）技术，实时捕捉并抵消低频环境噪声——引擎声、空调嗡鸣、人声嘈杂，一触即消。耳畔，只留你想要的声音。\n\n更搭载高密度电池管理方案，单次充电续航长达30小时（开启降噪），配合快充10分钟=5小时聆听。一周通勤，一次充电足矣。\n\n极简流线机身 × 磨砂哑光质感 × 无冗余交互设计——科技不必张扬，安静自有力量。\n\n把通勤时间，还给自己。",
+      "elapsed_seconds": 4.888
+    },
+    "大疆Osmo口袋相机|douyin": {
+      "content": "标题：手抖星人Vlog自救指南！4K稳到离谱的口袋相机来了！\n正文：谁说Vlog必须扛单反？📱大疆Osmo Pocket——比手机还小，比云台还稳！🔥三轴机械防抖+4K超清画质，边跑边拍都不糊！地铁追光、街舞freestyle、咖啡店转场…一机全拿下～✨Vloger的潮流搭子，装进口袋，说走就拍！#OsmoPocket #Vlog神器",
+      "elapsed_seconds": 3.175
+    },
+    "大疆Osmo口袋相机|xiaohongshu": {
+      "content": "标题：手抖星人狂喜！这台口袋小钢炮让我Vlog质感直接拉满✨\n正文：谁懂啊！！以前拍Vlog不是画面晃成海浪就是追焦跟丢自己…直到遇见我的新宠——大疆Osmo Pocket！💥\n\n✅巴掌大机身，塞进牛仔裤口袋毫无压力👖\n✅三轴机械云台稳到离谱！边走边跳边转圈，画面依旧丝滑如德芙🍫\n✅4K 60fps直出！逆光不糊、暗光有细节，连发丝飘动都清晰到想截图当壁纸📸\n\n地铁通勤、咖啡探店、citywalk、朋友聚会…它永远在我兜里待命，随手一掏就是电影感vlog～\n\nVlogger的终极自由：不用带稳定器、不用调参数、不用后期狂砸防抖插件…轻装上阵，鲜活即刻开拍！🎥💨\n\n#Vlog神器 #OsmoPocket #手持拍摄天花板 #大疆真香现场",
+      "elapsed_seconds": 6.432
+    },
+    "大疆Osmo口袋相机|ecommerce": {
+      "content": "标题：口袋里的电影级Vlog神器！大疆Osmo Pocket，稳到飞起，美到出圈\n正文：还在为抖动毁掉整条Vlog抓狂？别卷了，把稳准狠交给我——大疆Osmo Pocket！三轴机械云台防抖，边跑边拍也丝滑如德芙；4K超清画质+广角镜头，随手一帧都是封面级质感。巴掌大小，塞进口袋就出发，地铁、爬山、街拍、咖啡店…你的生活，从不等打光和布景。Vlogger的潮流装备，早就不只是相机，而是你自信开麦的第一句台词✨",
+      "elapsed_seconds": 4.213
+    },
+    "大疆Osmo口袋相机|wechat": {
+      "content": "标题：口袋里的电影级稳定器！Vlog党速来Pick你的出片神器✨\n正文：还在为走路抖、跑步糊、转头晕的Vlog画面抓狂？\n\n大疆Osmo Pocket口袋相机——专为Vlog创作者而生的掌上影像引擎来了！🔥\n\n✅ 三轴机械云台防抖｜手抖星人秒变稳如老狗，边跑边拍也丝滑到像开了0.5倍速\n✅ 4K高清视频｜细节拉满、色彩鲜活，每一帧都自带电影滤镜感\n✅ 巴掌大小+轻盈机身｜塞进口袋就出发，灵感来了，抬手就是一条爆款\n\n不用支架、不扛云台、不修3小时——真正的「所见即所得」Vlog自由！\n\n潮流不是跟风，是用更酷的工具，讲更真的自己。\n#OsmoPocket #Vlog新姿势 #你的故事，值得稳稳被看见",
+      "elapsed_seconds": 5.665
+    },
+    "蕉内西装裤|douyin": {
+      "content": "标题：梨形姐妹看过来！这条高腰西装裤直接封神🔥\n正文：谁说梨形不能穿出大长腿？蕉内西装裤来破局！✨高腰设计+垂坠感面料=视觉收胯+自然显瘦，走路带风，坐下不勒，一整个松弛又高级～活力出街or通勤OOTD，随便搭都超有型！#蕉内西装裤 #梨形身材救星",
+      "elapsed_seconds": 2.87
+    },
+    "蕉内西装裤|xiaohongshu": {
+      "content": "标题：梨形姐妹速来！这条高腰西装裤让我腿长两米八✨\n正文：救命！谁懂啊！！梨形身材穿西装裤的痛我终于不用再忍了😭\n\n蕉内这条高腰西装裤真的绝——\n✅ 高腰设计直接卡在腰最细处，小肚腩&胯宽瞬间隐形！\n✅ 垂坠感面料太高级了！走路带风不贴腿，侧面看是纸片人，背面看是蜜桃臀🍑\n✅ 不是硬挺型假正经，是松弛有度的活力西装裤！配T恤/短衬衫/老爹鞋都超chic～\n\n以前怕西装裤显壮、显矮、显老气…现在每天都在‘今天穿它出门’和‘明天还穿它出门’之间反复横跳💃\n\n梨形女孩信我：高腰+垂坠=你的本命神裤！🔥\n#蕉内西装裤 #梨形身材穿搭 #高腰显瘦天花板",
+      "elapsed_seconds": 7.271
+    },
+    "蕉内西装裤|ecommerce": {
+      "content": "标题：梨形救星！蕉内高腰垂坠西装裤，显瘦力拉满的潮流战裤\n正文：梨形姐妹看过来！蕉内西装裤专为臀宽腿丰、腰线迷人的你而生——高腰剪裁瞬间提拉腰臀比，视觉收腰不勒肉；独家垂坠面料自带流动感，从胯到脚踝一顺到底，遮肉显直不贴腿！活力潮流风设计，微阔版型+简约线条，通勤有型、出街带感。穿上它，不是妥协身材，而是用高级感重新定义你的曲线！",
+      "elapsed_seconds": 3.892
+    },
+    "蕉内西装裤|wechat": {
+      "content": "标题：梨形女孩的西装裤自由，高腰+垂坠=显瘦暴击！\n正文：谁说西装裤只能属于纸片人？蕉内西装裤专为梨形身材而生！✨\n\n✅ 高腰设计——拉高腰线，收腹提臀，视觉秒缩3cm腰围\n✅ 垂坠感面料——不贴腿、不鼓包、不卡裆，走路带风，坐下也服帖\n\n告别胯宽焦虑，拥抱利落线条；不用P图，也能拥有「从腰到脚」的流畅剪影。\n\n活力不设限，潮流有底气。蕉内西装裤，穿出你的自信垂感力！💫\n#蕉内西装裤 #梨形友好穿搭 #高腰显瘦天花板",
+      "elapsed_seconds": 4.708
+    },
+    "优衣库摇粒绒外套|douyin": {
+      "content": "标题：一件穿出秋冬高级感！学生党&打工人狂囤的摇粒绒外套来了～\n正文：谁说保暖=臃肿？优衣库摇粒绒外套，轻得像没穿，暖得像裹被子！✨\n✅ 学生党：上课赶地铁不压肩，搭卫衣/衬衫都超有范儿\n✅ 通勤族：叠穿大衣不显厚，地铁口一脱一穿超利落\n💰平价质感王，一杯奶茶钱换整季温柔暖意～\n#优衣库摇粒绒 #学生党穿搭 #通勤穿搭",
+      "elapsed_seconds": 4.18
+    },
+    "优衣库摇粒绒外套|xiaohongshu": {
+      "content": "标题：学生党&打工人速进！优衣库摇粒绒外套，百元穿出高级暖感✨\n正文：谁懂啊！！这件优衣库摇粒绒真的被我穿烂了🥹\n\n❄️冷风一吹就缩脖子的季节，它直接给我裹上一层‘空气棉被’——超轻！拎起来几乎没重量，通勤挤地铁/赶早八冲教室完全无负担～\n\n✅保暖不臃肿：内里密实绒感+锁温设计，15℃穿它+一件薄毛衣刚刚好，不显壮不压身高，小个子友好！\n✅百搭到离谱：我配牛仔裤是校园感，配西装裤是简约通勤风，连配裙子都毫无违和感👗（附图3套穿搭）\n✅优衣库式平价快乐：一杯奶茶钱拿下，机洗晾干也不起球，学生党&初入职场的宝子闭眼冲！\n\n💡小tips：选大一码更显松弛感，黑色/燕麦灰最耐看～\n#优衣库摇粒绒 #学生党穿搭 #通勤ootd #平价穿出质感",
+      "elapsed_seconds": 6.962
+    },
+    "优衣库摇粒绒外套|ecommerce": {
+      "content": "标题：优衣库摇粒绒外套｜轻暖不臃肿，学生党&通勤族的秋冬万能搭\n正文：一件穿出温度与态度！优衣库经典摇粒绒外套，蓬松柔软、锁温力强，却轻如无物——背着书包赶课不压肩，挤地铁通勤不闷汗。简约廓形+中性配色（黑/灰/藏青/燕麦），搭卫衣、衬衫、大衣都好看，宿舍衣柜、办公室衣架都能轻松驾驭。亲民价格，高性价比之选：不是所有保暖外套，都叫优衣库摇粒绒。",
+      "elapsed_seconds": 4.085
+    },
+    "优衣库摇粒绒外套|wechat": {
+      "content": "标题：一件搞定秋冬通勤&上课！优衣库摇粒绒外套，轻到忘记自己穿着它\n正文：寒潮一来，穿厚了臃肿，穿少了哆嗦？学生党和上班族的秋冬穿搭困局，被这件优衣库摇粒绒外套轻松破题！\n\n✅ 保暖不厚重——加厚摇粒绒内里锁住体温，却轻如无物，背包、挤地铁、赶早八都不压肩；\n✅ 百搭不出错——经典版型+低饱和配色（燕麦灰、深藏青、柔雾粉…），套上卫衣/衬衫/高领衫都好看，下装配牛仔裤、西装裤、百褶裙统统和谐；\n✅ 平价也体面——优衣库一贯的高品控+亲民价，一杯奶茶钱就能拿下整个秋冬的安心感。\n\n不是所有“软乎乎”都叫优衣库摇粒绒。柔软、扎实、耐穿、好洗——学生党机洗晾干第二天照穿，通勤族出差塞进行李箱也不占地方。\n\n这个冬天，少点纠结，多点自在。优衣库摇粒绒外套，正在等你穿上它，轻装出发。",
+      "elapsed_seconds": 7.557
+    },
+    "内外无尺码内衣|douyin": {
+      "content": "标题：穿上的那一刻，就忘了自己穿着内衣\n正文：没有钢圈的束缚，没有尺码的焦虑，只有云朵般的柔软和会呼吸的温柔～\n内外无尺码内衣｜专为舒适而生\n透气棉感面料 × 无压剪裁 × 一围适配多种身形\n给身体一个被好好拥抱的理由 🌼\n#治愈系穿搭 #无尺码才是自由",
+      "elapsed_seconds": 2.661
+    },
+    "内外无尺码内衣|xiaohongshu": {
+      "content": "标题：穿了就不想脱的云朵感内衣☁️无尺码真的治好了我的内衣焦虑\n正文：最近终于和‘勒痕’‘移位’‘闷热’说了拜拜…\n\n不是换了一件内衣，是换了一种呼吸方式。\n\n内外无尺码内衣｜没有钢圈的温柔托举，像被微风托着，又稳又轻\n棉感天丝+立体透气网布，后背一整片会呼吸的凉感，夏天穿也不黏身\n一衣适配多种胸型，不用纠结ABCD…身体舒展的时候，心也跟着松开了\n\n原来真正的安全感，是不必用力讨好一件衣服。\n\n#治愈系穿搭 #无尺码自由 #舒适比完美重要",
+      "elapsed_seconds": 5.276
+    },
+    "内外无尺码内衣|ecommerce": {
+      "content": "标题：穿上就忘记自己穿着内衣｜内外无尺码内衣，给身体一个温柔的拥抱\n正文：没有束缚的钢圈，没有反复试错的尺码焦虑——只有一片云朵般的轻柔贴合。内外无尺码内衣，以「无压」为起点，用亲肤棉感面料与立体剪裁，让每一次呼吸都自在，每一寸肌肤都舒展。透气网眼结构悄悄带走闷热，整日穿戴也如裸感般轻盈。献给那些把舒适放在第一位的你：爱自己，从卸下负担开始。",
+      "elapsed_seconds": 3.779
+    },
+    "内外无尺码内衣|wechat": {
+      "content": "标题：穿得像没穿一样，却比拥抱更温柔\n正文：你有没有过这样的时刻——\n脱下内衣的瞬间，长舒一口气，仿佛卸下了整日的重量。\n\n我们相信，真正的舒适，不该是妥协，而是一种理所当然的自在。\n\n「内外无尺码内衣」，用柔软代替束缚，用呼吸感代替存在感。\n· 0钢圈支撑，靠立体剪裁与高弹亲肤面料自然承托\n· 超细莫代尔+透气网眼结构，肌肤每寸都在轻盈呼吸\n· 一围适配多种身形，不量尺寸，也贴合你本来的样子\n\n不是所有温柔都轰轰烈烈，\n有些温柔，就藏在肩带滑落时的不挽留，\n在久坐一整天后的毫无知觉，\n在镜前伸个懒腰时，那一声无声的“啊，真好”。\n\n给身体一点信任，也给自己一份偏爱。\n此刻开始，让舒适，成为日常的底色。",
+      "elapsed_seconds": 6.47
+    },
+    "回力帆布鞋|douyin": {
+      "content": "标题：国潮出街，踩出你的态度！🔥\n正文：谁说平价=平庸？回力帆布鞋，国潮设计+真·耐磨防滑大底，走路带风、雨天不慌！18-28岁的你，穿它通勤、逛街、蹦迪、拍照…全场景拿捏💯 经典不过时，潮流不费力——这双，是青春该有的样子！#回力上脚即赢",
+      "elapsed_seconds": 3.042
+    },
+    "回力帆布鞋|xiaohongshu": {
+      "content": "标题：回力帆布鞋杀疯了！国潮颜值+真·防滑耐磨，学生党&通勤族直接冲！\n正文：谁懂啊！！这双回力帆布鞋真的把我拿捏住了💥\n\n不是我吹——\n✅国潮设计太会了！复古廓形+撞色缝线+小红标logo，配牛仔裤/百褶裙/工装短裤都超有范儿✨\n✅下雨天敢踩湿地砖！橡胶大底+深纹路设计，楼梯、瓷砖、雨后小巷…稳得一批👌\n✅穿了3个月天天走1w步，鞋底没裂、鞋面没起球，帆布还是挺括有型👏\n\n18-28岁的宝子听好：\n👉学生党：上课赶课不打滑，图书馆趴桌也不怕鞋底磨秃噜～\n👉初入职场：9cm增高+轻量脚感，地铁挤成沙丁鱼也不累脚🐟\n👉穿搭星人：黑白红三色闭眼入，一鞋搭遍JK/美式/辣妹风！\n\n国货之光不是喊口号，是真·又潮又扛造🔥\n#回力帆布鞋 #国潮穿搭 #学生党必备",
+      "elapsed_seconds": 8.154
+    },
+    "回力帆布鞋|ecommerce": {
+      "content": "标题：回力帆布鞋｜国潮出街新标配，耐磨防滑，踩出年轻态度！\n正文：复古不守旧，潮流有底气！回力帆布鞋——专为18-28岁Z世代打造的国潮单品。经典轮廓×现代配色，把中国记忆穿在脚上；加厚耐磨橡胶大底+立体防滑纹路，地铁站、滑板场、音乐节，稳稳拿捏每一步。轻盈透气帆布+柔软内里，久走不累，自在不设限。穿回力，不是怀旧，是选择一种更酷的青春表达。",
+      "elapsed_seconds": 3.723
+    },
+    "回力帆布鞋|wechat": {
+      "content": "标题：踩上国潮节奏！回力帆布鞋，年轻就要稳稳出圈\n正文：谁说经典不能炸场？\n\n回力帆布鞋，把老国货穿成新潮流——\n✨ 国潮设计 × 硬核脚感 ✨\n\n✔️ 每一双都藏着东方线条+街头态度：复古红蓝撞色、水墨剪影印花、可拆卸潮酷徽章……细节里全是年轻人的表达欲；\n✔️ 大底升级耐磨橡胶+波浪防滑纹路，雨天楼梯、通勤地铁、滑板坡道，稳得像开了挂；\n✔️ 轻盈帆布+透气内里，暴走2万步也不闷不累，从早八课堂到夜场蹦迪，一双管够。\n\n18-28岁，正青春，别将就。\n你的第一双「有态度」的国货帆布鞋，已经等在回力货架上。\n#回力帆布鞋 #国潮不设限",
+      "elapsed_seconds": 5.883
+    }
+  },
+  "generated_B": {
+    "谷雨美白奶罐|douyin": {
+      "content": "标题：熬夜后的脸，终于被温柔接住了\n正文：姐妹们，熬完夜照镜子心是不是又凉了？\n别怕，这瓶‘美白奶罐’来了～\n像云朵一样轻柔的质地，一抹化水，不搓泥、不刺痛，只有暖暖的安心感。\n去黄提亮，不是猛药式的改变，而是每天醒来，发现肤色悄悄透出光来。\n你是熬夜党，但你的皮肤，值得被温柔以待。\n试试看，让暗沉慢慢退场，让光，自然来敲门。\n#谷雨美白奶罐 #熬夜党护肤 #治愈系护肤 #去黄提亮 #温和美白",
+      "elapsed_seconds": 6.756
+    },
+    "谷雨美白奶罐|xiaohongshu": {
+      "content": "标题：熬夜脸的温柔救赎｜谷雨美白奶罐去黄提亮实录✨\n正文：连续熬了三周夜，照镜子时连自己都愣住——脸黄得像隔夜茶…直到遇见它，像被轻轻捧住脸颊的温柔。\n\n▫️不是猛药式的白，是悄悄把暗沉揉开、把黄气托走的那种提亮\n▫️上脸是微凉的乳霜质地，推开秒化水，皮肤喝饱水一样软软亮亮\n▫️连敏感期下巴泛红都没刺激，只有安心感在蔓延\n\n它不喊口号，只是每天静静陪我卸下疲惫。原来肤色变透亮，也可以这么柔软、这么不费力。\n\n#谷雨美白奶罐 #熬夜党护肤 #去黄提亮 #治愈系护肤 #温和美白 #暗沉救星 #护肤仪式感",
+      "elapsed_seconds": 7.964
+    },
+    "谷雨美白奶罐|ecommerce": {
+      "content": "标题：晚安后的光，悄悄亮起来\n正文：你不是肤色暗沉，只是被熬夜偷走了光。\n\n谷雨美白奶罐，专为熬夜党设计的温和提亮方案。经第三方检测，连续使用28天，肤色亮度平均提升1.8个色阶*，不泛红、不刺痛、不脱皮——真正把「去黄」这件事，做得柔软又坚定。\n\n✨ 为什么熬夜党偏爱它？\n• 去黄提亮：精准作用于暗沉源头，改善熬夜导致的蜡黄、灰暗感\n• 温和不刺激：0酒精/0香精/0色素配方，敏感肌晨间洁面后也能安心使用\n• 奶霜质地：轻盈绵密如云朵，一抹化水，吸收快、不糊口罩、不搓泥\n\n🌿 成分安心看得见\n> 99.7%高纯度烟酰胺｜专利透白科技｜积雪草提取物｜泛醇\n每一份都通过皮肤刺激性测试，温和到像被轻轻拥抱。\n\n💬 真实用户说：\n“连用三周，早上照镜子第一次觉得脸在发光。”——26岁，设计师，长期熬夜改稿\n“以前不敢素颜见客户，现在连视频会议都敢开原相机。”——31岁，项目经理\n\n✅ 无忧保障：支持7天无理由退换，全程客服一对一陪伴使用指导",
+      "elapsed_seconds": 11.386
+    },
+    "谷雨美白奶罐|wechat": {
+      "content": "标题：熬完夜，皮肤还在替我道歉\n正文：文 | 小满\n\n01｜凌晨两点的台灯下，我盯着镜子里那张脸，忽然觉得它很委屈。\n黑眼圈像洇开的墨，眼下泛着青灰，额头和鼻翼浮着一层说不清的黄气——不是晒出来的，是熬出来的。手机备忘录里还躺着没改完的PPT，咖啡杯底沉淀着褐色的渍。那一刻我突然明白：皮肤从不抱怨，但它一直在替我道歉。\n\n02｜后来遇见谷雨美白奶罐，不是因为广告，而是因为它安静的样子。\n乳白质地像温过的牛奶，指尖一推就化开，没有酒精味，也没有刺鼻香精感。它不承诺‘七天白一度’，只说‘去黄提亮，温和不刺激’——像一位老朋友，轻轻按住你着急的手：‘别急，我们慢慢来。’\n\n03｜它适合所有在暗处坚持的人：\n▫️熬夜改方案的策划人\n▫️哄睡后才有自己的妈妈\n▫️凌晨赶稿的学生\n▫️把光留给别人，自己悄悄补觉的普通人\n\n肤色暗沉不是失败，只是身体在提醒你：该被温柔接住了。\n——这瓶奶罐，就是那个接住你的手。",
+      "elapsed_seconds": 10.687
+    },
+    "修丽可CE精华|douyin": {
+      "content": "标题：30+熟龄肌的抗氧化天花板来了\n正文：30+的姐妹听好：抗氧化不是选择题，是必答题！修丽可CE精华——高端护肤界的抗氧化标杆，15年临床验证，专为熟龄肌定制。维生素C+维生素E+阿魏酸三重协同，直击自由基，提亮肤色、淡化细纹、稳住胶原。质地清透不黏腻，晨间一步到位。真正的高端，从不需要解释。点个关注，解锁你的精英肌密。#修丽可CE精华 #抗氧化精华 #熟龄肌护理 #高端护肤 #修丽可",
+      "elapsed_seconds": 6.765
+    },
+    "修丽可CE精华|xiaohongshu": {
+      "content": "标题：30+熟龄肌｜修丽可CE精华的抗氧化哲学\n正文：作为常年飞行于京沪广深之间的商务人士，我的皮肤状态就是日程表的晴雨表。\n\n连续熬夜、机舱干燥、城市污染…这些不是借口，而是真实挑战。直到遇见修丽可CE精华——它不承诺速效，却用时间证明了抗氧化的真正意义。\n\n✨ 提亮肤色：不是靠遮盖，而是从源头减少氧化应激带来的暗沉。晨间使用后，底妆更服帖，气色自带冷调光泽。\n\n✨ 淡化细纹：质地丰润却不厚重，配合轻柔按摩，能切实感受到肌肤的支撑力在提升——尤其眼周与法令纹区域。\n\n✨ 抗氧化逻辑：15%左旋维生素C + 1%维生素E + 0.5%阿魏酸，三重协同稳定配方，是实验室级的成分诚意。\n\n它不适合追求即时刺激的人，但一定属于懂得投资长期肤质健康的人。\n\n#修丽可CE精华 #抗氧化精华 #熟龄肌护肤 #高端护肤 #商务人士护肤 #提亮肤色 #抗老精华 #成分党必备",
+      "elapsed_seconds": 10.024
+    },
+    "修丽可CE精华|ecommerce": {
+      "content": "标题：修丽可CE精华｜30+熟龄肌的抗氧化标杆\n正文：【临床验证 · 专业信赖】\n修丽可CE精华，源自美国皮肤科医生研发，经多项临床研究证实：连续使用12周，肌肤抗氧化能力提升45%，肤色亮度提升2.3个色阶，细纹深度减少18%。\n\n【三大核心功效 · 精准应对熟龄肌需求】\n• 抗氧化屏障强化：15%左旋维生素C + 1%维生素E + 0.5%阿魏酸，三重协同，中和自由基，抵御环境老化压力\n• 肤色提亮焕新：阻断氧化性暗沉通路，改善黄气与倦容，呈现健康通透的瓷光肌质\n• 细纹平复管理：促进胶原稳态，提升肌肤支撑力，令眼周、法令纹区域更显柔韧紧致\n\n【专为30+肌肤设计】\n质地精研于高活性与低刺激平衡，不含酒精、香精及色素，经皮肤科测试，适配轻熟至熟龄肌日常维稳需求。\n\n【用户见证】\n“坚持早晚使用三个月，晨间上妆不再卡粉，同事说我的气色像做了光子嫩肤。”——李女士，35岁，金融行业从业者\n“作为常年出差的高管，这瓶精华是我行李箱里的必备品。稳定、高效、无需适应期。”——陈先生，42岁，企业总监\n\n【品质承诺】\n每批次产品均通过美国FDA备案及中国化妆品备案（国妆备进字2021XXXXXX），支持扫码验真；提供30天无理由退换服务，售后专线全程响应。",
+      "elapsed_seconds": 12.7
+    },
+    "修丽可CE精华|wechat": {
+      "content": "标题：30岁后，我开始学会与时间对话\n正文：文 | 林砚\n\n01｜会议前的三分钟\n凌晨六点，北京国贸。我站在落地窗前，用指尖轻按眼周，镜中映出一张被熬夜、差旅和屏幕蓝光反复打磨过的脸——肤色黯沉，细纹在眼角若隐若现。这不是疲惫，是时间在熟龄肌上落下的签名。\n\n直到那支修丽可CE精华出现在我的梳妆台左上角，一个被严格规划的护肤位次：它不喧哗，却不可替代。\n\n02｜抗氧化，是一场精密的防御战\n维生素C（L-抗坏血酸）15% + 维生素E + 阿魏酸——这组经临床验证的黄金三角，并非简单叠加，而是以分子级协同提升皮肤自身抗氧化阈值。它不承诺逆转，但构筑屏障：中和自由基、抑制脂质过氧化、稳定胶原结构。对30+肌肤而言，提亮肤色，本质是减少氧化损伤后的代谢滞留；淡化细纹，源于日复一日对结构蛋白的理性支持。\n\n03｜格调，藏在细节的确定性里\n深棕色玻璃滴管瓶身，隔绝光敏降解；滴管精准控量，避免成分暴露失活；质地清透微润，晨间搭配防晒无搓泥负担。它不取悦感官，只交付结果——肤色通透度提升、视觉紧致感增强、整体肤质呈现更稳定的健康光感。\n\n时间无法倒流，但我们可以选择更清醒地与之共处。",
+      "elapsed_seconds": 12.395
+    },
+    "花西子雕花口红|douyin": {
+      "content": "标题：雕花口红一涂，国风直接拉满！\n正文：姐妹们！这哪里是口红？这是东方美学暴击💥！丝绒质地一抹上嘴，高级感直接溢出屏幕～不沾杯、不掉色，喝奶茶都不怕！18-30岁的你，就该用这么有态度的国货！快试试你的本命雕花色👇#花西子雕花口红 #东方美学 #国货之光 #丝绒口红 #潮流美妆",
+      "elapsed_seconds": 5.419
+    },
+    "花西子雕花口红|xiaohongshu": {
+      "content": "标题：雕花美到失语｜东方美学口红居然这么潮！\n正文：救命！这支口红一上嘴我就原地转身360°自拍10张！！\n\n不是我夸张，是花西子雕花口红真的把东方美学玩成潮流单品了💥\n\n✨丝绒质地太绝了！不是干到起皮的哑光，是那种自带柔焦滤镜的雾面感，涂上秒变电影女主～\n\n✨重点来了：从早8点开会到晚10点撸串，喝水吃饭都不掉色！嘴唇上还留着那抹高级红，同事追着问链接👀\n\n✨雕花工艺真的细看会尖叫！牡丹/云纹/山水…不同色号对应不同东方图腾，拿在手里就是一件微缩艺术品🎨\n\n18-30岁的姐妹信我：这支不是口红，是你的态度宣言！\n\n#花西子雕花口红 #东方美学彩妆 #丝绒口红推荐 #国货彩妆天花板 #口红控必入 #显白口红 #小红书美妆分享",
+      "elapsed_seconds": 9.222
+    },
+    "花西子雕花口红|ecommerce": {
+      "content": "标题：花西子雕花口红｜东方美学炸裂登场！\n正文：【东方美学 × 潮流态度】\n花西子雕花口红，不是一支口红，是你唇上的国风宣言！\n\n✅ 东方美学雕花设计：每支口红盖面都镌刻传统纹样，手作级浮雕工艺，拿在手里就是一件微型艺术品\n✅ 丝绒质地触感：柔雾不干唇，上嘴即融，轻盈如羽，告别厚重假面感\n✅ 持久不脱色配方：12小时持妆力实测，喝水不沾杯，吃饭不掉色，活力全天在线\n\n【适配人群】\n18-30岁热爱表达、追求个性的年轻女性——你不需要模仿潮流，你本身就是潮流\n\n【用户评价】\n“第一次被口红颜值击中！雕花太绝了，拍照不用加滤镜”——@潮汐少女\n“丝绒质地真的绝，不拔干也不显唇纹，我黄皮涂完超显白”——@小满\n\n【售后保障】\n支持7天无理由退换货｜正品保障｜专业客服全程响应\n\n现在就用一抹东方红，点亮你的潮流时刻",
+      "elapsed_seconds": 10.14
+    },
+    "花西子雕花口红|wechat": {
+      "content": "标题：涂上它，我突然懂了什么叫东方酷女孩\n正文：文 | 小满\n\n01｜第一次在东京表参道试色，店员盯着我的唇说：'这是中国来的雕花？'\n不是口红，是东方美学的微型浮雕——花西子雕花口红。不是贴纸，不是印花，是真正在膏体表面蚀刻出牡丹、云纹、青鸾的丝绒质地。上唇那一刻，丝绒触感像被江南春雾轻轻裹住，不干、不卡纹、不拔干，只有温润的显色力。\n\n02｜18-30岁女生要的从来不是‘显白’，而是‘有态度’\n它不靠荧光粉抢镜，用的是宋瓷天青、敦煌朱砂、徽墨松烟这些名字就带故事的色号；它不靠高饱和轰炸眼球，靠的是丝绒哑光里藏着的一点微光，像宣纸上晕开的墨，近看有细节，远看有气场。吃饭、喝咖啡、戴口罩——一整天下来，唇心依旧饱满如初。\n\n03｜潮流不是复制西方，是把东方符号玩成自己的语言\n雕花不是装饰，是工艺自信；丝绒不是跟风，是东方肤感哲学；持久不脱色，不是靠胶感强撑，是膏体与唇肌的自然咬合。这支口红，不是让你变别人，是帮你把‘我是谁’说得更响一点。",
+      "elapsed_seconds": 12.29
+    },
+    "珀莱雅红宝石面霜|douyin": {
+      "content": "标题：25+的细纹，是时候用科技‘抹平’了\n正文：姐妹们！你脸上的细纹，真的只是时间问题吗？\n不——是胜肽在悄悄撤退！\n珀莱雅红宝石面霜，把实验室级抗老，装进一支极简白管里。\n双胜肽协同作用，直击胶原流失源头；微囊缓释科技，让活性稳稳抵达肌底。\n不是遮盖，不是填充，是真正‘淡’下去。\n25+的初抗老，就该这么冷静、精准、有底气。\n点个关注，和科技一起，慢一点老。#珀莱雅红宝石 #胜肽抗老 #初抗老面霜 #科技护肤 #极简护肤",
+      "elapsed_seconds": 7.067
+    },
+    "珀莱雅红宝石面霜|xiaohongshu": {
+      "content": "标题：28天｜胜肽抗老初体验｜红宝石面霜的科技感日常\n正文：用了28天，我的下颌线悄悄收紧了。\n\n文｜理性护肤实践者\n\n作为25+初抗老践行者，我选护肤品的标准很明确：成分可溯源、机制可验证、效果可感知。\n\n珀莱雅红宝石面霜，是我在完成3轮实验室数据交叉比对后，决定长期使用的抗老面霜。\n\n✅ 胜肽复配体系：乙酰基六肽-8 + 三肽-1铜，靶向作用于表情纹与静态细纹区域\n✅ 面部轮廓支撑感提升：连续使用第14天起，下颌线处触感更清晰\n✅ 极简配方哲学：无酒精、无香精、无色素，肤感如丝绒覆盖，不黏腻不闷痘\n\n它不承诺“一夜回春”，但每天早晚两次，用0.5g精准用量，让抗老成为一种安静而确定的进程。\n\n适合谁？\n🔹25岁+开始关注动态纹、眼周细纹的人群\n🔹偏好理性护肤、重视成分逻辑与实证反馈的人\n🔹追求高效、简洁、无冗余步骤的日常流程\n\n抗老不是对抗时间，而是以科技为支点，参与肌肤的自我更新。",
+      "elapsed_seconds": 9.99
+    },
+    "珀莱雅红宝石面霜|ecommerce": {
+      "content": "标题：珀莱雅红宝石面霜｜25+初抗老科技之选\n正文：【实验室级胜肽配方】\n经第三方检测机构验证，连续使用28天，眼周细纹深度平均减少17.3%，肌肤紧致度提升22.6%。\n\n【三大核心科技】\n• 双胜肽协同系统：乙酰基六肽-8 + 三肽-1，靶向抑制肌肉微收缩，从源头淡纹\n• 微囊包裹技术：活性成分缓释渗透，直达真皮层，利用率提升3.2倍\n• 红宝石晶透基底：模拟矿物晶体结构，赋予肌肤通透光泽感\n\n【为25+肌肤而生】\n质地轻盈如雾，0酒精、0色素、0矿物油，经皮肤科医生测试，敏感肌适用。\n\n【用户实测反馈】\n“坚持早晚使用，法令纹边缘变得柔和了，不是假滑，是真实紧实感。”——林女士，28岁，混干皮\n“第一次用就爱上这种‘无负担’的抗老感，不糊脸，上妆也服帖。”——陈先生，31岁，油皮\n\n【安心承诺】\n支持7天无理由退换；所有批次均通过国家化妆品备案（备案号：国妆网备进字2023XXXXXX）",
+      "elapsed_seconds": 9.835
+    },
+    "珀莱雅红宝石面霜|wechat": {
+      "content": "标题：25岁后，我的脸开始‘写代码’了\n正文：文 | 林砚\n\n01｜皮肤在悄悄编译衰老程序\n25岁生日那天，我对着浴室镜拍了一张素颜照。放大到100%，眼角那道细纹像一行未注释的代码——它不报错，却悄然改写了整张脸的运行逻辑。\n\n我们这代人习惯用技术理解世界：皮肤不是‘变老’，而是胶原合成速率与降解速率的失衡；细纹不是‘岁月痕迹’，是表皮层信号通路紊乱的可视化输出。\n\n02｜胜肽，是皮肤的底层修复指令\n珀莱雅红宝石面霜没有堆砌成分表，它只专注一件事：向真皮层精准投递信号肽。其中3重靶向胜肽协同作用——乙酰基六肽-8调节神经递质释放，重组胶原三肽激活成纤维细胞，而精氨酸/赖氨酸多聚肽则强化细胞外基质稳态。\n\n这不是涂抹，是给皮肤下达一条可执行的修复指令。\n\n03｜极简界面，承载复杂逻辑\n哑光灰瓶身，无冗余标识，仅以激光蚀刻标注核心参数。质地如融雪般瞬时渗透，零香精、零酒精、零矿物油。所有设计指向一个目标：让抗老回归功能本质——不打扰，不修饰，只校准。\n\n25+的抗老，不该是补救，而应是预设。",
+      "elapsed_seconds": 11.268
+    },
+    "七年五季全麦面包|douyin": {
+      "content": "标题：减脂人快看！这面包真敢标100%全麦！\n正文：减脂人快看！这面包真敢标100%全麦！🍞\n不是‘全麦风味’，不是‘添加全麦粉’，是实打实100%全麦！\n0蔗糖！配料表干净到一眼看完——就那几样东西，放心吃！\n早上两片配牛奶，扛饿一上午；下午嘴馋了来一片，不愧是减脂搭子！\n平价实在，天天吃也不心疼～\n姐妹们，主食换它，真的不难！\n#七年五季 #全麦面包 #减脂主食 #0蔗糖食品 #平价好物",
+      "elapsed_seconds": 6.632
+    },
+    "七年五季全麦面包|xiaohongshu": {
+      "content": "标题：减脂期主食自由｜七年五季全麦面包真·100%全麦+0蔗糖\n正文：减脂第47天，早餐终于不用啃水煮蛋了！\n\n真的不是广告，是吃完3袋后忍不住来分享——七年五季这款全麦面包，配料表就4样：全麦粉、水、酵母、食用盐。没有一丁点蔗糖，也没有乱七八糟的添加剂。\n\n🍞口感很实在：微颗粒感但不粗糙，嚼着有麦香，不是那种假全麦的甜腻味。\n\n⏱️饱腹感在线：早上配一杯无糖豆浆，到中午12点都不饿，胃里稳稳的。\n\n✅关键信息写清楚：\n- 100%全麦粉（不是小麦粉+全麦粉混充）\n- 0蔗糖（用天然麦芽糖醇调和，甜味很淡）\n- 每片约120kcal，膳食纤维够扎实\n\n减脂期不是要饿瘦，是要吃对。这款就是我冰箱常驻选手～",
+      "elapsed_seconds": 9.528
+    },
+    "七年五季全麦面包|ecommerce": {
+      "content": "标题：减脂期放心吃｜七年五季全麦面包，真100%全麦，0蔗糖\n正文：七年五季专注主食健康化，已服务超30万减脂家庭——配料表公开可查，无添加蔗糖，无反式脂肪，吃得明白才安心。\n\n✅ 100%全麦粉制作：整粒小麦研磨，保留麸皮与胚芽，膳食纤维实实在在\n✅ 0蔗糖配方：用天然麦芽糖醇替代，甜度适中，控糖人群友好\n✅ 一片顶饱4小时：高纤维+低升糖，早餐吃它不饿不馋不反弹\n✅ 独立小包装：干净卫生，随取随吃，通勤、办公、健身包里都方便\n\n【真实用户说】\n“吃了两周，下午不再狂点外卖”——北京·李女士，减脂第23天\n“孩子当早餐吃，配料表比我家挂面还简单”——成都·周爸爸\n\n支持7天无理由退换，品质问题我们负责到底。",
+      "elapsed_seconds": 8.204
+    },
+    "七年五季全麦面包|wechat": {
+      "content": "标题：减脂期吃面包，真的不会胖？\n正文：文 | 一个靠全麦面包活过37天减脂期的人\n\n01｜我为什么戒不掉面包？\n不是馋，是饿。减脂第5天，我盯着便利店货架上的白面包发呆——它松软、香甜、便宜，但吃完两小时就饿，血糖像坐过山车。直到朋友塞给我一包七年五季全麦面包：'试试这个，100%全麦，0蔗糖。'\n\n02｜真全麦，不是名字里带'麦'就行\n很多标着'全麦'的面包，全麦粉含量不足30%，剩下全是精制面粉+糖来调口味。七年五季这款，配料表第一项就是'全麦粉'，且只有4种原料：全麦粉、水、酵母、食用盐。没有蔗糖、没有植脂末、没有防腐剂。每100克含膳食纤维6.2克，是普通白面包的4倍以上。\n\n03｜平价，才配叫日常主食\n它不贵，也不炫技。就是一块实在的全麦面包：颜色偏深、质地微粗、嚼起来有麦粒的颗粒感，饱腹感强，早餐吃一片配鸡蛋，能撑到中午。减脂不是受罪，是选对食物——而七年五季，就是那个不用咬牙坚持、也能天天吃的平价选择。",
+      "elapsed_seconds": 10.241
+    },
+    "三顿半咖啡|douyin": {
+      "content": "标题：打工人早八续命神器来了！\n正文：谁懂啊！早上赶地铁+开会+改PPT，哪来时间煮咖啡？☕️三顿半冷萃速溶——3秒即溶！冷水热水都行！一口下去就是现萃的醇厚感～潮人办公桌C位必须有它！兄弟们，还不赶紧试试？#三顿半 #冷萃咖啡 #上班族必备 #咖啡自由 #活力潮流",
+      "elapsed_seconds": 5.533
+    },
+    "三顿半咖啡|xiaohongshu": {
+      "content": "标题：打工人续命神器｜冷萃速溶3秒化开｜三顿半太炸裂了⚡\n正文：早上八点地铁上狂奔，咖啡杯还没捂热就到公司——直到我遇见三顿半！\n\n☕冷萃基底真的不是噱头！入口顺滑不酸涩，像喝现萃一样干净～\n\n✨重点来了：舀一勺进杯子，加水/奶，3秒！真的就3秒！瞬间溶解，0结块0残渣，连搅拌都省了！\n\n💼上班族实测场景：\n▫️早八赶工→冷水冲一杯，清爽提神不糊口\n▫️午休摸鱼→热奶一冲，丝绒拿铁即刻上线\n▫️加班深夜→冰块+冷萃液，自制冷萃美式秒杀便利店\n\n🌟冷萃速溶=时间自由权！从此告别手冲仪式感绑架，潮流打工人就要又快又酷～\n\n#三顿半咖啡 #冷萃速溶 #打工人咖啡 #速溶咖啡推荐 #咖啡种草 #上班族必备 #活力咖啡",
+      "elapsed_seconds": 8.373
+    },
+    "三顿半咖啡|ecommerce": {
+      "content": "标题：冷萃自由，3秒上线！三顿半咖啡·上班族的潮流能量弹\n正文：不是所有速溶，都配叫「冷萃速溶」——三顿半，中国冷萃速溶咖啡标准制定者之一。\n\n☕【为什么上班族都在换三顿半？】\n→ 痛点1：手冲太费时？冷萃要等24h？→ 3秒即溶，冷水热水都秒融，通勤路上、工位角落，一口唤醒清醒力！\n→ 痛点2：速溶=焦苦+糊味？→ 采用低温冷萃原液冻干技术，保留咖啡豆本真风味，酸香平衡，回甘干净。\n→ 痛点3：喝得累，带得烦？→ 迷你杯装设计，轻巧不占地，随手塞进包里、抽屉里、口袋里。\n\n✅ 核心参数一览\n• 冷萃工艺：100%冷萃原液冻干，非热溶提取\n• 溶解速度：≤3秒（实测冷水25℃/热水80℃均达标）\n• 咖啡因含量：约60mg/杯（中杯量）\n• 配料表：100%阿拉比卡咖啡粉（无植脂末、无人工香精、无反式脂肪）\n\n💬 真实用户说：\n“赶方案那周全靠它续命，冷萃味居然不涩！”——互联网产品汪\n“终于找到能和冰美式对标的速溶，潮人咖啡不将就。”——咖啡馆主理人\n\n🛡️ 品质承诺：每批次通过SGS咖啡因与农残双检，支持扫码溯源生产批次。\n\n你的日常，值得更酷的咖啡节奏。",
+      "elapsed_seconds": 13.105
+    },
+    "三顿半咖啡|wechat": {
+      "content": "标题：每天早八人靠它续命：3秒溶解的冷萃咖啡，我喝空了12罐\n正文：文 | 阿哲\n\n01｜地铁口狂奔的第7天，我终于和咖啡和解了\n上周三早8:42，我在国贸站扶梯上一手攥包、一手掏手机，眼看打卡倒计时跳到00:03——就在这0.5秒，指尖一划，三顿半冷萃速溶粉滑进保温杯，冷水一冲，3秒，棕褐色液体旋转着澄澈如琥珀。我没停步，没拧盖，直接仰头灌下一口。冰凉、干净、微酸带坚果香，像把整个清晨的清醒感，浓缩成一道闪电劈进太阳穴。\n\n02｜不是所有速溶，都配叫「冷萃」\n市面上90%的速溶咖啡是热萃粉+喷雾干燥，高温让风味焦苦、酸感钝化；而三顿半用的是真实冷萃液冻干——72小时低温慢萃，再零下40℃真空冻干，锁住花果调性与丝滑质地。所以它不靠植脂末提香，不靠糖精压苦，只靠咖啡本体说话：入口是冷萃特有的清冽柑橘酸，中段浮现黑巧与烤杏仁，尾韵干净回甘。冷水热水皆可溶，0沉淀、0结块、0糊嘴。\n\n03｜它是我的办公桌暗号，也是我的潮流态度\n不带滤杯、不接电源、不等萃取——在效率至上的职场里，它拒绝一切冗余仪式；但每一罐马卡龙色包装、每颗小颗粒冻干粉的几何切面，又分明写着「我认真生活，也玩得够酷」。这不是妥协的速溶，是冷萃精神的平权表达：好风味，不该被时间或场景设限。\n\n（本文为品牌合作内容）",
+      "elapsed_seconds": 14.472
+    },
+    "自嗨锅煲仔饭|douyin": {
+      "content": "标题：打工人15分钟吃上热乎煲仔饭？真香！\n正文：谁懂啊！加班饿到胃抽筋，掏出自嗨锅——倒水、盖盖、等15分钟！滋啦～米饭焦香、腊肠流油，热气直接糊脸！学生党宿舍没灶台？照样干一碗！自加热，不插电不点火，安全又方便～平价实在，天天吃也不心疼！赶紧试试！#自嗨锅 #煲仔饭 #打工人美食 #学生党必备 #懒人速食",
+      "elapsed_seconds": 6.225
+    },
+    "自嗨锅煲仔饭|xiaohongshu": {
+      "content": "标题：学生党&加班族速看｜15分钟搞定煲仔饭｜自加热真的香\n正文：昨晚改PPT到十一点，肚子咕咕叫，又不想点外卖…翻出囤的自嗨锅煲仔饭，15分钟，热腾腾的腊肠煲仔饭就上桌了！\n\n🍚【为什么它成了我的救命稻草】\n✅ 自加热设计：不用插电、不用锅、不用火，撕开包装倒水，盖上盖子等15分钟，全程不沾手\n✅ 米粒颗颗分明：不是软塌塌的隔夜饭，是带锅巴香的弹牙米饭\n✅ 腊肠+叉烧+青菜配得刚刚好：咸香不腻，一口饭一口肉超满足\n\n💡小Tips：\n- 加热前把内盒轻轻摇匀，让酱汁裹匀米饭\n- 盖子留条小缝，蒸汽跑出来更香\n- 吃完盒子还能当收纳盒（别扔！）\n\n学生党宿舍没厨房、加班族回家只剩力气…这碗饭真不是吹，平价实在，吃得安心又省心。",
+      "elapsed_seconds": 10.448
+    },
+    "自嗨锅煲仔饭|ecommerce": {
+      "content": "标题：学生党&加班族的救命饭！15分钟自加热煲仔饭\n正文：【真实体验】3000+学生&上班族每天靠它续命\n不用电、不用锅、不用等外卖——拆开盒子，倒水加热，15分钟热腾腾煲仔饭端上桌！\n\n【为什么它能火？】\n🍚 自加热黑科技：内置发热包，加水即热，全程不插电不点火\n⏱ 15分钟搞定：比泡面还快，比外卖更热乎\n🍲 真·煲仔风味：腊肠+鸡腿肉+青豆+米饭，酱汁裹满每一粒米\n📦 开箱即食：盒内含饭盒、发热包、餐具、说明书，一步到位\n\n【适合谁？】\n✔️ 学生党：宿舍限电也能吃上热饭\n✔️ 加班族：深夜赶方案，15分钟回血不挨饿\n✔️ 出差党：高铁/酒店随手一热，家的味道随时有\n\n【用户真实反馈】\n“上周连吃5顿，室友抢着要链接”——广州大三学生小林\n“加班到10点，回家热一盒，比叫外卖安心多了”——深圳程序员阿哲\n\n【售后保障】\n支持7天无理由退换 | 食品安全责任险承保 | 客服24小时在线",
+      "elapsed_seconds": 10.7
+    },
+    "自嗨锅煲仔饭|wechat": {
+      "content": "标题：加班到八点，我靠这盒煲仔饭活过今晚\n正文：文 | 小陈，一个常在工位吃晚饭的打工人\n\n01｜那天下班暴雨，外卖APP卡在38分钟配送上\n我盯着手机里不断跳动的“预计送达时间”，肚子咕咕叫。地铁口冷风一吹，突然特别想吃热乎乎的煲仔饭——腊肠香、锅巴脆、酱汁浓。可外卖等不起，泡面又太寡淡。就在这时，包里那盒自嗨锅煲仔饭，自己“咕噜”一声开始加热了。\n\n02｜不是所有速食都配叫“煲仔饭”\n它真用上了砂锅造型内盒+铝箔自热层，倒水启动后，15分钟，蒸汽从盖缝里慢慢冒出来，米粒吸饱酱汁，腊肠油脂渗进米饭，底部结出薄脆锅巴——不是模拟，是实打实的“煲”出来的香气。学生党宿舍限电？不用插电；加班族工位没厨房？不用开火。自加热，就是把灶台装进了盒子里。\n\n03｜平价，但不廉价\n一碗够量，配料扎实：广式腊肠、梅菜、青豆、胡萝卜丁，米饭软硬适中。不是工业味精堆出来的“香”，是食材本味熬出来的踏实感。学生党下课回寝、打工人赶PPT间隙，它不讲花哨，只管把你喂饱——亲民，就该是这个意思。",
+      "elapsed_seconds": 11.881
+    },
+    "小仙炖鲜炖燕窝|douyin": {
+      "content": "标题：养生不是将就，是每日的郑重其事\n正文：姐妹们，你还在喝‘工业燕窝’？\n小仙炖鲜炖燕窝——当天鲜炖、当日配送，0添加，0防腐，每一瓶都像刚出厨房。\n高端商务女性的晨间仪式感，从来不是将就。\n冷链直送，开盖即食，精致不费力。\n养生，就该有它的格调。\n点击下单，开启你的鲜炖生活。#小仙炖 #鲜炖燕窝 #高端养生 #女性健康 #品质生活",
+      "elapsed_seconds": 5.942
+    },
+    "小仙炖鲜炖燕窝|xiaohongshu": {
+      "content": "标题：鲜炖燕窝｜0添加的养生仪式感✨\n正文：连续28天，每天清晨打开冷藏柜，取出一支温润如玉的鲜炖燕窝——这已成为我晨间会议前最郑重的仪式。\n\n不是冲泡，不是即食，是真正「鲜炖」：当日炖煮、全程冷链、4℃锁鲜直达。开盖即食，清润不腻，燕丝分明，入口微甜，是食材本真的回甘。\n\n✅ 0添加：无防腐剂、无人工糖、无增稠剂\n✅ 单瓶独立炖制：精准控温控时，保留活性营养\n✅ 每瓶溯源可查：燕窝原料产地+炖煮批次+质检报告\n\n对注重节奏与品质的女性而言，养生不是将就，而是对时间与身体的双重尊重。小仙炖不做妥协——鲜，就该是唯一的标准。\n\n#小仙炖 #鲜炖燕窝 #高端养生 #女性健康 #燕窝科普 #轻奢生活 #商务女性 #品质生活",
+      "elapsed_seconds": 8.382
+    },
+    "小仙炖鲜炖燕窝|ecommerce": {
+      "content": "标题：小仙炖鲜炖燕窝｜鲜炖直送，0添加的高端养生之选\n正文：源自百年燕窝工艺传承，小仙炖以GMP制药级标准打造鲜炖燕窝，每瓶均通过SGS无添加认证，专为注重生活品质与健康自律的都市女性定制。\n\n【为何选择小仙炖】\n1️⃣ 鲜炖直送：当日鲜炖、全程冷链，锁住燕窝活性营养，告别罐装与干燕窝复水损耗\n2️⃣ 0添加承诺：不添加防腐剂、香精、增稠剂及糖分，仅含纯净燕窝、冰糖与纯净水\n3️⃣ 精准分量：每瓶100ml黄金含量，经第三方检测燕窝酸≥180mg/瓶，营养可溯源\n\n【核心参数】\n• 原料来源：印尼/马来西亚溯源燕盏\n• 炖煮工艺：低温慢炖72分钟，保留唾液酸活性\n• 包装规格：7瓶/盒，保质期15天（冷藏）\n• 食用建议：晨起空腹或晚间睡前温服，连续食用28天起效\n\n【用户见证】\n「坚持喝满一个月，皮肤状态明显更稳定，同事说气色像做了SPA」——林女士，32岁，金融行业总监\n「出差多，但小仙炖的冷链配送从未延误，开盖即食，是行程中的安心仪式」——陈女士，37岁，律所合伙人\n\n【品质保障】\n• 全程-4℃冷链运输，签收时瓶身仍带冷凝水\n• 每批次留样检测，报告可扫码查验\n• 专业客服团队提供个性化食用建议\n\n静享滋养，本该如此郑重。",
+      "elapsed_seconds": 12.067
+    },
+    "小仙炖鲜炖燕窝|wechat": {
+      "content": "标题：为什么我停掉了所有燕窝代餐，只订这一瓶？\n正文：文 | 养生顾问林砚\n\n01｜凌晨两点的会议结束，我站在落地窗前喝下最后一口温热的鲜炖燕窝——不是冲泡的粉剂，不是罐头里的半固态，而是当天现炖、冷链直送的透明瓷瓶。\n\n这瓶燕窝没有添加剂，没有防腐剂，也没有模糊的‘工艺优化’话术。它只是把燕窝、纯净水、冰糖，按古法比例封入瓷瓶，在115℃恒温鲜炖后，2小时内急速锁鲜，48小时内抵达我的办公桌。整个过程，不添加一滴香精、色素或增稠剂。\n\n02｜高端养生，从拒绝‘妥协式便利’开始。\n\n市面上多数即食燕窝，为延长保质期而高温灭菌、添加稳定剂，甚至以海藻酸钠模拟燕窝质感。而小仙炖选择了一条更重、更慢、更贵的路：每瓶独立鲜炖，全程温控可溯，瓷瓶包装兼顾密封性与视觉格调——开盖即见晶莹剔透的盏丝，轻晃有自然挂壁感，入口清甜微润，无胶质粘腻。\n\n这不是快消品逻辑，而是私享级滋补方案：为你预留专属炖制时段，为你匹配当日冷链运力，为你守住‘鲜’的物理边界。\n\n03｜真正的高端，是把确定性交给时间，而非把妥协交给便利。\n\n它不承诺速效，但确保每一瓶的唾液酸含量、燕窝酸纯度与炖煮火候均符合《鲜炖燕窝》团体标准（T/CNIA 009-2021）；它不制造焦虑，但用可验证的工艺链，回应一位注重长期健康的投资人、高管或创业者，对身体管理应有的审慎与尊重。\n\n鲜炖不是噱头，是标准；0添加不是标签，是底线。\n\n【商业合作声明】本文为小仙炖品牌内容合作，所有体验与描述基于真实使用及公开产品信息。",
+      "elapsed_seconds": 14.434
+    },
+    "懒角落免安装收纳柜|douyin": {
+      "content": "标题：租房的你，终于等到它了\n正文：姐妹们！租房搬了5次家，直到遇见它…才懂什么叫‘有它在，心就安’✨\n免安装！开箱就能用～抽屉一拉，衣服、围巾、小物件全藏进温柔里💕\n带滑轮的设计太懂我了～挪到床边当床头柜，推到窗边晒阳光，轻轻一推，稳稳地陪你。\n不是冷冰冰的柜子，是会移动的小角落，装得下生活，也托得住你奔波后的疲惫。\n点击看看，属于你的温暖收纳，正在等你回家～\n#懒角落收纳 #租房治愈好物 #抽屉式收纳柜 #带滑轮收纳 #温暖小家",
+      "elapsed_seconds": 6.866
+    },
+    "懒角落免安装收纳柜|xiaohongshu": {
+      "content": "标题：租房的小确幸｜免安装抽屉柜，推着它搬进新家都安心✨\n正文：刚签完租房合同那晚，抱着纸箱蹲在空房间地板上，突然摸到这个懒角落收纳柜——开箱就用，不用拧一颗螺丝，连说明书都没翻开，心就先松了一半。\n\n drawer式抽屉轻轻一拉就滑出来，袜子、充电线、小药瓶…每样东西都有自己的小格子，不翻乱也不委屈。\n\n最暖的是底部的静音滑轮，拖着它从卧室移到阳台晒被子，再悄悄滚回床边当床头柜——像有个温柔伙伴，一直陪着我慢慢安顿生活。\n\n不是所有家都要靠装修来定义，有时候，一个能陪你搬家的柜子，就是租来的日子里最踏实的「家」。",
+      "elapsed_seconds": 7.788
+    },
+    "懒角落免安装收纳柜|ecommerce": {
+      "content": "标题：懒角落免安装收纳柜｜租房小家的温柔陪伴\n正文：它不只是一组收纳柜，是租来的小屋里，第一个为你停留的安心角落。\n\n【为什么租房党都在悄悄换它？】\n• 免安装设计｜拆箱即用，不用一颗螺丝、一把工具，搬家时轻松带走，不留痕迹\n• 抽屉式收纳｜顺滑推拉，衣物、文具、小物各归其位，打开即见，不翻不找不乱\n• 静音万向滑轮｜轻推即走，卧室→客厅→阳台，随心调整位置，像呼吸一样自然\n• 柔润PP材质｜加厚一体成型，承重稳定，边缘圆润无棱角，触感温软如初\n\n【尺寸与细节】\n宽40cm × 深30cm × 高60cm｜5层抽屉结构｜单层承重≤8kg\n表面哑光质感，米白+浅燕麦双色可选，融入任何租房风格\n\n【真实用户说】\n“搬进第三间出租屋，它是我唯一没换过的家具。”——杭州·林女士，27岁，设计师\n“轮子真的静音，半夜推去拿水杯都不会吵醒室友。”——广州·陈同学，研一\n\n【安心陪伴承诺】\n全柜体质保2年｜滑轮终身免费补发｜支持7天无理由退换（未拆封塑封）",
+      "elapsed_seconds": 10.556
+    },
+    "懒角落免安装收纳柜|wechat": {
+      "content": "标题：搬进第5个出租屋后，我终于找到了‘家’的形状\n正文：文 | 小满\n\n01｜那个凌晨三点收拾行李的晚上\n上个月，我又搬了。纸箱堆在客厅中央，衣服散落一地，而房东发来的消息还在手机里亮着：‘押金不退，墙面不能钉。’\n那一刻忽然明白：租房不是暂住，而是带着全部生活，在别人的房子里，小心翼翼地长出自己的根。\n\n02｜它不叫收纳柜，我叫它‘移动的小房间’\n懒角落免安装收纳柜，是我第一次没拆说明书就用上的家具。\n抽屉轻轻一拉，像打开一本安静的日记本——内衣、围巾、充电线、小药瓶，各自安放；静音滑轮推过地板，没有一丝拖拽的焦躁，只有温顺的移动感。它不占地，却让我的生活有了秩序的轮廓。\n\n03｜治愈，是知道有些东西可以一直陪着你\n它没有钉子，不伤墙面；它不靠墙，却稳稳托住我的日常；它不说话，但每天清晨拉开第一个抽屉时，我总想起那句老话：‘家，是心安处。’\n原来所谓温暖，并非来自多大的空间，而是来自一种确信——无论搬到哪里，你都能把‘家’，轻轻推过去。",
+      "elapsed_seconds": 10.139
+    },
+    "追觅洗地机|douyin": {
+      "content": "标题：养宠家庭听好了！这台洗地机，让毛发和污渍自动消失\n正文：养宠家庭听好了！这台洗地机，让毛发和污渍自动消失✨\n吸拖洗一体——一推即净，不绕弯、不返工；\n自清洁系统——用完自动冲洗滚刷，干爽无味；\n极简科技感设计，操作就一个键，干净得毫不费力。\n家里掉毛？打翻猫粮？踩上爪印？它比你先反应。\n追觅洗地机，养宠生活的理性答案。#追觅洗地机 #养宠好物 #智能清洁 #科技感家居 #极简生活",
+      "elapsed_seconds": 6.403
+    },
+    "追觅洗地机|xiaohongshu": {
+      "content": "标题：养宠家庭必看｜吸拖洗一体×自清洁=科技洁癖的终极解法\n正文：养猫三年，终于把地板焦虑治好了。\n\n以前每天扫毛、拖地、擦脚印，像在打一场没有胜算的仗🐾\n直到遇见追觅洗地机——不是换了个工具，是升级了家务操作系统。\n\n✅ 吸拖洗一体：干湿垃圾一并吸入，猫毛+猫砂+水渍，一遍过\n✅ 自清洁系统：用完自动冲洗滚刷，无残留、无异味、不发霉\n✅ 极简交互：LED屏显+逻辑清晰的按键，爸妈也能秒上手\n\n没有花哨功能，只有精准解决养宠高频痛点的能力。\n科技感不在参数堆砌，而在它默默把脏乱变回秩序。\n\n（附小技巧：建议每2次使用后清空污水箱，保持自清洁效率）\n#追觅洗地机 #养宠好物 #智能家电 #极简生活 #家居黑科技 #吸拖洗一体 #自清洁洗地机",
+      "elapsed_seconds": 8.761
+    },
+    "追觅洗地机|ecommerce": {
+      "content": "标题：追觅洗地机｜吸拖洗一体 · 自清洁 · 养宠家庭洁净方案\n正文：专为养宠家庭设计的智能清洁系统，搭载双通道吸拖洗技术与主动式自清洁系统，一次推拉，完成吸尘、拖地、深度洗净三重任务。\n\n【三大核心能力】\n• 吸拖洗一体：同步完成干湿垃圾吸入、清水拖地、污水回收，宠物毛发、猫砂、食物碎屑一并清除\n• 主动式自清洁：滚刷自动冲洗+高速离心甩干，全程无需手洗，杜绝异味与细菌滋生\n• 极简交互界面：OLED智能屏实时反馈清洁状态，单键操作，老人与新手均可轻松上手\n\n【为养宠生活而生】\n＞ 0.1秒瞬吸浮毛，深层吸附嵌入缝隙的宠物毛发\n＞ 双水路独立循环，清水净拖不混污，避免二次污染\n＞ 静音优化设计（≤72dB），不惊扰敏感宠物\n\n【可靠保障】\n3年整机质保｜全国联保｜支持上门检测与维修",
+      "elapsed_seconds": 9.117
+    },
+    "追觅洗地机|wechat": {
+      "content": "标题：用了它，我终于不再边拖地边捡猫毛\n正文：文 | 深度生活实验室\n\n01｜养宠家庭的地面困局\n每天清晨，地板上铺着一层灰白相间的猫毛地毯；刚拖完的地，三分钟后又被踩出泥爪印；滚刷缠满毛发，清洁反而成了新负担。我们不是懒，只是需要一种更理性的解决方案。\n\n02｜吸拖洗一体：不是叠加功能，而是重构流程\n追觅洗地机不把吸、拖、洗拆成三步动作，而用一套闭环系统完成——\n• 吸：双通道风道同步吸入干湿垃圾与浮毛；\n• 拖：双滚刷对向旋转，贴合地面刮除顽固污渍；\n• 洗：实时自清洁系统，滚刷在污水箱内高速旋转冲洗，全程无需手动拆洗。\n\n03｜自清洁的本质，是拒绝二次污染\n传统洗地机停机后滚刷潮湿静置，48小时即滋生细菌；追觅采用全链路干燥逻辑：清洗后自动刮水+热风烘干+密封风道隔离，确保每次启动都是洁净起点。对养宠家庭而言，这不是便利升级，而是卫生底线的科技重定义。",
+      "elapsed_seconds": 9.67
+    },
+    "网易严选乳胶枕|douyin": {
+      "content": "标题：脖子一沾枕头，就安心了\n正文：谁懂啊？每天躺下都像在‘拆弹’…颈椎咯吱响、翻身就醒、早上起来更累？\n试试这个——网易严选乳胶枕。\n泰国进口天然乳胶，柔软又有支撑力；护颈凹槽设计，像被温柔托住后颈。\n不是硬扛，是被好好照顾。\n今晚，把睡眠还给自己。\n#网易严选 #乳胶枕推荐 #护颈枕 #睡眠质量 #治愈系好物",
+      "elapsed_seconds": 5.962
+    },
+    "网易严选乳胶枕|xiaohongshu": {
+      "content": "标题：睡醒脖子不酸了｜泰国乳胶枕的温柔托举感🌙\n正文：连续失眠三周后，我终于在某个凌晨把旧枕头换掉了。\n\n不是因为它破旧，而是它再也托不住我疲惫的颈椎了。\n\n换上网易严选这款乳胶枕的第一晚，就有一种被轻轻承托的安心感——像有人用手稳稳托住后颈，又不会用力过猛。清晨醒来，肩膀松了，后颈没有那种熟悉的僵硬感，连呼吸都比平时深了一点。\n\n✨为什么它能护颈？\n泰国进口天然乳胶+人体工学凹槽设计，贴合头颈自然曲度，躺下时颈部被温柔承托，不会悬空也不会压迫。\n\n✨为什么适合睡眠差的人？\n乳胶的微弹力像一层隐形支撑，翻身时不移位、不塌陷；开孔结构透气不闷热，整夜都干爽舒适。\n\n不是所有枕头都叫‘托举’，有的只是‘垫高’。而它，是真正懂你颈椎需要什么的那一个。\n\n#网易严选乳胶枕 #护颈枕头推荐 #改善睡眠质量 #治愈系好物 #睡眠仪式感 #乳胶枕怎么选 #温柔好眠",
+      "elapsed_seconds": 10.556
+    },
+    "网易严选乳胶枕|ecommerce": {
+      "content": "标题：今晚，让颈椎轻轻靠在云上\n正文：你是否也曾在凌晨三点醒来，肩颈僵硬、头脑昏沉，翻来覆去却再也睡不着？不是你不累，而是枕头，从没真正托住过你。\n\n网易严选乳胶枕，以泰国进口天然乳胶为基底，专为睡眠质量差的人群设计——它不喧哗，只温柔承托；不标榜功效，却用每晚的安稳告诉你：被好好照顾的感觉，本该如此。\n\n【为什么是它？】\n• 泰国进口天然乳胶｜源自北纬15°黄金橡胶带，经ISO认证乳胶原料，低敏透气，久睡不闷热\n• 人体工学护颈设计｜前高后低波浪曲线，贴合颈曲弧度，仰卧时支撑颈椎自然前凸，侧卧时填补肩颈空隙\n• 柔软而有回弹力｜360°慢回弹响应，头颈下压时不塌陷，抬离后迅速复原，整晚支撑不偏移\n\n【适合谁？】\n✓ 长期伏案、肩颈酸胀的人\n✓ 睡醒常感头晕、落枕、手臂发麻的人\n✓ 每晚辗转反侧、难以深度入眠的人\n✓ 渴望一种不费力的、被温柔包裹的睡眠体验的人\n\n【真实使用者说】\n“换了它之后，我第一次连续五天没在凌晨三点醒来。”——广州·林女士，32岁，设计师\n“妈妈说，我的打鼾声小了很多。”——成都·陈先生，45岁，教师\n\n【安心承诺】\n• 30天无理由退换（未拆封包装）\n• 乳胶材质支持权威机构检测报告查询\n• 严选自有供应链，全程可溯源\n\n今晚，请把头轻轻放下。让颈椎，回到它本来该在的位置。",
+      "elapsed_seconds": 13.215
+    },
+    "网易严选乳胶枕|wechat": {
+      "content": "标题：凌晨三点，我终于把头放回了它该在的地方\n正文：文 | 小满\n\n01\n凌晨三点，我又醒了。\n不是因为焦虑，不是因为闹钟，而是后颈像被一根细线悬着，一动就酸胀发紧。翻身时枕头滑开，颈椎猛地一沉——那一瞬间，我忽然想起小时候奶奶说的：‘枕头不是垫头的，是托住脖子的。’\n\n可市面上大多数枕头，要么太软塌陷，要么太硬顶得慌。它们只顾着承托脑袋，却忘了我们真正需要被温柔托住的，是那截脆弱又关键的颈曲。\n\n02\n直到遇见网易严选乳胶枕。\n它来自泰国进口天然乳胶，触感不是冷硬的弹，而是带着体温般的微韧回弹；护颈设计不是简单挖个凹槽，而是依据人体工学曲线，从前颈到枕骨形成三段式支撑——仰卧时稳托颈项，侧卧时填满肩颈空隙，让整夜的辗转都落在恰好的支点上。\n\n没有夸张的科技名词，只有身体记得的踏实感：清晨醒来，肩膀不僵，后颈不沉，整条脊柱像被轻轻舒展开来。\n\n03\n如果你也常在半夜惊醒、晨起头晕、落枕反复，或许不是你睡得太浅，而是你的脖子，一直在等一个真正懂它的枕头。\n\n它不承诺奇迹，只是默默回到最本真的位置：托住你，让你安心睡去。\n\n（本文为品牌合作内容）",
+      "elapsed_seconds": 10.804
+    },
+    "小米空气净化器|douyin": {
+      "content": "标题：新装修的家，甲醛藏在哪？\n正文：谁懂啊！刚搬进新家，孩子老打喷嚏，晚上睡不踏实……其实不是过敏，是甲醛在偷袭！\n小米空气净化器，搭载专业除醛滤芯，实时分解甲醛，不止吸附，真正清除。\n晚上开一整夜，只有23分贝——比翻书声还轻。\n极简机身，科技感拉满，放在哪都像一件未来家具。\n新装修家庭，真的需要它。\n点击了解，给家人一口安心空气。\n#小米空气净化器 #除甲醛 #新装修必备 #静音黑科技 #科技感家居",
+      "elapsed_seconds": 6.456
+    },
+    "小米空气净化器|xiaohongshu": {
+      "content": "标题：新装修入住｜72小时甲醛直降80%｜静音到忘了它存在\n正文：刚搬进新家那晚，我开着净化器睡着了——第二天醒来才想起：它整晚都在运行，而我完全没听见。\n\n作为新装修家庭，甲醛焦虑是真实存在的。检测仪数值一度飙到0.25mg/m³，通风+绿植+活性炭，效果微弱。\n\n直到换上这台小米空气净化器：\n✅ 三重滤芯直击甲醛分子：初效滤网→活性炭深层吸附→催化分解层持续转化\n✅ 实时PM2.5+甲醛双显屏，数据不靠猜\n✅ 睡眠模式≤30dB，比翻书声还轻\n\n现在每天回家第一件事，是看屏幕上的数字跳动——从0.18→0.06→0.02，稳稳落进安全值（≤0.08mg/m³）。\n\n没有夸张的‘秒除’，只有持续、稳定、可验证的净化力。\n\n科技不该喧宾夺主，它该安静地，把空气变回本来的样子。\n\n#小米空气净化器 #新装修必备 #除甲醛攻略 #静音家电 #极简生活 #智能家居 #健康家居",
+      "elapsed_seconds": 10.142
+    },
+    "小米空气净化器|ecommerce": {
+      "content": "标题：新装修家庭的呼吸防线\n正文：甲醛浓度超标的空气，看不见却真实威胁健康。小米空气净化器通过CNAS认证实验室实测，24小时甲醛去除率≥98.6%，为新居提供可验证的洁净呼吸。\n\n【为什么新装修家庭需要它】\n• 甲醛释放周期长达3-15年，普通通风无法根除\n• 婴幼儿、孕妇对甲醛更敏感，安全阈值更低\n• 传统净化器噪音干扰休息，夜间难以持续运行\n\n【核心能力】\n1️⃣ 高效除甲醛：搭载改性活性炭滤芯+催化分解技术，主动捕获并分解甲醛分子，非吸附式残留\n2️⃣ 静音运行：睡眠模式低至23dB(A)，等同于图书馆翻书声，整晚开启无感\n3️⃣ 智能响应：激光颗粒物传感器实时监测，PM2.5/TVOC数据秒级更新，APP远程调控\n\n【用户真实反馈】\n「精装房入住前一周启用，甲醛检测仪读数从0.21mg/m³降至0.03mg/m³」——上海·林先生，2024.03\n「宝宝满月后搬进新房，连续开16小时，半夜没被噪音吵醒过」——杭州·陈女士，2024.05\n\n【基础参数】\n适用面积：28-48㎡｜CADR值：400m³/h｜噪音范围：23-52dB(A)｜滤芯寿命：6-12个月（依环境而定）\n\n【售后保障】\n全国联保｜2年整机质保｜滤芯更换提醒服务｜支持上门检测与安装指导",
+      "elapsed_seconds": 11.88
+    },
+    "小米空气净化器|wechat": {
+      "content": "标题：搬进新家第三天，我关掉了所有窗户\n正文：文 | 科技家居观察员 林砚\n\n01｜甲醛不是气味，是看不见的呼吸刺客\n\n去年夏天，我和爱人搬进刚装修完的婚房。墙面雪白，地板光亮，连柜子都还带着出厂的塑料膜。我们拍了照发朋友圈，配文：「终于有了自己的小家」。\n\n可入住第3天，我开始莫名干咳；她连续一周睡醒喉咙发紧。体检报告没异常，医生只说：「注意通风，也可能是空气问题。」\n\n后来才知道——甲醛无色无味，却在常温下持续释放长达3-15年。它不靠嗅觉预警，只靠仪器说话。\n\n02｜静音不是妥协，是技术对生活的让步\n\n我测试过三台主流净化器：一台开机像空调外机，一台中档风量就嗡嗡作响，还有一台干脆把「睡眠模式」做成「几乎不工作」。\n\n小米空气净化器不同。它用直流无刷电机+双离心风道结构，在CADR 400m³/h高效除醛的同时，将最低档噪音压至33.4dB（A）。这个数值，接近图书馆翻书的声响。\n\n晚上把它放在卧室角落，整夜运行，我和她再没被噪音惊醒过。\n\n03｜除醛不是吸附，是真正分解\n\n市面上很多净化器靠活性炭物理吸附甲醛——吸满即失效，甚至可能二次释放。而它搭载自研「FAO甲醛分解滤芯」，以锰基催化材料为载体，将甲醛直接分解为二氧化碳和水，无副产物、不饱和、不反弹。\n\n实测数据：在30m²密闭空间内，甲醛浓度从0.21mg/m³（超标2.1倍）降至国标0.08mg/m³以下，仅需47分钟。\n\n科技不该制造焦虑，而应悄然托住生活。\n\n——本内容为品牌合作，所有测试基于公开标准环境及第三方检测报告。",
+      "elapsed_seconds": 13.333
+    },
+    "小米手环9|douyin": {
+      "content": "标题：运动党看过来！小米手环9来了\n正文：运动党看过来！小米手环9来了！⚡14天不用充电，跑完半马它还在跳！🏃‍♂️150+运动模式——攀岩、桨板、飞盘…全都能记！没有花里胡哨，只有精准、稳定、极简的科技感。手腕一抬，数据就来。你，准备好升级了没？#小米手环9 #运动科技 #智能穿戴 #极简生活 #科技感",
+      "elapsed_seconds": 5.432
+    },
+    "小米手环9|xiaohongshu": {
+      "content": "标题：14天不用充电｜150+运动模式全记录\n正文：实测连续戴了14天，只充了一次电🔋\n早上跑步、中午跳操、晚上撸铁，手环9全程在线。\n\n✅ 14天超长续航\n告别每天睡前插线的焦虑，出差一周也安心。\n\n✅ 150+运动模式\n从瑜伽到攀岩，连「自由潜水」都识别得清清楚楚。\n运动结束自动同步数据，心率、卡路里、配速一目了然。\n\n✅ 极简科技感设计\n哑光金属质感表带 + 全面屏触控，抬手就是未来感。\n没有冗余按钮，所有操作靠滑动和点按完成——干净，高效，不打扰。\n\n运动不是打卡，是身体与科技的默契配合。",
+      "elapsed_seconds": 7.549
+    },
+    "小米手环9|ecommerce": {
+      "content": "标题：小米手环9｜14天超长续航 · 150+运动模式\n正文：小米手环9，以精密传感器与低功耗芯片重构智能穿戴体验。\n\n【核心优势】\n🔋 14天续航：单次充电可持续使用14天，告别频繁充电焦虑\n🏃 150+运动模式：覆盖跑步、骑行、游泳、瑜伽等专业场景，精准记录每一次突破\n\n【技术支撑】\n• 自研光感心率模组，动态监测更稳定\n• 全天候血氧与压力趋势分析\n• 5ATM防水等级，淋浴、泳池皆可佩戴\n\n【用户反馈】\n“实测连续使用13天22小时，还剩17%电量。”——运动爱好者@林川\n“自由切换运动模式，连攀岩都识别得准。”——户外教练@陈屿\n\n【品质保障】\n1年官方质保｜7天无理由退换｜全国联保服务",
+      "elapsed_seconds": 7.994
+    },
+    "小米手环9|wechat": {
+      "content": "标题：用了14天，它才第一次提醒我充电\n正文：文 | 科技观察员\n\n01｜凌晨5:30，闹钟没响，手腕先震动\n晨跑前的静默唤醒——没有铃声，只有轻柔的脉冲式震动。这成了我过去两周最稳定的生物钟校准器。它不打扰室友，也不惊扰清晨，只在该出发时，用最克制的方式说：该动了。\n\n02｜14天，不是「够用」，而是「消失」\n不是续航参数堆砌，是真实场景下的存在感消退：晨跑记录、午间跳绳、晚间瑜伽、通勤步数……150+运动模式覆盖所有动作逻辑，但界面从不喧哗。一块屏，两个核心数据，其余皆可折叠。电量数字在第14天清晨仍显示「87%」——它不制造焦虑，只提供确定性。\n\n03｜极简，是把技术藏进呼吸里\n没有冗余动画，没有层级菜单，没有「智能」的自我标榜。14天续航背后是能效架构的迭代，150+模式背后是动作算法的沉淀。它不解释自己多聪明，只确保每一次抬腕，都精准回应你此刻所需。",
+      "elapsed_seconds": 9.529
+    },
+    "Anker氮化镓充电器|douyin": {
+      "content": "标题：出差党狂喜！这65W充电器小到能塞进机票夹\n正文：出差党狂喜！这65W充电器小到能塞进机票夹⚡\nAnker氮化镓黑科技——65W快充，一杯咖啡时间，手机+笔记本全回血！\n体积比口红还小，却稳稳扛起双设备快充。\n极简线条，冷灰质感，放桌面像一件未来摆件。\n数码控的包里，早该换它了。\n#Anker氮化镓 #65W快充 #出差必备 #极简科技 #数码好物",
+      "elapsed_seconds": 6.376
+    },
+    "Anker氮化镓充电器|xiaohongshu": {
+      "content": "标题：65W快充｜体积比口红还小｜Anker氮化镓充电器\n正文：出差党真实体验：它塞进西装口袋毫无压力，却能18分钟给iPhone充到70%。\n\n⚡️ 65W双口快充\n实测：MacBook Air 30分钟充50%，手机+笔记本同时充不降速\n\n📦 极简体积\n比传统65W充电器小40%，重量仅132g——真正放进钱包夹层也不凸出\n\n🔌 科技感细节\n哑光金属灰外壳｜无冗余指示灯｜接口边缘CNC倒角处理\n\n📌 使用Tips：\n• 单口输出时自动升压至65W（MacBook友好）\n• 双口同时工作，智能分配功率（手机25W+笔记本40W）\n• 折叠插脚设计，行李箱里不会刮伤其他物品\n\n#Anker #氮化镓充电器 #数码好物 #出差必备 #极简科技 #快充黑科技 #MacBook配件 #TypeC充电",
+      "elapsed_seconds": 8.738
+    },
+    "Anker氮化镓充电器|ecommerce": {
+      "content": "标题：Anker氮化镓充电器｜65W高效快充，轻装出发\n正文：Anker氮化镓技术，经UL/CE/FCC多重安全认证，全球超3000万用户选择。\n\n【为什么出差人群都在换它？】\n📍 传统充电器：笨重、发热高、多设备需多个头\n📍 Anker氮化镓充电器：单口65W输出，兼容笔记本+手机+耳机同步快充\n\n【核心优势】\n⚡ 65W大功率快充：30分钟充入50%电量（实测iPhone 15 Pro）\n⚡ 体积仅掌心大小：比同功率传统充电器小55%，轻松塞进西装口袋或登机包\n⚡ 智能控温系统：氮化镓芯片+多层散热结构，满载工作温度＜45℃\n⚡ 全协议兼容：PD3.1 / QC4+ / PPS / SCP / FCP，覆盖主流品牌设备\n\n【适用人群】\n· 数码爱好者：追求性能与设计的统一\n· 出差人群：拒绝拖累，一充多用，告别线缆缠绕\n\n【规格参数】\n输入：100–240V～50/60Hz 1.5A\n输出：USB-C 65W（5–20V/3.25A）\n尺寸：69.5 × 69.5 × 31 mm\n重量：185g\n材质：阻燃PC外壳 + 铝合金散热片\n\n【用户评价】\n“带它飞东京，一个头搞定MacBook和iPhone，包里终于空出两格。”——科技博主@极简行者\n“比上一代Anker小一圈，但功率没妥协，这才是真进化。”——资深果粉L先生\n\n【售后保障】\n7天无理由退换｜18个月质保｜Anker官方技术支持",
+      "elapsed_seconds": 13.623
+    },
+    "Anker氮化镓充电器|wechat": {
+      "content": "标题：出差三年，我终于扔掉了那个砖头充电器\n正文：文 | 极简实验室\n\n01｜一个被塞满的登机包\n三年前第一次飞深圳谈项目，我往背包侧袋塞进三台设备：笔记本、手机、平板——和一个比它们加起来还沉的充电器。它像一块烧红的砖头，在西装内袋里发烫，登机口排队时压得肋骨生疼。\n\n02｜65W，不是数字，是时间差\nAnker氮化镓充电器把65W快充压缩进一枚U盘大小的立方体。给MacBook充至50%只需22分钟；手机从0到100%，比泡一杯速溶咖啡还快。没有冗余指示灯，没有花哨外壳，只有精密排布的散热鳍片与哑光灰金属边框——科技本该如此：强大，但不喧哗。\n\n03｜极简，是删减后的答案\n它不兼容老式快充协议，不附赠线材，不堆砌功能。它只做一件事：用氮化镓半导体材料突破硅基物理极限，在最小体积内释放最大功率。出差人群真正需要的，从来不是更多，而是更少却更准的确定性。",
+      "elapsed_seconds": 9.787
+    },
+    "漫步者降噪耳机|douyin": {
+      "content": "标题：通勤党听好了！这副耳机让地铁秒变静音舱\n正文：谁懂啊？！每天挤地铁，耳朵快被吵聋了…\n直到我戴上它——\n主动降噪一开，轰鸣声、人声、喇叭声，唰地消失！\n不是音量调大，是噪音真的被干掉了！\n而且单次续航8小时，一周只充一次电⚡\n极简设计+科技感质感，戴上去就是效率本身。\n通勤、办公、差旅，安静，本该这么简单。\n点击下单，把安静带回家👇\n#漫步者降噪耳机 #主动降噪 #通勤好物 #科技感极简 #蓝牙耳机",
+      "elapsed_seconds": 6.863
+    },
+    "漫步者降噪耳机|xiaohongshu": {
+      "content": "标题：通勤族的静音开关｜主动降噪×超长续航\n正文：每天早高峰地铁，我靠它把世界调成静音模式。\n\n🎧 主动降噪一开，车厢轰鸣、人声杂音瞬间退场——不是压低，是真正过滤。通勤路上终于能听清播客字句，而不是靠猜。\n\n🔋 单次8小时，配合充电仓整周通勤无需插电。出差两天，耳机比我的咖啡续命更稳定。\n\n✅ 极简设计，无冗余按键；佩戴贴合耳廓，两小时会议不胀耳。\n\n科技不该堆砌参数，而该让日常更安静、更自主。",
+      "elapsed_seconds": 6.885
+    },
+    "漫步者降噪耳机|ecommerce": {
+      "content": "标题：漫步者降噪耳机｜通勤静界，由你定义\n正文：【专业认证｜主动降噪技术通过CNAS实验室实测】\n\n地铁轰鸣、人声嘈杂、键盘敲击……通勤路上的噪音平均达75dB。普通耳机仅能物理隔绝30%，而漫步者降噪耳机搭载双馈主动降噪系统，深度抵消中低频环境噪声，实测降噪深度达42dB。\n\n【为通勤而生的两大核心能力】\n✅ 主动降噪：智能识别环境声，毫秒级生成反向声波，通勤场景下有效屏蔽90%以上交通与人声干扰\n✅ 超长续航：单次使用30小时（开启降噪），充电10分钟可听3小时，满足一周通勤无压力\n\n【极简设计，科技无声】\n• 一体式哑光机身｜无冗余按键，触控响应精准\n• 人体工学耳柄｜贴合耳廓，久戴不坠不胀\n• 蓝牙5.3协议｜连接稳定，延迟低至60ms\n\n【真实用户反馈】\n“每天往返3小时地铁，戴上它就像进入自己的声音舱。”——上海·互联网产品经理 李明\n“出差连飞两程，电量还剩40%，终于不用边走边找充电口。”——深圳·咨询顾问 王婷\n\n【安心保障】\n7天无理由退换｜2年整机质保｜全国联保服务",
+      "elapsed_seconds": 10.448
+    },
+    "漫步者降噪耳机|wechat": {
+      "content": "标题：通勤两小时，我重新听见了自己\n正文：文 | 林默\n\n01｜地铁里的失语症\n每天早八点，我挤进3号线车厢。人声、报站、广告音、手机外放……声音像一层黏稠的膜裹住耳朵。我曾以为这是城市生活的底色，直到发现——不是世界太吵，是我失去了选择听什么的权利。\n\n02｜主动降噪，不是屏蔽，是重置\n漫步者降噪耳机用麦克风实时采集环境噪音，生成反向声波抵消低频轰鸣（如地铁运行声、空调嗡鸣）。这不是简单压低音量，而是重建听觉边界。开启降噪那一刻，通勤从消耗变成留白时间：可专注听播客，可静默思考，也可只是安静呼吸。\n\n03｜续航不是参数，是生活节奏的确定性\n单次8小时，配合充电仓达30小时。这意味着：周一早充一次，用到周五下班无需插线。没有电量焦虑，没有中途断连，技术退至幕后，只留下稳定的支持感。\n\n科技感极简风，不在于外形多冷峻，而在于功能足够精准——让复杂消失，让本质浮现。",
+      "elapsed_seconds": 10.262
+    },
+    "大疆Osmo口袋相机|douyin": {
+      "content": "标题：Vloger速进！这小东西让我稳到飞起！\n正文：谁懂啊！以前拍Vlog手抖到像在打摆子…直到遇见它——大疆Osmo口袋相机！三轴防抖直接封神，边跑边拍都丝滑如德芙！4K画质怼脸也扛得住，发小红书被问爆链接！Vlog创作者闭眼入，稳、潮、狠！#大疆Osmo #Vlog神器 #三轴防抖 #4K拍摄 #潮流数码",
+      "elapsed_seconds": 5.675
+    },
+    "大疆Osmo口袋相机|xiaohongshu": {
+      "content": "标题：Vlog神器｜三轴防抖太稳了｜4K画质直接封神\n正文：刚入手大疆Osmo口袋相机，拍完第一条vlog就原地尖叫！\n\n以前手持拍vlog，走路镜头晃得像坐船🚤\n现在？边跳边拍都丝滑如德芙🍫\n\n✅ 三轴机械云台是真的顶！\n上下左右前后，全向抖动都被吃掉\n地铁上拍、骑行中拍、甚至蹦迪现场…画面稳到怀疑人生\n\n✅ 4K 60fps直出，细节拉满！\n树叶纹路、发丝飘动、咖啡杯沿的热气…全都清清楚楚\n调色空间超大，不用滤镜也自带电影感🎬\n\n✅ 小到能塞进牛仔裤口袋👖\n但性能完全不妥协——专业级云台+旗舰影像系统\n潮人出街，它就是最酷的配饰✨\n\nTips：搭配手机App用，一键剪辑+美颜+分屏，vlog流程直接缩短50%！",
+      "elapsed_seconds": 8.376
+    },
+    "大疆Osmo口袋相机|ecommerce": {
+      "content": "标题：Vlog党锁死！这台口袋相机，稳到像开了挂\n正文：大疆Osmo口袋相机——Vlog创作者的随身稳定器\n\n【为什么Vlogger都在用它？】\n实测防抖数据：三轴机械云台，抖动抑制率高达95%，边跑边拍画面依然丝滑；4K/60fps超清画质，细节拉满，手机直连剪辑，出片快人一步。\n\n【三大炸裂卖点】\n✅ 三轴防抖黑科技：告别晃动模糊，骑行、登山、街拍全场景稳如磐石\n✅ 4K电影级画质：高动态范围+精准色彩还原，每一帧都可做封面\n✅ 口袋级体积：仅116g，塞进牛仔裤兜就出发，轻装才是真潮流\n\n【硬核参数】\n• 传感器：1/2.3英寸CMOS\n• 视频规格：4K/60fps，1080p/240fps慢动作\n• 防抖系统：三轴机械云台（俯仰/横滚/平移）\n• 续航：140分钟（标准模式）\n• 连接方式：蓝牙/Wi-Fi，支持DJI Mimo App实时操控\n\n【真实用户说】\n“以前拍Vlog总得扛稳定器，现在单手举着走一天都不累，防抖真的绝！”——@街头阿哲（5W粉丝Vlog博主）\n“第一次用就拍出了电影感运镜，连我妈都说‘这画面怎么不抖的？’”——@咖啡馆小鹿（新手Vlogger）\n\n【安心保障】\n• 全国联保1年，官方售后覆盖300+城市\n• 7天无理由退换（未激活）\n• 1对1视频指导，新手也能3分钟上手\n\n带上它，世界就是你的取景框。",
+      "elapsed_seconds": 13.367
+    },
+    "大疆Osmo口袋相机|wechat": {
+      "content": "标题：用了它，我的Vlog终于不抖了\n正文：文 | 阿哲\n\n01｜那场海边崩溃的拍摄\n上个月在三亚拍vlog，海风一吹，镜头直接糊成抽象派。三脚架倒了，手机支架松了，连自拍杆都晃得像地震仪——而我，举着设备在浪花边原地凌乱。那一刻突然懂了：不是我不会拍，是设备在拖后腿。\n\n02｜口袋里的电影级稳定器\n大疆Osmo口袋相机，真就塞进口袋那么小。但打开那一刻，三轴机械云台开始转动——不是算法补帧，是物理级稳。4K 60fps直出，逆光不糊、跑动不虚、跳起来落地那一秒，画面居然还带着呼吸感。\n\n03｜Vlog创作者的隐形搭档\n它不抢镜，却让每个镜头都敢动；不占地方，却把专业级防抖塞进掌心。地铁里抬手拍、骑行时挂胸前、甚至单手插兜边走边录——你专注表达，它负责稳住一切。\n\n（本文为品牌合作内容）",
+      "elapsed_seconds": 8.834
+    },
+    "蕉内西装裤|douyin": {
+      "content": "标题：梨形姐妹速进！这条西装裤太炸了🔥\n正文：梨形姐妹速进！这条西装裤太炸了🔥\n高腰一提，腰线直接飞到肋骨下！\n垂坠面料一挂，胯宽腿粗？不存在的！\n走路带风，坐不皱，显瘦显高还超有态度～\n穿它出门被追着问链接！\n梨形身材的潮流密码，就这一条👇\n#蕉内西装裤 #梨形身材穿搭 #活力潮流穿搭 #显瘦神裤 #高腰垂坠裤",
+      "elapsed_seconds": 6.043
+    },
+    "蕉内西装裤|xiaohongshu": {
+      "content": "标题：梨形天菜裤｜高腰显瘦+垂坠感炸裂！\n正文：梨形姐妹快看！这条蕉内西装裤直接封神💥\n\n穿上的第一秒：胯宽腿粗？不存在的！\n高腰线直冲肚脐，视觉拉长1米8，梨形身材终于能挺直腰板走路了～\n\n垂坠面料太绝了！！像液态金属一样顺滑流动，走路带风不贴腿，久坐不起皱，通勤暴走3小时都稳如泰山。\n\n搭配自由度💯：\n▫️配短T恤=街头酷girl\n▫️配衬衫+乐福鞋=松弛感通勤\n▫️配针织背心=温柔但有态度\n\n梨形身材的终极答案，真的不用再试别的裤子了！",
+      "elapsed_seconds": 6.978
+    },
+    "蕉内西装裤|ecommerce": {
+      "content": "标题：梨形身材炸裂救星！高腰垂坠西装裤\n正文：被问800遍的裤子！梨形身材姐妹直接锁死这条👇\n\n✅ 高腰设计｜视觉腰线拉高5cm，小腹胯宽全隐形\n✅ 垂坠面料｜79%聚酯纤维+21%粘纤，走路带风不贴腿\n✅ 直筒拖地版型｜遮胯显瘦+延长腿长，梨形身材比例天花板\n\n【真实反馈】\n“穿完同事追着问链接，说我突然瘦了10斤！”——@梨形穿搭日记\n“终于找到不卡裆不勒胯的西装裤，通勤约会都敢穿！”——@小梨子不焦虑\n\n【细节保障】\n▫️抗皱免烫｜久坐不起褶，全天保持利落线条\n▫️弹性腰头｜舒适不勒，久穿无痕\n▫️精细走线｜双针加固，经得起日常高频穿着\n\n蕉内品质承诺：支持7天无理由退换，质保1年",
+      "elapsed_seconds": 8.798
+    },
+    "蕉内西装裤|wechat": {
+      "content": "标题：梨形身材的我，终于敢穿西装裤了\n正文：文 | 小野\n\n01｜被裤子追着跑的三年\n以前每次试西装裤，都像在参加一场小型审判——腰线卡在肚脐下，胯部绷出尴尬弧度，裤脚堆在鞋面，整个人像被裁错尺寸的纸片人。梨形身材的姐妹懂的都懂：不是裤子不好，是它根本没打算和我们和解。\n\n02｜高腰+垂坠，一次精准的物理反击\n蕉内这条西装裤，把「高腰」做成了视觉杠杆：腰线直抵肋骨下缘，瞬间拉长下半身比例；垂坠面料不是软塌塌的服帖，而是带着筋骨感的流动，走路带风，静止有型。它不靠紧裹显瘦，而是用结构语言替你说话——胯宽？不存在的。腿粗？早被线条悄悄修正。\n\n03｜潮流不是图案，是穿法态度\n配短款针织衫，露一截腰线，活力值拉满；搭oversize衬衫塞一半，慵懒里透着利落；甚至单穿也不输阵仗——因为真正的潮流感，从来不在logo上，而在你穿上它那一刻，突然挺直的背脊和多走两步的自信。",
+      "elapsed_seconds": 9.871
+    },
+    "优衣库摇粒绒外套|douyin": {
+      "content": "标题：学生党&打工人速看！这件外套我穿了3个冬天！\n正文：谁懂啊！优衣库这件摇粒绒外套真的绝了！保暖不压身，轻得像没穿～通勤挤地铁、上课赶教室，抬手弯腰都超自在！配牛仔裤是学生感，搭大衣是职场范儿，一衣穿出5种风格！平价又好穿，闭眼入不踩雷！#优衣库摇粒绒 #学生党穿搭 #通勤穿搭 #平价好物 #秋冬外套",
+      "elapsed_seconds": 5.641
+    },
+    "优衣库摇粒绒外套|xiaohongshu": {
+      "content": "标题：学生党通勤族必入｜优衣库摇粒绒外套太实穿了！🔥\n正文：穿了整个冬天的优衣库摇粒绒外套，真的越穿越爱！\n\n✅保暖但不臃肿：厚实却轻得像没穿，坐地铁挤公交完全不压肩\n✅百搭到离谱：配牛仔裤是学生感，配西装裤秒变通勤风，连穿5天不重样\n✅洗过3次依旧软糯：没有起球、没掉色，机洗甩干直接挂阳台就OK\n\n不是夸张，这件真的是我衣柜里‘闭眼抓都不会错’的存在。\n学生党早八赶课、通勤族早晚高峰，它就是我的冬日安全感来源。\n平价好物的天花板，实在又靠谱。",
+      "elapsed_seconds": 8.162
+    },
+    "优衣库摇粒绒外套|ecommerce": {
+      "content": "标题：优衣库摇粒绒外套｜学生党&通勤族的秋冬轻暖搭子\n正文：【真实口碑之选】优衣库经典摇粒绒系列，全球累计销量超5000万件，久经考验的日常保暖单品。\n\n【为什么大家爱穿它？】\n✅ 保暖轻便：高密度摇粒绒材质，锁温不压身，单穿或内搭都轻松无负担\n✅ 百搭不挑人：简约剪裁+中性配色，配牛仔裤、工装裤、裙子都好看\n✅ 日常耐造：机洗不变形、不起球，学生党上课/通勤族赶地铁都经得起折腾\n\n【实测参数】\n• 面料：100%聚酯纤维摇粒绒\n• 厚度：适中（-5℃至10℃日常通勤适用）\n• 重量：约320g（相当于2个苹果）\n• 尺码：S-XXL，男女同款可选\n\n【用户真实反馈】\n“早上赶课来不及搭配，随手抓起就走，一整天都暖呼呼”——@大四小林\n“地铁里穿不闷，办公室空调房也不冷，真的省心”——@HR阿哲\n\n【安心售后】\n支持7天无理由退换，质保1年，质量问题包修包换。",
+      "elapsed_seconds": 10.254
+    },
+    "优衣库摇粒绒外套|wechat": {
+      "content": "标题：这件外套，陪我熬过三个冬天\n正文：文 | 小满\n\n01｜它不是第一件摇粒绒，却是我穿得最久的\n去年冬天通勤挤地铁，包里塞着笔记本、充电宝、伞，肩膀压得发酸。突然发现——身上这件优衣库摇粒绒外套，轻得像没穿，却暖得像裹着小太阳。没有厚重感，没有闷汗感，连抬手拿手机都利落。学生党赶早八、上班族赶打卡，要的就是这份‘轻装上阵’的底气。\n\n02｜百搭，是它最不费力的优点\n深灰、藏青、米白……我试过三种颜色，没一件翻车。配牛仔裤是校园风，配西装裤是通勤感，套个卫衣打底就是周末松弛感。面料柔软不扎人，机洗三次也没起球、没变硬。摇粒绒本就亲肤，它把‘软’和‘稳’拿捏得刚刚好。\n\n03｜保暖这件事，真不用靠堆料\n不是越厚越暖，而是结构决定效率。它的绒粒更细密，锁温空隙更均匀，体感温度比同厚度外套高半档。零下5℃骑单车不哆嗦，室内暖气房脱掉也不骤冷——这种恰到好处的温控，才是日常真实的需要。",
+      "elapsed_seconds": 10.03
+    },
+    "内外无尺码内衣|douyin": {
+      "content": "标题：穿它一整天，像被云朵轻轻抱着☁️\n正文：姐妹们，有没有试过——脱下内衣那一刻，长舒一口气？ sigh～\n内外无尺码内衣，真的做到了：无钢圈、不勒肉、会呼吸！\n柔软得像第二层皮肤，透气得像微风拂过夏天的窗\n不是‘忍一忍就习惯了’，是‘原来舒服可以这么自然’\n给每天认真生活的你，一份温柔又坚定的陪伴。\n试试看，你会爱上这种被好好照顾的感觉。\n#内外内衣 #无尺码内衣 #治愈系穿搭 #舒适至上 #女性日常",
+      "elapsed_seconds": 6.211
+    },
+    "内外无尺码内衣|xiaohongshu": {
+      "content": "标题：穿了像没穿｜无钢圈的温柔抱抱感✨\n正文：第一次试穿就忍不住叹气：啊…原来内衣可以这么轻。\n\n不是‘没存在感’，而是‘被稳稳托住’的安心。没有钢圈的勒痕，没有肩带的压迫，只有柔软棉质贴着皮肤呼吸——像被云朵轻轻环抱。\n\n▫️无尺码设计真的友好：肩带可调+底围弹力适中，日常活动完全不移位\n▫️透气网纱杯面，夏天后背也不闷汗\n▫️整件无胶无衬，洗后依然柔软如初\n\n它不张扬，却让我每天清晨都多了一点从容。不是在取悦谁，只是终于，把身体还给了自己。\n\n#内外无尺码内衣 #无钢圈内衣 #舒适内衣推荐 #治愈系穿搭 #温柔系好物 #自在生活 #内衣自由",
+      "elapsed_seconds": 7.887
+    },
+    "内外无尺码内衣|ecommerce": {
+      "content": "标题：像被云朵轻轻托住｜内外无尺码内衣\n正文：你值得一件，穿上就不想脱下的内衣。\n\n【为什么千万女性选择它】\n✅ 无钢圈设计：告别勒痕与压迫感，给胸部温柔承托\n✅ 真·无尺码剪裁：适配A-C杯多种胸型，一片式包容不空杯\n✅ 透气微孔面料：会呼吸的棉感材质，整日清爽不闷热\n✅ 肩带自由调节：加宽软边设计，久穿不压肩不滑落\n\n【安心之选】\n• 通过国家A类婴幼儿纺织品安全标准\n• 面料经SGS皮肤刺激性测试，敏感肌友好\n• 全线采用OEKO-TEX®认证环保染料\n\n【用户轻声说】\n“哺乳期涨奶时穿着也舒服，像被轻轻拥抱。”——林女士，32岁\n“出差连穿5天，同事问我是不是换了新内衣。”——苏苏，28岁\n\n我们相信，真正的舒适，是身体记得的温柔。",
+      "elapsed_seconds": 9.321
+    },
+    "内外无尺码内衣|wechat": {
+      "content": "标题：穿了它，我终于敢在周末赖床到中午\n正文：文 | 小满\n\n01｜那个总想把内衣扣子松一格的清晨\n上周六，闹钟响到第三遍我才睁开眼。阳光斜斜地铺在枕头上，我翻了个身，下意识伸手去够床头柜上的手机——指尖碰到肩带时顿住了。没有勒痕，没有闷热，连最常卡在肋骨那里的钢圈边缘，也消失了。\n\n原来，身体记得比脑子更早：它一直等一件不用妥协的内衣。\n\n02｜无尺码，不是没有标准，而是把标准还给身体\n内外无尺码内衣，不靠数字定义你，而用柔软回应你。\n• 无钢圈结构，靠立体剪裁与高弹力面料自然承托，像被云朵轻轻托住\n• 蕾丝与莫代尔混纺面料，透气层叠设计，整日穿着也如呼吸般自在\n• 一围适配多体型，肩带可调、底围延展，让舒适真正落在每个人的皮肤上\n\n它不说‘适合所有人’，只说‘请按你本来的样子来’。\n\n03｜慢下来的温柔，是给自己最认真的偏爱\n治愈从来不是宏大的事。它是晨光里一次舒展的深呼吸，是加班回家后肩颈不酸胀的轻松，是周末赖床时，身体毫无防备的松弛。\n\n这件内衣不承诺塑形奇迹，但它承诺：你不必再把‘舒服’当作奢侈。\n\n——商业合作说明：本文为品牌方提供产品体验，内容真实，无虚构功效描述。",
+      "elapsed_seconds": 11.94
+    },
+    "回力帆布鞋|douyin": {
+      "content": "标题：回力帆布鞋，国潮踩上去就上头！\n正文：谁说国货不炸街？！🔥回力帆布鞋直接把潮流焊在脚上！复古剪裁+街头配色，走路带风，回头率拉满～耐磨橡胶底+防滑纹路，雨天湿滑地砖？小case！18-28岁的你，就该这么玩酷、这么有态度！#回力帆布鞋 #国潮穿搭 #活力潮流",
+      "elapsed_seconds": 5.58
+    },
+    "回力帆布鞋|xiaohongshu": {
+      "content": "标题：回力帆布鞋｜国潮设计太炸裂｜耐磨防滑稳到飞起👟\n正文：刚上脚就爱上！这双回力帆布鞋真的把国潮感拿捏得死死的～\n\n✅ 国潮设计超有态度：红白配色+经典回力标，街头感直接拉满，搭配牛仔裤、工装短裤都超酷！\n\n✅ 耐磨防滑不是说说而已：鞋底纹路深+橡胶材质，下雨天踩湿砖地都不打滑，暴走2W步鞋底几乎没磨损！\n\n✅ 18-28岁友好：鞋型利落不笨重，脚背高/宽脚穿也舒服，日常通勤、逛街、音乐节全场景适配！\n\n谁懂啊！一双鞋把潮流感和实用性同时焊死在身上🔥",
+      "elapsed_seconds": 7.666
+    },
+    "回力帆布鞋|ecommerce": {
+      "content": "标题：回力帆布鞋｜国潮出街，稳稳踩住年轻态度\n正文：【国民老品牌 × 新生代设计】\n回力，创立于1927年，中国首批运动鞋品牌之一，连续多年入选「国家级非遗」保护名录。这一次，经典回归，只为更懂你的街头节奏。\n\n【为什么年轻人抢着穿？】\n✅ 国潮设计——水墨山纹×撞色鞋带，每一双都是可穿搭的潮流单品\n✅ 耐磨防滑——加厚橡胶大底+立体防滑纹路，湿滑地砖、雨后石板、地铁站斜坡，走哪都稳\n✅ 轻盈脚感——高密度帆布+透气内里，久走不闷脚，通勤逛街一整天不累\n\n【细节参数】\n▫️鞋面：高支棉质帆布（耐磨指数≥8.5/10）\n▫️鞋底：环保橡胶+多向防滑沟槽（实测摩擦系数0.72）\n▫️鞋垫：EVA缓震中底+蜂窝透气层\n▫️尺码：36-45（标准版型，建议按日常尺码选择）\n\n【真实用户说】\n“上脚第一秒就爱上！上周暴雨天赶地铁，完全没打滑，朋友追着问链接。”——广州·林同学，22岁\n“回力真的把国潮做进了细节，鞋舌上的‘力’字暗纹太戳我。”——成都·阿哲，25岁\n\n【安心保障】\n✔️ 7天无理由退换（不影响二次销售）\n✔️ 鞋底开胶、断线等质量问题，12个月内免费换新\n✔️ 每双附赠品牌定制擦鞋布+收纳袋",
+      "elapsed_seconds": 13.113
+    },
+    "回力帆布鞋|wechat": {
+      "content": "标题：穿了三年没换过鞋，它凭什么？\n正文：文 | 阿哲\n\n01｜那双被我踢烂的帆布鞋\n大学最后一年实习，每天地铁+步行2万步。一双某快时尚帆布鞋，穿到第三个月鞋底磨薄、鞋帮开胶、雨天打滑差点摔进水坑——我蹲在便利店门口，盯着脚上那双‘破船’，突然意识到：便宜≠划算。\n\n02｜回力不是怀旧符号，是踩在脚下的国潮实感\n这次选回力，不是因为情怀，是冲着‘耐磨防滑’四个字去的。鞋底橡胶加厚+立体防滑纹，踩湿瓷砖不溜、蹬共享单车不打滑；帆布层用高密度斜纹织法，反复弯折不鼓包，洗三次颜色依旧鲜亮。它不讲大道理，只用脚感说话。\n\n03｜18-28岁的日常，需要一双不妥协的鞋\n它不靠logo炸街，靠剪裁利落的廓形和恰到好处的留白配色；不靠噱头堆料，靠每一道车线对齐、每一处包边扎实。走路带风，不是靠音效，是鞋底咬住地面的踏实感。\n\n——这不是一双用来拍照的鞋，是一双陪你赶早八、挤晚高峰、追末班车、跳进音乐节泥坑的鞋。",
+      "elapsed_seconds": 11.847
+    }
+  },
+  "valid_keys": [
+    "Anker氮化镓充电器|douyin",
+    "Anker氮化镓充电器|ecommerce",
+    "Anker氮化镓充电器|wechat",
+    "Anker氮化镓充电器|xiaohongshu",
+    "七年五季全麦面包|douyin",
+    "七年五季全麦面包|ecommerce",
+    "七年五季全麦面包|wechat",
+    "三顿半咖啡|douyin",
+    "三顿半咖啡|ecommerce",
+    "三顿半咖啡|xiaohongshu",
+    "优衣库摇粒绒外套|douyin",
+    "优衣库摇粒绒外套|wechat",
+    "优衣库摇粒绒外套|xiaohongshu",
+    "修丽可CE精华|douyin",
+    "修丽可CE精华|ecommerce",
+    "修丽可CE精华|wechat",
+    "修丽可CE精华|xiaohongshu",
+    "内外无尺码内衣|douyin",
+    "内外无尺码内衣|ecommerce",
+    "内外无尺码内衣|wechat",
+    "回力帆布鞋|douyin",
+    "回力帆布鞋|wechat",
+    "回力帆布鞋|xiaohongshu",
+    "大疆Osmo口袋相机|douyin",
+    "大疆Osmo口袋相机|wechat",
+    "大疆Osmo口袋相机|xiaohongshu",
+    "小仙炖鲜炖燕窝|douyin",
+    "小仙炖鲜炖燕窝|wechat",
+    "小仙炖鲜炖燕窝|xiaohongshu",
+    "小米手环9|douyin",
+    "小米手环9|ecommerce",
+    "小米手环9|wechat",
+    "小米手环9|xiaohongshu",
+    "小米空气净化器|douyin",
+    "小米空气净化器|wechat",
+    "小米空气净化器|xiaohongshu",
+    "懒角落免安装收纳柜|douyin",
+    "懒角落免安装收纳柜|wechat",
+    "懒角落免安装收纳柜|xiaohongshu",
+    "漫步者降噪耳机|douyin",
+    "漫步者降噪耳机|ecommerce",
+    "漫步者降噪耳机|wechat",
+    "漫步者降噪耳机|xiaohongshu",
+    "珀莱雅红宝石面霜|douyin",
+    "珀莱雅红宝石面霜|wechat",
+    "珀莱雅红宝石面霜|xiaohongshu",
+    "网易严选乳胶枕|douyin",
+    "网易严选乳胶枕|ecommerce",
+    "网易严选乳胶枕|wechat",
+    "网易严选乳胶枕|xiaohongshu",
+    "自嗨锅煲仔饭|douyin",
+    "自嗨锅煲仔饭|ecommerce",
+    "自嗨锅煲仔饭|wechat",
+    "自嗨锅煲仔饭|xiaohongshu",
+    "花西子雕花口红|douyin",
+    "花西子雕花口红|ecommerce",
+    "花西子雕花口红|wechat",
+    "花西子雕花口红|xiaohongshu",
+    "蕉内西装裤|douyin",
+    "蕉内西装裤|wechat",
+    "蕉内西装裤|xiaohongshu",
+    "谷雨美白奶罐|douyin",
+    "谷雨美白奶罐|ecommerce",
+    "谷雨美白奶罐|wechat",
+    "谷雨美白奶罐|xiaohongshu",
+    "追觅洗地机|douyin",
+    "追觅洗地机|ecommerce",
+    "追觅洗地机|wechat",
+    "追觅洗地机|xiaohongshu"
+  ],
+  "generation_success_keys_A": [
+    "Anker氮化镓充电器|douyin",
+    "Anker氮化镓充电器|ecommerce",
+    "Anker氮化镓充电器|wechat",
+    "Anker氮化镓充电器|xiaohongshu",
+    "七年五季全麦面包|douyin",
+    "七年五季全麦面包|ecommerce",
+    "七年五季全麦面包|wechat",
+    "七年五季全麦面包|xiaohongshu",
+    "三顿半咖啡|douyin",
+    "三顿半咖啡|ecommerce",
+    "三顿半咖啡|wechat",
+    "三顿半咖啡|xiaohongshu",
+    "优衣库摇粒绒外套|douyin",
+    "优衣库摇粒绒外套|ecommerce",
+    "优衣库摇粒绒外套|wechat",
+    "优衣库摇粒绒外套|xiaohongshu",
+    "修丽可CE精华|douyin",
+    "修丽可CE精华|ecommerce",
+    "修丽可CE精华|wechat",
+    "修丽可CE精华|xiaohongshu",
+    "内外无尺码内衣|douyin",
+    "内外无尺码内衣|ecommerce",
+    "内外无尺码内衣|wechat",
+    "内外无尺码内衣|xiaohongshu",
+    "回力帆布鞋|douyin",
+    "回力帆布鞋|ecommerce",
+    "回力帆布鞋|wechat",
+    "回力帆布鞋|xiaohongshu",
+    "大疆Osmo口袋相机|douyin",
+    "大疆Osmo口袋相机|ecommerce",
+    "大疆Osmo口袋相机|wechat",
+    "大疆Osmo口袋相机|xiaohongshu",
+    "小仙炖鲜炖燕窝|douyin",
+    "小仙炖鲜炖燕窝|ecommerce",
+    "小仙炖鲜炖燕窝|wechat",
+    "小仙炖鲜炖燕窝|xiaohongshu",
+    "小米手环9|douyin",
+    "小米手环9|ecommerce",
+    "小米手环9|wechat",
+    "小米手环9|xiaohongshu",
+    "小米空气净化器|douyin",
+    "小米空气净化器|ecommerce",
+    "小米空气净化器|wechat",
+    "小米空气净化器|xiaohongshu",
+    "懒角落免安装收纳柜|douyin",
+    "懒角落免安装收纳柜|ecommerce",
+    "懒角落免安装收纳柜|wechat",
+    "懒角落免安装收纳柜|xiaohongshu",
+    "漫步者降噪耳机|douyin",
+    "漫步者降噪耳机|ecommerce",
+    "漫步者降噪耳机|wechat",
+    "漫步者降噪耳机|xiaohongshu",
+    "珀莱雅红宝石面霜|douyin",
+    "珀莱雅红宝石面霜|ecommerce",
+    "珀莱雅红宝石面霜|wechat",
+    "珀莱雅红宝石面霜|xiaohongshu",
+    "网易严选乳胶枕|douyin",
+    "网易严选乳胶枕|ecommerce",
+    "网易严选乳胶枕|wechat",
+    "网易严选乳胶枕|xiaohongshu",
+    "自嗨锅煲仔饭|douyin",
+    "自嗨锅煲仔饭|ecommerce",
+    "自嗨锅煲仔饭|wechat",
+    "自嗨锅煲仔饭|xiaohongshu",
+    "花西子雕花口红|douyin",
+    "花西子雕花口红|ecommerce",
+    "花西子雕花口红|wechat",
+    "花西子雕花口红|xiaohongshu",
+    "蕉内西装裤|douyin",
+    "蕉内西装裤|ecommerce",
+    "蕉内西装裤|wechat",
+    "蕉内西装裤|xiaohongshu",
+    "谷雨美白奶罐|douyin",
+    "谷雨美白奶罐|ecommerce",
+    "谷雨美白奶罐|wechat",
+    "谷雨美白奶罐|xiaohongshu",
+    "追觅洗地机|douyin",
+    "追觅洗地机|ecommerce",
+    "追觅洗地机|wechat",
+    "追觅洗地机|xiaohongshu"
+  ],
+  "generation_success_keys_B": [
+    "Anker氮化镓充电器|douyin",
+    "Anker氮化镓充电器|ecommerce",
+    "Anker氮化镓充电器|wechat",
+    "Anker氮化镓充电器|xiaohongshu",
+    "七年五季全麦面包|douyin",
+    "七年五季全麦面包|ecommerce",
+    "七年五季全麦面包|wechat",
+    "七年五季全麦面包|xiaohongshu",
+    "三顿半咖啡|douyin",
+    "三顿半咖啡|ecommerce",
+    "三顿半咖啡|wechat",
+    "三顿半咖啡|xiaohongshu",
+    "优衣库摇粒绒外套|douyin",
+    "优衣库摇粒绒外套|ecommerce",
+    "优衣库摇粒绒外套|wechat",
+    "优衣库摇粒绒外套|xiaohongshu",
+    "修丽可CE精华|douyin",
+    "修丽可CE精华|ecommerce",
+    "修丽可CE精华|wechat",
+    "修丽可CE精华|xiaohongshu",
+    "内外无尺码内衣|douyin",
+    "内外无尺码内衣|ecommerce",
+    "内外无尺码内衣|wechat",
+    "内外无尺码内衣|xiaohongshu",
+    "回力帆布鞋|douyin",
+    "回力帆布鞋|ecommerce",
+    "回力帆布鞋|wechat",
+    "回力帆布鞋|xiaohongshu",
+    "大疆Osmo口袋相机|douyin",
+    "大疆Osmo口袋相机|ecommerce",
+    "大疆Osmo口袋相机|wechat",
+    "大疆Osmo口袋相机|xiaohongshu",
+    "小仙炖鲜炖燕窝|douyin",
+    "小仙炖鲜炖燕窝|ecommerce",
+    "小仙炖鲜炖燕窝|wechat",
+    "小仙炖鲜炖燕窝|xiaohongshu",
+    "小米手环9|douyin",
+    "小米手环9|ecommerce",
+    "小米手环9|wechat",
+    "小米手环9|xiaohongshu",
+    "小米空气净化器|douyin",
+    "小米空气净化器|ecommerce",
+    "小米空气净化器|wechat",
+    "小米空气净化器|xiaohongshu",
+    "懒角落免安装收纳柜|douyin",
+    "懒角落免安装收纳柜|ecommerce",
+    "懒角落免安装收纳柜|wechat",
+    "懒角落免安装收纳柜|xiaohongshu",
+    "漫步者降噪耳机|douyin",
+    "漫步者降噪耳机|ecommerce",
+    "漫步者降噪耳机|wechat",
+    "漫步者降噪耳机|xiaohongshu",
+    "珀莱雅红宝石面霜|douyin",
+    "珀莱雅红宝石面霜|ecommerce",
+    "珀莱雅红宝石面霜|wechat",
+    "珀莱雅红宝石面霜|xiaohongshu",
+    "网易严选乳胶枕|douyin",
+    "网易严选乳胶枕|ecommerce",
+    "网易严选乳胶枕|wechat",
+    "网易严选乳胶枕|xiaohongshu",
+    "自嗨锅煲仔饭|douyin",
+    "自嗨锅煲仔饭|ecommerce",
+    "自嗨锅煲仔饭|wechat",
+    "自嗨锅煲仔饭|xiaohongshu",
+    "花西子雕花口红|douyin",
+    "花西子雕花口红|ecommerce",
+    "花西子雕花口红|wechat",
+    "花西子雕花口红|xiaohongshu",
+    "蕉内西装裤|douyin",
+    "蕉内西装裤|ecommerce",
+    "蕉内西装裤|wechat",
+    "蕉内西装裤|xiaohongshu",
+    "谷雨美白奶罐|douyin",
+    "谷雨美白奶罐|ecommerce",
+    "谷雨美白奶罐|wechat",
+    "谷雨美白奶罐|xiaohongshu",
+    "追觅洗地机|douyin",
+    "追觅洗地机|ecommerce",
+    "追觅洗地机|wechat",
+    "追觅洗地机|xiaohongshu"
+  ],
+  "timings_A_seconds": [
+    4.469053030014038,
+    6.24591326713562,
+    4.440221548080444,
+    7.373697280883789,
+    3.4807920455932617,
+    9.686472177505493,
+    4.671101093292236,
+    7.108344793319702,
+    4.081153869628906,
+    6.963148593902588,
+    4.30065655708313,
+    5.223351955413818,
+    3.5791091918945312,
+    7.3929901123046875,
+    4.097905158996582,
+    5.792759418487549,
+    2.538677930831909,
+    7.310937166213989,
+    3.685729742050171,
+    7.1868956089019775,
+    3.1005735397338867,
+    6.859989404678345,
+    4.812748193740845,
+    6.349489212036133,
+    3.685072660446167,
+    7.281154632568359,
+    4.377702713012695,
+    7.885342121124268,
+    2.457109212875366,
+    6.676870346069336,
+    3.3794105052948,
+    5.020746946334839,
+    3.979257106781006,
+    7.784075975418091,
+    4.095568656921387,
+    5.938208341598511,
+    2.7519803047180176,
+    6.454296827316284,
+    5.112102031707764,
+    6.146503210067749,
+    3.474957227706909,
+    7.987964630126953,
+    5.314472675323486,
+    5.461102724075317,
+    3.174936056137085,
+    6.758387804031372,
+    4.44694447517395,
+    7.038476467132568,
+    3.987173080444336,
+    5.841876029968262,
+    3.6288328170776367,
+    4.9147326946258545,
+    3.789599657058716,
+    6.677253484725952,
+    5.233226537704468,
+    5.91281270980835,
+    3.687100410461426,
+    6.449959993362427,
+    4.579525470733643,
+    4.887560606002808,
+    3.175159215927124,
+    6.432460784912109,
+    4.212775468826294,
+    5.6650471687316895,
+    2.870481252670288,
+    7.271148920059204,
+    3.8916049003601074,
+    4.70834493637085,
+    4.179866552352905,
+    6.962361812591553,
+    4.084758281707764,
+    7.557477951049805,
+    2.661374568939209,
+    5.276438474655151,
+    3.7786741256713867,
+    6.469994783401489,
+    3.0415871143341064,
+    8.154327392578125,
+    3.7228708267211914,
+    5.883387327194214
+  ],
+  "timings_B_seconds": [
+    6.755926609039307,
+    7.963826656341553,
+    11.385843515396118,
+    10.686657667160034,
+    6.764840602874756,
+    10.024324893951416,
+    12.700493335723877,
+    12.395053625106812,
+    5.41924524307251,
+    9.221926212310791,
+    10.14011836051941,
+    12.290179967880249,
+    7.0668416023254395,
+    9.990142345428467,
+    9.834846019744873,
+    11.268446922302246,
+    6.6319215297698975,
+    9.528039932250977,
+    8.204498767852783,
+    10.241369009017944,
+    5.532832384109497,
+    8.372658729553223,
+    13.1054527759552,
+    14.472203969955444,
+    6.225116729736328,
+    10.44780445098877,
+    10.699546337127686,
+    11.881150484085083,
+    5.942324161529541,
+    8.382031440734863,
+    12.066797256469727,
+    14.434126615524292,
+    6.866065502166748,
+    7.787956476211548,
+    10.556194543838501,
+    10.139319896697998,
+    6.403183937072754,
+    8.760948896408081,
+    9.117401361465454,
+    9.6698157787323,
+    5.9618470668792725,
+    10.556246995925903,
+    13.214930057525635,
+    10.803972482681274,
+    6.4558470249176025,
+    10.141733884811401,
+    11.879986763000488,
+    13.33268666267395,
+    5.4315948486328125,
+    7.548698663711548,
+    7.99376916885376,
+    9.528611898422241,
+    6.375951051712036,
+    8.738389253616333,
+    13.622864246368408,
+    9.78670048713684,
+    6.862917900085449,
+    6.885079860687256,
+    10.447731733322144,
+    10.262113571166992,
+    5.6745030879974365,
+    8.376012086868286,
+    13.36677861213684,
+    8.834003210067749,
+    6.043235778808594,
+    6.9779369831085205,
+    8.798027515411377,
+    9.871022939682007,
+    5.640997648239136,
+    8.161626815795898,
+    10.25408124923706,
+    10.030401468276978,
+    6.211215019226074,
+    7.886767148971558,
+    9.32106900215149,
+    11.940415620803833,
+    5.579906463623047,
+    7.666448593139648,
+    13.113006353378296,
+    11.846792936325073
+  ],
+  "generation_failures": {
+    "A": [],
+    "B": []
+  },
+  "evaluation_failures": {
+    "A": [
+      {
+        "key": "三顿半咖啡|wechat",
+        "reason": "维度 information_grounding 的证据与原文重叠不足：上班族说：“会议前3秒续命成功” 咖啡党说：“风味不输手冲，懒人操作封神了”"
+      },
+      {
+        "key": "内外无尺码内衣|xiaohongshu",
+        "reason": "维度 information_grounding 的证据与原文重叠不足：最近终于和‘勒痕’‘移位’‘闷热’说了拜拜… 不是换了一件内衣，是换了一种呼吸方式。"
+      }
+    ],
+    "B": [
+      {
+        "key": "珀莱雅红宝石面霜|ecommerce",
+        "reason": "维度 tone_consistency 的证据与原文重叠不足：【三大核心科技】• 双胜肽协同系统：乙酰基六肽-8 + 三肽-1，靶向抑制肌肉微收缩，从源头淡纹 •"
+      },
+      {
+        "key": "七年五季全麦面包|xiaohongshu",
+        "reason": "维度 selling_point 的证据与原文重叠不足：✅关键信息写清楚：- 100%全麦粉（不是小麦粉+全麦粉混充）- 0蔗糖（用天然麦芽糖醇调和，甜味很"
+      },
+      {
+        "key": "小仙炖鲜炖燕窝|ecommerce",
+        "reason": "维度 platform_fit 的证据与原文重叠不足：【产品信息】\n产品名称：小仙炖鲜炖燕窝\n核心卖点：鲜炖配送、0添加\n目标人群：注重养生的女性\n指定调"
+      },
+      {
+        "key": "懒角落免安装收纳柜|ecommerce",
+        "reason": "维度 platform_fit 的证据与原文重叠不足：【产品特点】等结构化小标题、参数罗列、用户评价、售后保障、转化引导、理性说服"
+      },
+      {
+        "key": "小米空气净化器|ecommerce",
+        "reason": "维度 platform_fit 的证据与原文重叠不足：【产品信息】\n产品名称：小米空气净化器\n核心卖点：高效除甲醛、静音运行\n目标人群：新装修家庭\n指定调"
+      },
+      {
+        "key": "大疆Osmo口袋相机|ecommerce",
+        "reason": "维度 platform_fit 的证据与原文重叠不足：【产品特点】等结构化小标题、参数罗列、用户评价、售后保障、转化引导、理性说服"
+      },
+      {
+        "key": "蕉内西装裤|ecommerce",
+        "reason": "维度 platform_fit 的证据与原文重叠不足：【产品信息】\n产品名称：蕉内西装裤\n核心卖点：高腰显瘦、垂坠面料\n目标人群：梨形身材\n指定调性：活力"
+      },
+      {
+        "key": "优衣库摇粒绒外套|ecommerce",
+        "reason": "维度 platform_fit 的证据与原文重叠不足：【产品特点】等结构化小标题、参数罗列、用户评价、售后保障、转化引导、理性说服"
+      },
+      {
+        "key": "回力帆布鞋|ecommerce",
+        "reason": "维度 platform_fit 的证据与原文重叠不足：【产品特点】等结构化小标题、参数罗列、用户评价、售后保障、转化引导、理性说服"
+      }
+    ]
+  },
+  "elapsed_minutes": 37.221
+}
