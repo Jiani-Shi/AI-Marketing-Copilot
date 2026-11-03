@@ -50,8 +50,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/Jiani-Shi/marketing-content-generator.git
-cd marketing-content-generator
+git clone https://github.com/Jiani-Shi/AI-Marketing-Copilot.git
+cd AI-Marketing-Copilot
 ```
 
 ### 2. 创建虚拟环境
